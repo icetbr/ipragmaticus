@@ -1,0 +1,18 @@
+{{ define "bodyclass"}}article{{end}}
+{{ define "main" }}
+  <div class="main-int">
+    <article>
+      <header>
+        <h1>{{ htmlUnescape (replace .Title " !" "&amp;!") }}</h1>
+      </header>
+      {{ partial "meta-article" .}}
+      <p class="img-cover" >
+        <img src="{{ .Params.image }}" alt="">
+      </p>
+      {{ .Content }}
+      {{ partial "edit-article" .}}
+    </article>
+    {{ partial "nav-post" .}}
+    {{ partial "biography" .}}
+  </div>
+{{ end }}

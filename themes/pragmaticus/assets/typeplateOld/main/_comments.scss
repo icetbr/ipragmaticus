@@ -1,0 +1,113 @@
+//.comments {
+//	margin-bottom: 100px;
+//}
+
+.comments h4 {
+	margin-bottom: 30px;
+
+	a {
+		@include link-border;
+
+		&:hover {
+			color: $blue;
+		}
+	}
+}
+
+.comments h4 a:visited {
+	color: $bodyColor;
+}
+
+.avatar-image-container {
+	display: none;
+}
+
+.comments-content {
+	//font-size: 0.9em;
+	//line-height: 1.4em;//tem o typeup por blocos!!
+}
+
+.comment-header {
+	.user {
+	}
+	//datetime secondary-text
+	.secondary-text {
+		font-size: 0.7em;
+		margin-left: 5px;
+		//float: right;
+		color: #aaaaaa;
+
+		a {
+			color: #aaaaaa;
+		}
+	}
+}
+
+.blog-admin {
+	float: right;
+	font-size: 0.7em;
+//	margin-left: 5px;
+		//float: right;
+	color: #aaaaaa
+}
+.blog-admin > a {
+	color: #aaaaaa;
+}
+
+.comment-block .comment-actions.secondary-text {
+	display: block;
+	margin-bottom: 20px;
+}
+
+// .comment-actions.secondary-text .blog-admin {
+// 	margin-left: 42px;
+// }
+
+.thread-toggle {
+	display: none;
+}
+
+.comment-block {
+	//margin-top: 15px;
+}
+
+//, .continue
+.loadmore {
+	display: none;
+}
+
+//reply
+.comment-actions.secondary-text a {
+	color: #aaaaaa;//thread-chrome thread-expanded
+}
+//*[@id="bc_0_0I"]
+.thread-expanded .continue a {
+	color: #aaaaaa;	
+	//margin-top: -24px;
+}
+
+.thread-expanded .continue {
+	display: block;
+}
+
+#showCommentsForm {
+	display: none;
+}
+//loadmore loaded
+//#bc_0_6I | div.continue a
+
+ol .comment {
+//	margin-bottom: 120px;
+}
+
+.comment {
+	margin-top: 50px;
+}
+
+.comment:first-child {
+	margin-top: 0px;
+}
+
+#comments {
+	margin-bottom: 30px;
+}

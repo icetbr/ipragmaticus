@@ -1,0 +1,10 @@
+<nav class="nav-post" role="navigation">
+    <ul>
+        {{- if .Next -}}
+        <li><a class="next" href="{{ .Next.Permalink }}">{{ .Next.Title }}</a></li>
+        {{ end }}
+        {{- if .Prev -}}
+            <li><a class="prev" href="{{ .Prev.Permalink }}">{{ .Prev.Title }}</a></li>
+        {{- end -}}
+    </ul> 
+</nav>

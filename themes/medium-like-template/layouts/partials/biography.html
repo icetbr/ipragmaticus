@@ -1,0 +1,9 @@
+<aside class="block-biography">
+{{ range .Site.Data.author }}
+  {{ safeHTML .image }}
+  <div>
+    <h2>{{ .author }}</h2>
+    {{ safeHTML .description }}
+  </div>
+{{ end }}
+</aside>

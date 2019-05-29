@@ -1,0 +1,11 @@
+ {{/* {{ .if ne .Kind "page" }} {{ if ne .Kind "page" }} {{ $pag := .Paginate (where .Data.Pages "Section" "blog") }}
+
+<title>{{ $.Site.Title }} {{ if $pag.HasPrev }}• Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}{{ end }}</title>
+
+{{ if $pag.HasPrev }}
+<link rel="canonical" href="{{ .Paginator.URL | absURL}}" /> {{ $pag := .Paginate (where .Data.Pages "Type" "post") }} {{ else }}
+<link rel="canonical" href="{{ .Permalink }}" /> {{end}} {{- else if .IsPage -}}
+
+<title>{{ .Page.Title }} • {{ .Site.Title }}</title>
+
+{{- partial "head.html" . -}} {{- end -}} */}}

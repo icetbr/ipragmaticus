@@ -1,0 +1,43 @@
+{{ define "head" -}}
+
+    <meta name="description" content="{{ .Site.Params.Description }}" />
+
+    {{/* https://yoast.com/pagination-seo-best-practices/ */}}
+    {{- if .Paginator.HasPrev }}
+        <title>{{ $.Site.Title }} - Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</title>
+        <link rel="canonical" href="{{ .Paginator.URL | absURL}}" />
+        <link rel="prev" href="{{ .Paginator.Prev.URL | absURL}}" />
+    {{ else -}}
+        <title>{{ $.Site.Title }}</title>
+        <link rel="canonical" href="{{ .Permalink }}" />
+    {{- end -}}
+
+    {{- if .Paginator.HasNext }}
+        <link rel="next" href="{{ .Paginator.Next.URL | absURL}}" />
+    {{ end }}
+
+{{ end }}
+
+{{ define "main" }}
+
+    {{ range .Paginator.Pages }}
+
+        {{ partial "main.html" (dict "c" . "content" .Summary) }}
+
+        <a href="{{ .Permalink }}" class="post-read-more">continuar lendo...</a>
+
+    {{ end }}
+
+    <nav class="pagination">
+        {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}">&larr; anterior</a>
+        {{ end }}
+
+        <a href="#">top</a>
+
+        {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}">próximo &rarr;</a>
+        {{ end }}
+    </nav>
+
+{{ end }}

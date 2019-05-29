@@ -1,0 +1,19 @@
+<div class="block-meta-article">
+  {{ if .Params.author }}
+    Par <strong>{{ .Params.author }}</strong>
+  {{ end }}
+  {{ if .Params.date }}
+    <p>{{ $mymonths := .Site.Data.mois }}{{ .Date.Day }} {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}</p>
+  {{ end }}
+  {{ if .Params.excerpt }}
+  <div> <strong>Excerpt</strong> {{ safeHTML .Params.excerpt }}</div>
+  {{ end }}
+  {{ if .Params.tags }}
+    <ul class="list-tags">
+    {{ range $index, $element := .Params.tags }}
+      <li><a href="/tags/{{ urlize . }}">{{ . }}</a></li>
+    {{ end }}
+    </ul>
+  {{ end }}
+
+</div>

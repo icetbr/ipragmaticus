@@ -1,0 +1,41 @@
+{{ define "head" -}}
+
+    <title>Archives - {{ .Site.Title }}</title>
+    <meta name="robots" content="noindex">
+
+{{ end }}
+
+{{ define "main" }}
+
+    <ul>
+        {{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+
+            <li>{{ .Key }}
+                <ul>
+                    {{- range .Pages }}
+
+                        <li>
+                            <span class="date">{{ .Date.Format "Jan 2" }}</span>
+
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+
+                            <span class="tags">
+                                {{- range $index, $key:= .Params.tags -}}
+                                    {{- if $index -}}, {{ end }}
+                                    <a href="/tags/{{$key | urlize }}/">{{ $key }}</a>
+                                {{- end -}}
+                            </span>
+                        </li>
+
+                    {{ end }}
+                </ul>
+            </li>
+
+        {{ end }}
+    </ul>
+
+    <nav class="pagination">
+        <a href="#">top</a>
+    </nav>
+
+{{ end }}

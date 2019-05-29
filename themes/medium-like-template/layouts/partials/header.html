@@ -1,0 +1,24 @@
+<header role="banner" id="banner" class="banner" >
+  <div class="flex-container">
+    <a class="logo" href="/">
+      <img src="/images/logo.png" height="31" width="132"  alt="{{ .Site.Title }} retour à la page d'accueil">
+    </a>
+    {{ partial "menu" . }}
+    <div class="nav-search-mobile">
+      <p class="button-like js-expandmore">
+        <img height="30" width="30" src="/assets/img/input-search.svg" alt="">
+        <span class="txt">recherche</span>
+      </p>
+      <div class="js-to_expand aa-input-container" id="aa-input-container">
+        <input aria-label="recherche un billet" type="search" id="aa-search-input" class="aa-input-search" placeholder="Rechercher un billet" name="search" autocomplete="off" />
+        <img src="/assets/img/input-search.png" alt="rechercher">
+      </div>
+    </div><!--/nav-search-mobile-->
+    <div class="nav-search-desktop">
+      <div class="aa-input-container" id="aa-input-container">
+        <input aria-label="recherche un billet" type="search" id="aa-search-input" class="aa-input-search" placeholder="Rechercher un billet" name="search" autocomplete="off" />
+        <img src="/assets/img/input-search.svg" alt="rechercher">
+      </div>
+    </div><!--/nav-search-desktop-->
+  </div><!--/flex-container-->
+</header>

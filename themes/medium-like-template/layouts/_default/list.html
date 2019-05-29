@@ -1,0 +1,7 @@
+{{ define "title" }}
+  {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<h1>Listes des {{ .Title }}</h1>
+{{ partial "list-post" .}}
+{{ end }}
