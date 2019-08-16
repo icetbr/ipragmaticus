@@ -1,0 +1,201 @@
+@import "typeplate-index";
+
+@mixin discrete-georgia {
+	font-size: 0.7em;
+	font-weight: 300;
+	font-family: $alternateFamily;
+}
+
+@mixin link-border{ border-bottom: 2px solid #e6e6e6; }
+
+body {
+    @include typl8-hyphens(auto);
+    color: $bodyColor;
+    font-family: $bodyFamily;
+    word-wrap: break-word;
+}
+
+strong {
+	font-weight: 600;
+	color: #000;
+}
+
+a {
+	transition: all 0.2s ease-in-out;
+	//@include transition(border-bottom 0.2s ease-in-out);
+    //color: $linkColor;
+    color: #444;
+    text-decoration: none;
+
+    &:active {
+    	background-color: #eee;
+    }
+
+    &:hover {
+    	//border-bottom: 1px dotted;
+    	@include link-border;
+	}
+}
+
+.post-body a {
+	font-weight: 600;
+	color: #777;
+	@include link-border;
+	//border-bottom: 1px dotted #bbb;
+    //border-bottom: 1px solid $linkColor;
+    //color: $bodyColor;
+
+    &:hover {
+    	color: #000;
+    	border-bottom-color: #666;
+    	//font-weight: 800;
+    }
+}
+
+li {
+	margin-bottom: 8px;
+}
+
+//.post-title a,
+h1, h2, h3, h4, h5, h6 {
+    color: $headingColor;
+    font-weight: 700;
+    font-family: $headingsFamily;
+    text-rendering: optimizeLegibility;
+}
+
+.post-title a {
+	@extend h1;
+	color: #555;
+	font-weight: 300;
+	font-family: $alternateFamily;
+	text-rendering: optimizeLegibility;
+}
+
+// Responsive images (ensure images don't scale beyond their parents)
+// Part 1: Set a maximum relative to the parent
+// Part 2: Scale the height according to the width, otherwise you get stretching
+// .img {
+// 	display: inline-block;
+//     max-width: 100%;
+//     height: auto;
+// }
+
+small {
+  font-size: 65%;
+}
+
+.hyphen_off {
+	@include typl8-hyphens(none);
+}
+
+//************** POST
+#main {
+    max-width: $lineLength;
+    margin: 0 auto;
+    position: relative;
+}
+
+#Blog1 {
+	float: left;
+	width: 100%; //usefull for the archive page
+	margin-top: -20px;
+}
+
+.post-comment-link::before {
+    content: "\2013"; //en-dash "\007c"; //pipe
+    margin: 0 0.2em 0 0.2em;
+}
+
+.post-meta, .post-meta a {
+    color: lighten($bodyColor, 45%);
+}
+
+.post-title, .post-meta {
+    text-align: center;
+    margin-top: 2.7em;
+}
+
+.post-meta {
+    margin-top: 10px;
+}
+
+//************** FOOTER
+
+//attribution
+.footer {
+	text-align: center;
+}
+
+#blog-pager {
+	text-align: center;
+	margin-top: 15px;
+	a {
+		@include link-border;
+
+		&:hover {
+			color: $blue;
+		}
+	}
+}
+
+#blog-pager-newer-link {
+	float: right;
+}
+
+#blog-pager-older-link {
+	float: left;
+}
+
+.contact-form-email-message {
+	width: 100%;
+}
+
+#labelTitle {
+	position: relative;
+	top: 50px;
+	margin-top: 10px;
+	background-color: $bodyColor;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	a {
+		color: white;
+	}
+}
+
+.title {
+	@include discrete-georgia;
+	position: relative;
+	top: 5.8em;
+	text-align: center;
+	margin-top: 0;
+
+	a {
+		color: #555555;
+	}
+}
+
+.staticPage {
+	margin-top: 5.2em;
+}
+
+#clickHere {
+	@include discrete-georgia();
+	position: absolute;
+	top: 1px;
+	color: #bbb;
+	right: 165px;
+	display: none;
+}
+//*[@id="Blog1"]/div/div/div
+.footnote {
+	font-size: 0.8em;
+	line-height: 1.4em;
+	color: #888;
+
+	hr {
+		border: none;
+		padding-top: 40px;
+	}
+}
