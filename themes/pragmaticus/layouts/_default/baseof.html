@@ -5,11 +5,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,minimum-scale=1">
 
-        <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" media="all" />
+        <!-- <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" media="all" /> -->
 
         {{/*  favicon (see sizes, apple touch, possible svg?, etc)  */}}
 
-        {{ .Hugo.Generator }}
+        {{ hugo.Generator }}
 
         {{ block "head" . }}{{ end }}
 

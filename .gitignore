@@ -1,5 +1,6 @@
 public
 _gen
+node_modules
 themes/beautifulhugo
 themes/black-and-light
 themes/gohugo-theme-ananke
