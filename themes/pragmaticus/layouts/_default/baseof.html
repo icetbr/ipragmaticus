@@ -7,6 +7,17 @@
 
         <!-- <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" media="all" /> -->
 
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'tsd8lrs',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
         {{/*  favicon (see sizes, apple touch, possible svg?, etc)  */}}
 
         {{ hugo.Generator }}
@@ -17,17 +28,21 @@
 		{{- $inServerMode	:= .Site.IsServer }}
 		{{- $cssTarget		:= "css/style.css" }}
 		{{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
-		{{- $style			:= resources.Get "scss/style.scss" | toCSS $cssOptions }}
+		{{- $style			:= resources.Get "scss/styles.scss" | toCSS $cssOptions }}
   		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
     </head>
 
     <body>
-        <header>
-            <h2><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h2>
-            <a href="{{ .Site.BaseURL }}archives" >Archives</a>
-        </header>
-        <main>
-            {{- block "main" . }}{{- end }}
-        </main>
+        <div class="c-site-container">
+            <header>
+                <h2><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h2>
+                <a href="{{ .Site.BaseURL }}archives" >Archives</a>
+            </header>
+            <main>
+                <div class="l-wrap">
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </main>
+        </div>
     </body>
 </html>

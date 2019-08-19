@@ -5,9 +5,8 @@ draft: true
 tags: [ saúde ]
 ---
 
-- nao tente exagerar, muito tempo muit orapido!
+<!-- - nao tente exagerar, muito tempo muit orapido! -->
 
-# Jejum Intermitente
 
 Segue um resumo de dezenas de artigos que li na internet. O assunto é extenso e eu não tenho nenhuma qualificação profissional na área, utilize este guia como referência para suas pesquisas.
 

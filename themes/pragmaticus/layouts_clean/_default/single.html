@@ -1,0 +1,26 @@
+{{ define "head" -}}
+
+    <meta name="description" content="{{ .Description }}" />
+
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}" />
+
+{{ end }}
+
+{{ define "main" }}
+
+    {{ partial "main.html" (dict "c" . "content" .Content) }}
+
+    <nav class="pagination">
+        {{ if .PrevInSection }}
+            <a href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}">&larr; anterior</a>
+        {{ end }}
+
+        <a href="#">top</a>
+
+        {{ if .NextInSection }}
+            <a href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">próximo &rarr;</a>
+        {{ end }}
+    </nav>
+
+{{ end }}
