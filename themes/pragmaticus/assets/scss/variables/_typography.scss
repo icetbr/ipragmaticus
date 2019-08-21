@@ -1,15 +1,27 @@
 // Typography Variables
 // ===============
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,500,600|Playfair+Display:700i,900');
+
 // Font families
 // ---------------
 $font-families: (
   display: ('freight-display-pro', serif),
   text: ('freight-text-pro', serif),
   condensed: ('freight-sans-condensed-pro', sans-serif),
-  sans: ('freight-sans-pro', 'Helvetica Neue', sans-serif),
+  // sans: ('freight-sans-pro', 'Helvetica Neue', sans-serif),
+  sans: ('Lora', Georgia, Cambria, "Times New Roman", Times, serif),
   code: ('Fira Mono', monospace)
 );
+    // margin-right: 10.5rem;
+    // /* font-family: "Source Sans Pro"; */
+    // font-weight: 400;
+    // font-style: normal;
+    // font-size: 14px;
+    // color: rgb(40, 40, 40);
+    // line-height: 1.4;
+    // letter-spacing: -0.03px;
+    // rgba(0, 0, 0, 0.84);
 
 // Font weights
 // ---------------
@@ -23,15 +35,17 @@ $font-weights: (
 
 // Sizes
 // ---------------
-$ms-ratio: 1.2;
+// $ms-ratio: 1.2;
+$ms-ratio: 1.15;
 $typi: (
   base: (
-    null: (19px, 1.4),
-    med: (20px, 1.4),
-    large: 21px,
-    wide: 22px,
-    mega: 25px,
-    ultra: 28px
+    null: (16px, 1.5),
+    // null: (19px, 1.4),
+    // med: (20px, 1.4),
+    // large: 21px,
+    // wide: 22px,
+    // mega: 25px,
+    // ultra: 28px
   ),
   tsb: (
     null: ms(1),

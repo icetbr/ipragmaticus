@@ -9,11 +9,10 @@
       display: grid;
       grid-template-columns:
       1fr
-      minmax(auto, vr(32))
-      2fr
+      minmax(auto, vr(28))
       1fr;
 
-      > * { grid-column: 2 / span 1; }
+      > * { grid-column:2 / span 1; }
       > .l-wrap__full { grid-column: 2 / span 2; }
     }
 
