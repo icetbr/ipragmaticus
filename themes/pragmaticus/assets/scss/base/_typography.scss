@@ -7,6 +7,11 @@ html {
   color: color(mine);
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga' 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  @include wrap-words;
 }
 
 h1 {

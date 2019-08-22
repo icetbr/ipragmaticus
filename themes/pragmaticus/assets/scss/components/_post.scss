@@ -29,6 +29,9 @@
       font-size: 0.6em;
     }
   }
+  h2 + p {
+    margin-top: vr(0.4);
+  }
 
   iframe + p:first-of-type { margin-top: vr(0.75); }
 }

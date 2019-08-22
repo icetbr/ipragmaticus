@@ -1,16 +1,30 @@
 // Typography Variables
 // ===============
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,500,600|Playfair+Display:700i,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,700|Lora:400,500,600|Playfair+Display:400,500,600,700i,900|Montserrat:400,500,600,700');
+
+// H1
+// @include typi('tsl1');
+// @include ff('display');
+// @include fw(display, 500);
+
+// H2
+// @mixin tp-text2 {
+//   @include typi('tsl2');
+//   @include ff('text');
+//   @include fw(text, 500);
+// }
 
 // Font families
 // ---------------
 $font-families: (
-  display: ('freight-display-pro', serif),
+  display: ('freight-display-pro', serif), // h1
   text: ('freight-text-pro', serif),
   condensed: ('freight-sans-condensed-pro', sans-serif),
   // sans: ('freight-sans-pro', 'Helvetica Neue', sans-serif),
-  sans: ('Lora', Georgia, Cambria, "Times New Roman", Times, serif),
+  sans: ('Lora', Georgia, Cambria, "Times New Roman", Times, serif), // 16.85px
+  // sans: ('Source Sans Pro', Georgia, Cambria, "Times New Roman", Times, serif), // Source Serif Pro
+  // sans: ('Source Serif Pro', Georgia, Cambria, "Times New Roman", Times, serif), // 17.65px
   code: ('Fira Mono', monospace)
 );
     // margin-right: 10.5rem;
@@ -20,8 +34,11 @@ $font-families: (
     // font-size: 14px;
     // color: rgb(40, 40, 40);
     // line-height: 1.4;
-    // letter-spacing: -0.03px;
+    // letter-spacing: -0.072px;
     // rgba(0, 0, 0, 0.84);
+
+    // overflow-wrap: break-word;
+    // word-break: break-word;
 
 // Font weights
 // ---------------
@@ -36,10 +53,10 @@ $font-weights: (
 // Sizes
 // ---------------
 // $ms-ratio: 1.2;
-$ms-ratio: 1.15;
+$ms-ratio: 1.21;
 $typi: (
   base: (
-    null: (16px, 1.5),
+    null: (16.85px, 1.58),
     // null: (19px, 1.4),
     // med: (20px, 1.4),
     // large: 21px,
@@ -57,7 +74,7 @@ $typi: (
     mega: ms(8)
   ),
   tsl2: (
-    null: (ms(4), 1.15)
+    null: (ms(2), 1.15)
   ),
   tsl3: (
     null: (ms(1), 1.35),

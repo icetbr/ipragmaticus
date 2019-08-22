@@ -33,6 +33,7 @@
 @mixin tp-sans {
   @include ff('sans');
   @include fw('sans', 400);
+  letter-spacing: -0.004em;
 }
 
 @mixin tp-sans1 {
