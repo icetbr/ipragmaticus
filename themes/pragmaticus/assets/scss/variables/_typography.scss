@@ -1,7 +1,7 @@
 // Typography Variables
 // ===============
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,500,600,700|Lora:400,500,600|Playfair+Display:400,500,600,700i,900|Montserrat:400,500,600,700');
+// @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora:400,500,600|Playfair+Display:400,500,600,700i,900|Montserrat:400,500,600,700,800,900');
 
 // H1
 // @include typi('tsl1');
@@ -19,7 +19,8 @@
 // ---------------
 $font-families: (
   display: ('freight-display-pro', serif), // h1
-  text: ('freight-text-pro', serif),
+  // text: ('freight-text-pro', serif), // h2 lato 26px
+  text: (Lato, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif), // h2 lato 26px
   condensed: ('freight-sans-condensed-pro', sans-serif),
   // sans: ('freight-sans-pro', 'Helvetica Neue', sans-serif),
   sans: ('Lora', Georgia, Cambria, "Times New Roman", Times, serif), // 16.85px
@@ -52,7 +53,6 @@ $font-weights: (
 
 // Sizes
 // ---------------
-// $ms-ratio: 1.2;
 $ms-ratio: 1.21;
 $typi: (
   base: (
@@ -95,5 +95,9 @@ $typi: (
   ),
   tss4: (
     null: (ms(-2), 1.58)
+  ),
+
+  lora: (
+    null: (16.85px, 1.58),
   ),
 );

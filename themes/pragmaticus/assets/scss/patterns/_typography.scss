@@ -1,12 +1,66 @@
 // Type patters
 // ===============
 
+// line-height: 1.58;
+@mixin lora {
+  font-size: 16.85px;
+  line-height: 1.7;
+  font-family: Lora;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+@mixin georgia {
+  font-size: 17.3px;
+  line-height: 1.65;
+  font-family: Georgia;
+  font-weight: 400;
+}
+
+@mixin georgiaTitle {
+    font-size: 41px;
+    line-height: 1.15;
+    font-family: Georgia, "freight-display-pro", serif;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+}
+
+@mixin sourceSerif {
+  font-size: 17.4px;
+  line-height: 1.65;
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  // letter-spacing: 0em;
+  letter-spacing: -0.004em;
+}
+
+@mixin lato {
+  font-size: 25.7px;//rem
+  line-height: 0;
+  font-family: Lato;
+  font-weight: 700;
+  letter-spacing: -0.004em;
+}
+@mixin arial {
+  font-size: 24.1px;//rem
+  line-height: 0;
+  font-family: Arial;
+  font-weight: 700;
+  letter-spacing: -0.004em;
+}
+@mixin arial2 {
+  @include arial();
+  font-size: 20px;//rem
+}
+
 // Display patterns
 // ---------------
+// h1
 @mixin tp-display {
-  @include typi('tsl1');
-  @include ff('display');
-  @include fw(display, 500);
+  @include georgiaTitle();
+  // @include typi('tsl1');
+  // @include ff('display');
+  // @include fw(display, 500);
 }
 
 // Text patterns
@@ -22,18 +76,25 @@
   font-style: italic;
 }
 
+// h2
 @mixin tp-text2 {
-  @include typi('tsl2');
-  @include ff('text');
-  @include fw(text, 500);
+  @include arial();
+  // @include lato();
+  // @include typi('tsl2');
+  // @include ff('text');
+  // @include fw(text, 500);
 }
 
 // Sans patterns
 // ---------------
+// text
 @mixin tp-sans {
-  @include ff('sans');
-  @include fw('sans', 400);
-  letter-spacing: -0.004em;
+   @include georgia();
+  //  @include sourceSerif();
+  //  @include lora();
+  // @include ff('sans');
+  // @include fw('sans', 400);
+  // letter-spacing: -0.004em;
 }
 
 @mixin tp-sans1 {
@@ -58,13 +119,15 @@
   font-feature-settings: 'liga' 1, 'smcp' 1, 'lnum' 1;
 }
 
+// h3
 @mixin tp-condensed1 {
-  color: var(--theme-color);
-  @include typi('tsl4');
-  @include ff('condensed');
-  @include fw('condensed', 600);
-  letter-spacing: 0.005em;
-  font-feature-settings: 'liga' 1, 'smcp' 1;
+  @include arial2();
+  // color: var(--theme-color);
+  // @include typi('tsl4');
+  // @include ff('condensed');
+  // @include fw('condensed', 600);
+  // letter-spacing: 0.005em;
+  // font-feature-settings: 'liga' 1, 'smcp' 1;
 }
 
 @mixin tp-condensed2 {

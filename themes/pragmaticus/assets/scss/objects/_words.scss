@@ -1,7 +1,7 @@
 @mixin o-words {
   * + h2 { margin-top: vr(1.5); }
   * + h3 { margin-top: vr(1.5); }
-  h3 + p { margin-top: vr(0.25); }
+  // h3 + p { margin-top: vr(0.25); }
 
   // lists
   ul li { list-style-type: disc }

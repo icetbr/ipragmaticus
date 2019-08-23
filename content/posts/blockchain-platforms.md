@@ -26,7 +26,7 @@ The first question for decentralized app (DApp) builders is, "which Blockchain s
 
 Blockchains are not stand-alone application platforms that a user has to download on their device to run your apps. Instead, they’re decentralized service networks which keep track of data and transactions for your users.
 
-Ethereum as a "world computer" is a bit misleading. It’s more like a globally distributed database that anybody can help host, capable of running special programs called **smart contracts**.
+[Ethereum](www.gooogle.com) as a "world computer" is a bit misleading. It’s more like a globally distributed database that anybody can help host, capable of running special programs called **[smart contracts](www.gooogle.com)**.
 
 There are many others cryptonetworks, each with different trade-offs in security, privacy, bandwidth, latency, and throughput. Selecting a blockchain is more like selecting a database for a particular application service than selecting a development platform for an entire app. Just like you might use PostgreSQL for SQL-queryable financial data, and Redis for high-performance, low-latency reads, you may need near-instant finality (ruling out Bitcoin), or inexpensive data storage (ruling out Ethereum). Different decentralized technologies are good for different use-cases, and often, your app will require more than any single blockchain can deliver.
 
@@ -37,6 +37,10 @@ Since most complex apps require many services, you might end up using Ethereum f
 > AND, not OR.
 
 Currently, most DApps are built with one Blockchain ecosystem in mind, but in the future, the Web3 foundation hopes to unite all the chains with the Polkadot network, and Chainlink (partnered with Google and Oracle) plan to connect any existing API to smart contracts.
+
+### Improved for better readability
+
+Instead of optimizing for a single use case of titles and subtitles as in the past, we now check to see if you are using a header at the top of a story (as a title or subtitle) or within the body (as a section or subsection), and style the headings to the size and spacing that complement your stories rather than compete with them.
 
 Today, you can incorporate multiple blockchain protocols using **smart wallets⁴, meta-transactions⁵**, and application node services that delegate requests to whatever chain you need to communicate with.
 
