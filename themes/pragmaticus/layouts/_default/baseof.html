@@ -21,7 +21,7 @@
 		{{- $inServerMode	:= .Site.IsServer }}
 		{{- $cssTarget		:= "css/style.css" }}
 		{{- $cssOptions		:= cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
-		{{- $style			:= resources.Get "scss/styles.scss" | toCSS $cssOptions }}
+		{{- $style			:= resources.Get "scss/styles.scss" | toCSS $cssOptions | postCSS }} <!-- CSS | postCSS -->
   		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
     </head>
 
