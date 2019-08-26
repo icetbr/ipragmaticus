@@ -3,15 +3,15 @@
   margin-top: vr(1.25);
   @include bp(mega) { margin-top: vr(2); }
 
-  > .l-post__date {
-    // @include bp(large) {
-    //   width: vr(2.5);
-    //   margin-top: 0.8em;
-    //   margin-left: vr(0.75);
-    //   float: left;
-    //   text-align: right;
-    // }
-  }
+  // > .l-post__date {
+  //   @include bp(large) {
+  //     width: vr(2.5);
+  //     margin-top: 0.8em;
+  //     margin-left: vr(0.75);
+  //     float: left;
+  //     text-align: right;
+  //   }
+  // }
 }
 
 .c-post__date {

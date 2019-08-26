@@ -53,6 +53,19 @@
   font-size: 20px;//rem
 }
 
+@mixin arialDate {
+  // font-size: 12px;//rem
+  font-size: 10px;//rem
+  // font-size: 13px;//rem
+  // font-stretch: extra-condensed;
+  line-height: 0;
+  font-family: Arial;
+  // font-weight: 400;
+  font-weight: 600;
+  letter-spacing: -0.004em;
+  text-transform: uppercase;
+}
+
 // Display patterns
 // ---------------
 // h1
@@ -130,12 +143,14 @@
   // font-feature-settings: 'liga' 1, 'smcp' 1;
 }
 
+// date
 @mixin tp-condensed2 {
   color: color(monsoon);
-  @include typi('tss1');
-  @include ff('condensed');
-  @include fw('condensed', 500);
-  text-transform: lowercase;
+  @include arialDate();
+  // @include typi('tss1');
+  // @include ff('condensed');
+  // @include fw('condensed', 500);
+  // text-transform: lowercase;
   font-feature-settings: 'liga' 1, 'smcp' 1;
 }
 

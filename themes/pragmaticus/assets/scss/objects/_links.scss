@@ -5,27 +5,40 @@ $link-background: #b3d8fd;
   text-decoration: none;
 }
 
-@mixin o-link--primary {
-  color: color(neonblue);
+@mixin o-link--primary_medium {
   @include o-link;
-  @include link-underline(color(w), color(neonblue));
-  @include link-shadow(color(w));
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.84) 100%,rgba(0, 0, 0, 0.84) 0);
+  background-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="0" x2="1" y2="1" stroke="rgba(0, 0, 0, 0.84)" /></svg>');
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  color: inherit;
+  background-position: 0 1.05em;
+  background-position: 0 calc(1em + 1px);
+      // -webkit-tap-highlight-color: transparent;
+}
 
-  &:hover,
-  &:active,
-  &:focus {
-    color: color(geebung);
-    @include link-underline(color(w), color(geebung));
-  }
+@mixin o-link--primary {
+  @include o-link--primary_medium;
+  // color: color(neonblue);
+  // @include o-link;
+  // @include link-underline(color(w), color(neonblue));
+  // @include link-shadow(color(w));
 
-  &::selection {
-    background-color: $link-background;
-    @include link-shadow($link-background);
-  }
+  // &:hover,
+  // &:active,
+  // &:focus {
+  //   color: color(geebung);
+  //   @include link-underline(color(w), color(geebung));
+  // }
+
+  // &::selection {
+  //   background-color: $link-background;
+  //   @include link-shadow($link-background);
+  // }
 }
 
 .o-link--primary {
-  @include o-link--primary;
+  @include o-link--primary_medium;
 }
 
 .o-link--secondary {
