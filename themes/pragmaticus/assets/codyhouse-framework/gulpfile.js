@@ -10,6 +10,7 @@ var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 const purgecss = require('@fullhuman/postcss-purgecss');
+const uncss = require('uncss').postcssPlugin;
 
 // js file paths
 var utilJsPath = 'main/assets/js'; // util.js path - you may need to update this if including the framework as external node module
@@ -31,9 +32,12 @@ gulp.task('sass', function() {
   .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
   .pipe(postcss([
     autoprefixer(),
-    purgecss({
-      content: ['./main/**/*.html']
-    })
+    uncss({
+      html: ['./main/**/*.html']
+    }),
+    // purgecss({
+    //   content: ['./main/**/*.html']
+    // })
   ]))
   .pipe(gulp.dest(cssFolder))
   .pipe(browserSync.reload({

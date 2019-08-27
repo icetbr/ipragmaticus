@@ -76,5 +76,9 @@
     "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "2.1.2"
+  "version": "2.1.2",
+  "dependencies": {
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.1"
+  }
 }

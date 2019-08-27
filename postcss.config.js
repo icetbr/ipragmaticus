@@ -5,15 +5,19 @@ class PurgeFromCss {
 }
 
 module.exports = {
+  // plugins: [postcss([require('postcss-uncss')])]
   plugins: {
-    '@fullhuman/postcss-purgecss': {
-      content: ['./themes/pragmaticus/layouts/**/*.html'],
-      extractors: [
-        {
-          extractor: PurgeFromCss,
-          extensions: ['css'],
-        },
-      ]
-    },
+    'postcss-uncss': {
+      html: ['./themes/pragmaticus/layouts/**/*.html'],
+    }
+    // '@fullhuman/postcss-purgecss': {
+    //   content: ['./themes/pragmaticus/layouts/**/*.html'],
+    //   extractors: [
+    //     {
+    //       extractor: PurgeFromCss,
+    //       extensions: ['css'],
+    //     },
+    //   ]
+    // },
   }
 };
