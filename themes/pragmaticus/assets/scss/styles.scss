@@ -1,131 +1,46 @@
-// Libraries
-// ---------
-@import "lib/lib";
+@charset "utf-8";
 
-// Helpers
-// -------
-@import "helpers/helpers";
+// This has to go first so that fonts are loaded OK.
+$web-font-path: 'https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts';
+$icomoon-font-path: '';
 
-// Variables
-// ---------
-@import "variables/colors";
-@import "variables/breakpoints";
-@import "variables/typography";
+// Import frameworks & theme styles
+@import
+    "fragaria/reset",
+    "fragaria/icons",
 
-// Patterns
-@import "patterns/typography";
+    "settings",
 
-// Reset and base files
-// --------------------
-@import "base/reset";
-@import "base/base";
-@import "base/typography";
+    "fragaria/fonts",
+    "fragaria/mixins",
 
-// Layouts
-// -------
-@import "layouts/layouts";
-@import "layouts/wrap";
-@import "layouts/article";
+    "hamburgers/hamburgers",   // hamburger menu styles
 
-// Objects
-// -------
-// Repeatable objects across the site
-@import "objects/links";
-@import "objects/words";
-@import "objects/input";
-@import "objects/buttons";
-@import "objects/loader";
-@import "objects/featured";
-@import "objects/text-tab";
-@import "objects/book";
-@import "objects/course";
-@import "objects/lib";
-@import "objects/zell";
-@import "objects/nav";
+    "fragaria/typography",
 
-// Components
-// ----------
-// For individual, isolated components
-@import "components/form";
-@import "components/main-nav";
-@import "components/about";
-@import "components/post";
-@import "components/comments";
-@import "components/pagination";
-@import "components/ck/index";
-@import "components/footer";
-@import "components/modal";
-@import "components/offsite";
-@import "components/prism";
-@import "components/home";
-
-// Utils
-// -----
-@import "utils";
-
-// Shame
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-
-  figcaption {
-    margin-top: vr(0.25);
-  }
-}
-
-.youtube {
-  width: 100%;
-  border: 0;
-  height: vr(17.5);
-}
-
-.home-page main {
-  margin-top: 0;
-}
-
-.home-page .c-footer {
-  margin-top: 0;
-}
-
-.c-footer__nav {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: vr(0.75);
-
-  // Nav headers
-  li > span {
-    @include tp-sans2;
-    font-weight: 600;
-    color: #333;
-  }
-
-  // Separator betwene header and content
-  span + ol {
-    margin-top: vr(0.25);
-  }
-
-  li li {
-    line-height: 1.2;
-  }
-
-  li li a {
-    @include tp-sans2;
-    font-weight: 400;
-  }
-}
-
-// Find a way to style tables properly...
-table {
-  border-collapse: collapse;
-
-  th {
-    text-align: left;
-  }
-
-  th,
-  td {
-    border: 1px solid black;
-    padding: 0.25em;
-  }
-}
+    "fragaria/anchor",
+    "fragaria/baseline-grid",
+    "fragaria/blog-listing",
+    "fragaria/blog-posting",
+    "fragaria/box",
+    "fragaria/button",
+    "fragaria/contact",
+    "fragaria/container",
+    "fragaria/content-block",
+    "fragaria/cta",
+    "fragaria/footer",
+    "fragaria/forms",
+    "fragaria/hero",
+    "fragaria/headline-link",
+    "fragaria/old-ie",
+    "fragaria/pagination",
+    "fragaria/portfolio",
+    "fragaria/post-overview",
+    "fragaria/sitenav",
+    "fragaria/splitting-headline",
+    "fragaria/taglist",
+    "fragaria/team-members",
+    "fragaria/sharebox",
+    "fragaria/utils",
+    "fragaria/views"
+;

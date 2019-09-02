@@ -1,31 +1,41 @@
-<article>
+<article class="article">
+    <div class="content-block typeset">
 
-    <h1><a href="{{ .c.Permalink }}">{{ .c.Title }}</a></h1>
+        <h1 class="article__headline"><a href="{{ .c.Permalink }}">{{ .c.Title }}</a></h1>
 
-    <div class="meta">
+        <div class="meta">
+            <span class="date">{{ .c.Date.Format "Jan 2, 2006" }}</span>
+        </div>
 
-        <span class="date">{{ .c.Date.Format "Jan 2, 2006" }}</span>
-          em
-        <span class="tags">
-            {{- range $index, $key:= .c.Params.tags -}}
-                {{- if $index -}}, {{ end }}
-                <a href="/tags/{{$key | urlize }}/">{{ $key }}</a>
-            {{- end -}}
-        </span>
+        <div class="article__content-wrap">
+            <div class="article__content article-typeset js-auto-add-headline-anchors hypenize">
+                {{ .content }}
+                {{/*  {{ if .Truncated }}
+                    {{ .Summary }}
+                    <!-- <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a> -->
+                {{ else }}
+                    {{ .Content }}
+                {{ end }}  */}}
+            </div>
+        </div>
 
     </div>
 
-    <div class="post">
-        {{ .content }}
-        {{/*  {{ if .Truncated }}
-            {{ .Summary }}
-            <!-- <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a> -->
-        {{ else }}
-            {{ .Content }}
-        {{ end }}  */}}
-    </div>
-
-
+    <div class="content-block">
+        <div class="article__misc">
+            <div class="article__miscitem">
+                <span class="tags">
+                    {{- range $index, $key:= .c.Params.tags -}}
+                        {{- if $index -}}, {{ end }}
+                        <a href="/tags/{{$key | urlize }}/">{{ $key }}</a>
+                    {{- end -}}
+                </span>
+            </div>
+            <div class="article__miscitem">
+                twitter
+                facebook
+            </div>
+        </div>
     </div>
 
 </article>

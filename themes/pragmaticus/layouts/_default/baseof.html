@@ -21,7 +21,7 @@
   		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
     </head>
 
-    <body>
+    <body class="page-container baseline-grid js-baseline-grid">
         <header>
             <h2><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h2>
             <a href="{{ .Site.BaseURL }}archives" >Archives</a>
@@ -29,5 +29,6 @@
         <main>
             {{- block "main" . }}{{- end }}
         </main>
+        {{ block "js" . }}{{ end }}
     </body>
 </html>
