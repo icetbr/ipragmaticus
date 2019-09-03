@@ -43,11 +43,7 @@ Today, you can incorporate multiple blockchain protocols using **smart wallets�
 The future of crypto is a *united, open, cooperative platform* that will form the foundation of the next evolution of the web: The internet of value.
 
 1. There are polyfill Web3 providers for Ethereum that work in every modern browser today, and it’s currently the most mature developer ecosystem in the space.
-
 2. An **anchor** is a cryptographic hash representing some data which is encoded in a data transaction on a blockchain for the purpose of proving that the hashed data existed at a particular point in the blockchain’s timeline. For anchors to work, the blockchain must store the entire transaction data set immutably for as long as the proof is needed. Bitcoin is currently the most secure anchor storage chain.
-
 3. **Plutus** is a Haskell-based smart contract programming language. It is currently the only formally-verified, functional, and static typed smart contract language.
-
 4. A **smart wallet** is a cryptocurrency wallet integrated with smart contracts and protocol services which can assist users by cosigning or delegating transactions on their behalf. Smart wallets can add capabilities like key recovery, daily spending limits, and cross-chain functionality.
-
 5. **Meta transactions** are transactions performed on behalf of the user by automated services such as smart contracts. Meta transactions are commonly used to overcome onboarding and adoption hurdles by funding transaction fees for users and simplifying application user interfaces. Smart wallets often rely on meta transactions.
