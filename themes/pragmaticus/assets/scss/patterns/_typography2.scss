@@ -3,12 +3,13 @@
 $font-size: 16.85px;
 $line-height: 1.58;
 $font-family: 'Georgia';
+$font-family-headings: 'Arial';
 
 $font-families: (
-  display: ('freight-display-pro', serif), // $font-family
-  text: ('freight-text-pro', serif),
-  condensed: ('freight-sans-condensed-pro', sans-serif),
-  sans: ('freight-sans-pro', 'Helvetica Neue', sans-serif),
+  display: ($font-family, serif), // h1
+  text: ($font-family-headings, sans-serif), // h2
+  condensed: ($font-family-headings, sans-serif), // date
+  sans: ($font-family, serif),
   code: ('Fira Mono', monospace)
 );
 
@@ -237,12 +238,7 @@ $font-weights: (
 
 
 
-
-
-// Sizes
-// ---------------
 $ms-ratio: 1.21;
-
 $typi: (
   base: (null: ($font-size, $line-height)),  // null: (19px, 1.4), med: (20px, 1.4), large: 21px, wide: 22px, mega: 25px, ultra: 28px
   tsb: (null: ms(1)),
