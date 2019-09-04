@@ -10,10 +10,11 @@
 // ---------
 @import "variables/colors";
 @import "variables/breakpoints";
-@import "variables/typography";
+// @import "variables/typography";
 
 // Patterns
-@import "patterns/typography";
+// @import "patterns/typography";
+@import "patterns/typography2";
 
 // Reset and base files
 // --------------------
@@ -46,7 +47,7 @@
 // Components
 // ----------
 // For individual, isolated components
-@import "components/form";
+// @import "components/form";
 @import "components/main-nav";
 @import "components/about";
 @import "components/post";
