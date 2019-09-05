@@ -1,54 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora:400,500,600|Playfair+Display:400,500,600,700i,900|Montserrat:400,500,600,700,800,900');
+//@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora:400,500,600|Playfair+Display:400,500,600,700i,900|Montserrat:400,500,600,700,800,900');
 
 $font-size: 16.85px;
 $line-height: 1.58;
 $font-family: 'Georgia';
 $font-family-headings: 'Arial';
-
-$font-families: (
-  display: ($font-family, serif), // h1
-  text: ($font-family-headings, sans-serif), // h2
-  condensed: ($font-family-headings, sans-serif), // date
-  sans: ($font-family, serif),
-  code: ('Fira Mono', monospace)
-);
-
-
-$font-families: (
-  display: ('freight-display-pro', serif), // h1
-  // text: ('freight-text-pro', serif), // h2 lato 26px
-  text: (Lato, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif), // h2 lato 26px
-  // date
-  // condensed: ('freight-sans-condensed-pro', sans-serif),
-  condensed: ('Arial', monospace),
-  // sans: ('freight-sans-pro', 'Helvetica Neue', sans-serif),
-  sans: ('Lora', Georgia, Cambria, "Times New Roman", Times, serif), // 16.85px
-  // sans: ('Source Sans Pro', Georgia, Cambria, "Times New Roman", Times, serif), // Source Serif Pro
-  // sans: ('Source Serif Pro', Georgia, Cambria, "Times New Roman", Times, serif), // 17.65px
-  // code: ('Fira Mono', monospace)
-  code: ('Courier New', monospace)
-);
-
-// Font weights
-// ---------------
-$font-weights: (
-  display: 500,
-  text: (400, 500),
-  sans: (400, 500, 600),
-  condensed: (500, 600),
-  code: (400)
-);
-
-
-
-
-@mixin lora {
-  $font-size: 16.85px;
-  $line-height: 1.7;
-  font-family: Lora;
-  font-weight: 400;
-  letter-spacing: -0.01em;
-}
 
 @mixin georgia {
   $font-size: 17.3px;
@@ -57,6 +12,14 @@ $font-weights: (
   // line-height: 1.65;
   font-family: Georgia;
   font-weight: 400;
+}
+
+@mixin lora {
+  $font-size: 16.85px;
+  $line-height: 1.7;
+  font-family: Lora;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 @mixin georgiaTitle {
@@ -231,12 +194,21 @@ $font-weights: (
   color: color(gallery);
 }
 
+$font-families: (
+  display: ($font-family, serif), // h1
+  text: ($font-family-headings, sans-serif), // h2
+  condensed: ($font-family-headings, sans-serif), // date
+  sans: ($font-family, serif), // text
+  code: (Consolas, monaco, monospace)
+);
 
-
-
-
-
-
+$font-weights: (
+  display: 500,
+  text: (400, 500),
+  sans: (400, 500, 600),
+  condensed: (500, 600),
+  code: (400)
+);
 
 $ms-ratio: 1.21;
 $typi: (
