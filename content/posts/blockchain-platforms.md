@@ -38,6 +38,8 @@ Since most complex apps require many services, you might end up using Ethereum f
 
 Currently, most DApps are built with one Blockchain ecosystem in mind, but in the future, the Web3 foundation hopes to unite all the chains with the Polkadot network, and Chainlink (partnered with Google and Oracle) plan to connect any existing API to smart contracts.
 
+## Introducing new contextual title and subtitles
+
 ### Improved for better readability
 
 Instead of optimizing for a single use case of titles and subtitles as in the past, we now check to see if you are using a header at the top of a story (as a title or subtitle) or within the body (as a section or subsection), and style the headings to the size and spacing that complement your stories rather than compete with them.

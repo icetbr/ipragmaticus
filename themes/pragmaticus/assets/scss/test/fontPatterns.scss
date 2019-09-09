@@ -1,0 +1,66 @@
+@mixin georgiaLinux {
+  @include georgia();
+  font-family: 'Bitstream Charter';
+}
+
+@mixin georgia {
+  font-size: 20.5px;
+  line-height: 1.58;
+  font-family: 'Georgia';
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  // letter-spacing: -0.004em;
+  // font-size: 17.3px;
+  // line-height: 1.65;
+}
+
+@mixin medium {
+  font-size: 20.3px;
+  line-height: 1.58;
+  font-family: 'mediumBody';
+  letter-spacing: -0.004em;
+}
+
+@mixin lora {
+  font-size: 20px;
+  line-height: 1.58;
+  font-family: 'Lora';
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  word-spacing: -0.008em;
+  // $font-size: 16.85px;
+  // $line-height: 1.7;
+}
+
+@mixin sourceSerif {
+  font-size: 17.4px;
+  line-height: 1.65;
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  // letter-spacing: 0em;
+  letter-spacing: -0.004em;
+}
+
+@mixin lato {
+  font-size: 25.7px;//rem
+  line-height: 0;
+  font-family: Lato;
+  font-weight: 700;
+  letter-spacing: -0.004em;
+}
+
+@mixin georgiaTitle {
+    font-size: 38.5px;
+    line-height: 1.15;
+    $font-family-headings: Georgia;
+    font-weight: 400;
+    //letter-spacing: -0.03em;
+}
+
+@mixin arial {
+  font-size: 24.1px;//rem
+  line-height: 0;
+  font-family: Arial;
+  font-weight: 700;
+  letter-spacing: -0.004em;
+}

@@ -1,23 +1,20 @@
 // Libraries
-// ---------
-@import "lib/lib";
+@import "../../node_modules/normalize.css/normalize";
+@import "../../node_modules/mappy-breakpoints/mappy-breakpoints";
+@import "../../node_modules/typi/scss/typi";
+@import "../../node_modules/modularscale-sass/stylesheets/modular-scale";
 
 // Helpers
-// -------
-@import "helpers/helpers";
+@import "test/fonts";
+@import 'helpers/functions';
+@import 'helpers/mixins';
+@import 'helpers/typography';
+@import 'helpers/links';
 
-// Variables
-// ---------
-@import "variables/colors";
-@import "variables/breakpoints";
-// @import "variables/typography";
-
-// Patterns
-// @import "patterns/typography";
-@import "patterns/typography2";
+@import "variables";
+@import "typography";
 
 // Reset and base files
-// --------------------
 @import "base/reset";
 @import "base/base";
 @import "base/typography";

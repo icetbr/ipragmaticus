@@ -3,9 +3,10 @@
 // .l-wrap {
 main {
   padding: 0 vr(0.9);
-  max-width: vr(28);
+  max-width: vr(22.8);
+  // width: 680px;
   margin: auto;
-  > * { max-width: vr(32) }
+  // > * { max-width: vr(32) }
 
   // @supports (display: grid) {
   //   @include bp(med) {
