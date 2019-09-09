@@ -1,6 +1,6 @@
 @mixin o-words {
-  * + h2 { margin-top: vr(1.1); @include bp(large) { margin-top: vr(1.7); } }
-  * + h3 { margin-top: vr(1.1); }
+  * + h2 { margin-bottom: vr(-0.07); margin-top: vr(1.1); @include bp(large) { margin-bottom: 0; margin-top: vr(1.7); } }
+  * + h3 { margin-bottom: vr(-0.15); margin-top: vr(1); @include bp(large) { margin-bottom: 0; margin-top: vr(1.1); } }
   h2 + p { margin-top: vr(0.25); }
   h3 + p { margin-top: vr(0.4); }
 

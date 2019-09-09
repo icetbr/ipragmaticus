@@ -44,17 +44,19 @@ $font-weights: (
 );
 
 // $ms-ratio: 1.172;
-$ms-ratio: 1.2;
+$ms-ratio: 1.2; // TODO typi-ms
 $typi: (
   // medium: 660 => 18px
   // base: (null: (20.5px, 1.58), small: 17.5px, large: 20.5px),  // null: (19px, 1.4), med: (20px, 1.4), large: 21px, wide: 22px, mega: 25px, ultra: 28px
   base: (null: (17.5px, 1.58), large: 20.5px),  // null: (19px, 1.4), med: (20px, 1.4), large: 21px, wide: 22px, mega: 25px, ultra: 28px
   tsb: (null: ms(1)),
 
-  // tsl1: (null: (ms(4), 1.23)), // h1
   tsl1: (null: (38.5px, 1.23)), // h1
-  tsl2: (null: (ms(2), 1.23)), //h2
-  tsl3: (null: (ms(1), 1.23)), // h3
+  tsl2: (null: (25.5px, 1.23), large: (24.5px, 1.23)), //h2
+  tsl3: (null: (20.3px, 1.23), large: (18.9px, 1.23)), // h3
+  // tsl1: (null: (ms(4), 1.23)), // h1
+  // tsl2: (null: (ms(2), 1.23)), //h2
+  // tsl3: (null: (ms(1), 1.23)), // h3
 
   tss1: (null: (ms(-1), 1.15)), // date
   tss2: (null: (ms(-1), 1.3)),
