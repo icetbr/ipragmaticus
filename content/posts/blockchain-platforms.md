@@ -5,8 +5,6 @@ draft: true
 tags: [ saúde ]
 ---
 
-Yes.
-
 In the beginning of the personal computing revolution, there were dozens of different brands of computers, each with their own competing architecture or OS. Your Apple //e apps did not run on your IBM XT or Commodore Amiga or ColecoVision or TI-99/4A. (Computers had such catchy names, didn’t they?)
 
 The app ecosystem was fractured. Popular applications had to be ported to different platforms. Then, in the late 90s, the web took off as an application platform. By 2010, 80% of American households were using the web.

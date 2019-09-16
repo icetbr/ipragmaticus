@@ -1,9 +1,10 @@
 <article class="c-post l-post">
 
     <h1 class="l-article__header">{{ .c.Title }}</h1>
+    <!-- <span class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}</span> -->
+    <p class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}</p>
 
     <div class="o-words c-post__content l-post__content jsPostContent">
-        <span class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}</span>
         {{ .content }}
         {{/*  {{ if .Truncated }}
             {{ .Summary }}
