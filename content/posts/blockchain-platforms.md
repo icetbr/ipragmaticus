@@ -42,7 +42,7 @@ Currently, most DApps are built with one Blockchain ecosystem in mind, but in th
 
 Instead of optimizing for a single use case of titles and subtitles as in the past, we now check to see if you are using a header at the top of a story (as a title or subtitle) or within the body (as a section or subsection), and style the headings to the size and spacing that complement your stories rather than compete with them.
 
-Today, you can incorporate multiple blockchain protocols using **smart wallets⁴, meta-transactions⁵**, and application node services that delegate requests to whatever chain you need to communicate with.
+Today, you can incorporate multiple blockchain protocols using **smart wallets**⁴, **meta-transactions**⁵, and application node services that delegate requests to whatever chain you need to communicate with.
 
 The future of crypto is a *united, open, cooperative platform* that will form the foundation of the next evolution of the web: The internet of value.
 
