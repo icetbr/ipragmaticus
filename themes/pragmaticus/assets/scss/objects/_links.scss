@@ -5,6 +5,17 @@ $link-background: #b3d8fd;
   text-decoration: none;
 }
 
+@mixin null-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-image: none;
+  }
+}
+
 @mixin o-link--primary_medium {
   @include o-link;
   background-image: linear-gradient(to right,rgba(0, 0, 0, 0.84) 100%,rgba(0, 0, 0, 0.84) 0);

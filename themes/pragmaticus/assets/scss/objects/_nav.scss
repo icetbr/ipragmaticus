@@ -1,4 +1,24 @@
 // TODO: Figure out why loading is jerky
+
+header a {
+    // @include o-link--primary;
+    color:color(mine2);
+    font-variant: all-small-caps;
+    letter-spacing: 0.1em;
+    // & + * { margin-left: vr(0.35); }
+    padding: vr(0.35);
+    // text-decoration: underline;
+}
+
+header .logo {
+  background-image: url('/favicons/favicon-32x32.png');
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  display: inline-block;
+}
+
 @mixin active-link {
   color: var(--theme-color);
 

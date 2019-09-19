@@ -28,7 +28,11 @@
     <body>
         <!-- <div class="c-site-container"> -->
         <header>
-            <h2><a href="{{ "" | relURL }}">{{ .Site.Title }}</a></h2>
+            <!-- <a href="{{ "" | relURL }}">{{ .Site.Title }}</a> -->
+            <!-- <a href="{{ "" | relURL }}"><img src="/favicons/favicon-32x32.png" alt="logo" class='logo'></a> -->
+            <a href="{{ "" | relURL }}" class='logo'></a>
+            <!-- <img src="/favicons/favicon-32x32.png" alt="logo" class='logo'> -->
+            <a href="{{ "" | relURL }}">Home</a>
             <a href="{{ .Site.BaseURL }}archives" >Archives</a>
         </header>
         <main>

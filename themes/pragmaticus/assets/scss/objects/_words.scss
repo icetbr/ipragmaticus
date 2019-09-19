@@ -31,16 +31,21 @@
   }
 
   // Customize link underline position since h2 has bigger text
-  h2 > a {
-    background-position: 0 95%;
-    background-size: 1px 1px;
+  // h2 > a {
+  //   background-position: 0 95%;
+  //   background-size: 1px 1px;
 
-    &:hover,
-    &:active,
-    &:focus {
-      background-size: 1px 1px;
-    }
-  }
+  //   &:hover,
+  //   &:active,
+  //   &:focus {
+  //     background-size: 1px 1px;
+  //   }
+  // }
+}
+
+// TODO o-article?
+h1 > a {
+  @include null-link;
 }
 
 .o-words {
