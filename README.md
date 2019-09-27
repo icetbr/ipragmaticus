@@ -1,8 +1,1 @@
-archetypes: posts templates
-bin: for vscode markdown
-content: posts
-data: configs
-layouts: main theme templates
-public: processed files
-static: static content (images, CSS, JavaScript, etc)
-assets: dynamic content for hugo pipes(scss)
+The source code for http://ipragmaticus.com. For more information on how to use this see https://github.com/icetbr/ipragmaticus

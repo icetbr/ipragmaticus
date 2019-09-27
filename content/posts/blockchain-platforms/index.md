@@ -2,7 +2,7 @@
 title: "Blockchain Platforms: Should I Build on Bitcoin or Ethereum or Cardano or…"
 date: 2019-01-09T20:13:36-02:00
 draft: true
-tags: [ saúde ]
+tags: [ saúde, tecnologia, crypto ]
 ---
 
 In the beginning of the personal computing revolution, there were dozens of different brands of computers, each with their own competing architecture or OS. Your Apple //e apps did not run on your IBM XT or Commodore Amiga or ColecoVision or TI-99/4A. (Computers had such catchy names, didn’t they?)
@@ -10,7 +10,7 @@ In the beginning of the personal computing revolution, there were dozens of diff
 The app ecosystem was fractured. Popular applications had to be ported to different platforms. Then, in the late 90s, the web took off as an application platform. By 2010, 80% of American households were using the web.
 
 Today, we’re busy reinventing the web platform. The web is ubiquitous. Almost every internet-connected person in the world can interact successfully with most popular modern apps on a smartphone.
-
+<!--more-->
 But we’re not done building the web platform. Users want more control over who has access to their data, and everybody seems to want more financial inclusion. Even accredited investors are not satisfied with the current state of finance. They want better options for fundraising and liquidity for their investments. Better portfolio management tools. Better reporting and accountability. Better access to diversified asset classes.
 
 The decentralized web will revolutionize data privacy, financial inclusion, payments, and protocols. With affordable, streaming micropayments, new, self-sustaining, open source, decentralized protocols can emerge, giving everyone the opportunity to earn money and participate using resources they already own.
@@ -31,6 +31,8 @@ There are many others cryptonetworks, each with different trade-offs in security
 So the answer is, use the network that supplies the service you need.
 
 Since most complex apps require many services, you might end up using Ethereum for authentication¹, Bitcoin **anchors** for immutable timestamps², and Cardano for complex and cost-critical smart contracts³.
+
+{{< img src="dech.jpg" caption="Screenshot of the Onion homepage" >}}
 
 > AND, not OR.
 

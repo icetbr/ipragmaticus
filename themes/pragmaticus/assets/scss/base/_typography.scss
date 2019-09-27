@@ -33,6 +33,7 @@ a {
 
 strong {
   @include fw('sans', 600);
+  @include typi('tsb1');
 }
 
 em {

@@ -22,12 +22,13 @@ $breakpoints: (
   // 'medium': 728px,
   'small': 400px,
   'med': 640px,
-  'large': 900px,
+  'large': 700px,
   'wide': 1100px,
   'mega': 1800px,
   'ultra': 2800px,
 );
 
+//-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 $font-families: (
   display: (Georgia, "Bitstream Charter", "URW Bookman L", serif), // h1
   text: (Arial, sans-serif), // h2
@@ -51,6 +52,7 @@ $typi: (
   // base: (null: (20.5px, 1.58), small: 17.5px, large: 20.5px),  // null: (19px, 1.4), med: (20px, 1.4), large: 21px, wide: 22px, mega: 25px, ultra: 28px
   base: (null: (17.5px, 1.58), large: 20.5px),  // null: (19px, 1.4), med: (20px, 1.4), large: 21px, wide: 22px, mega: 25px, ultra: 28px
   tsb: (null: ms(1)),
+  tsb1: (null: 17px),
 
   tsl1: (null: (38.5px, 1.23)), // h1
   tsl2: (null: (25.5px, 1.23), large: (24.5px, 1.23)), //h2

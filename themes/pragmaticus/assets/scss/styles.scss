@@ -5,11 +5,12 @@
 @import "../../node_modules/modularscale-sass/stylesheets/modular-scale";
 
 // Helpers
-@import "test/fonts";
+// @import "test/fonts";
 @import 'helpers/functions';
 @import 'helpers/mixins';
 @import 'helpers/typography';
 @import 'helpers/links';
+@import 'overlay';
 
 @import "variables";
 @import "typography";
@@ -30,15 +31,6 @@
 // Repeatable objects across the site
 @import "objects/links";
 @import "objects/words";
-// @import "objects/input";
-// @import "objects/buttons";
-// @import "objects/loader";
-// @import "objects/featured";
-// @import "objects/text-tab";
-// @import "objects/book";
-// @import "objects/course";
-// @import "objects/lib";
-// @import "objects/zell";
 @import "objects/nav";
 
 // Components

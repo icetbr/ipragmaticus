@@ -38,6 +38,12 @@
   // font-feature-settings: 'liga' 1, 'smcp' 1;
 }
 
+@mixin tp-nav {
+  color:color(mine2);
+  font-variant: all-small-caps;
+  letter-spacing: 0.1em;
+}
+
 @mixin arial {
   font-size: 24.1px;//rem
   line-height: 0;

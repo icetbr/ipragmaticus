@@ -1,5 +1,13 @@
 .l-post__content {
-  @include l-article__text;
+  > figure {
+    position: relative;
+
+    figcaption {
+      margin-top: vr(0.375);
+      padding-left: vr(0.25);
+      border-left: 3px solid #ccc;
+    }
+  }
   margin-top: vr(1.25);
   // @include bp(mega) { margin-top: vr(2); }
 

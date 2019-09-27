@@ -4,18 +4,19 @@
 name = "Pragmaticus"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+description = "Medium inspired, using only web-safe fonts"
 homepage = "http://example.com/"
-tags = []
-features = []
+tags = ["readability", "fast", "minimal", "medium", "blog", "responsive", "seo"]
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "iPragmaticus"
+  homepage = "http://ipragmaticus.com"
 
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.br]
+    languageName = "Português"
+    weight = 2

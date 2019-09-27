@@ -22,21 +22,19 @@
 
     {{ range .Paginator.Pages }}
 
-        {{ partial "main.html" (dict "c" . "content" .Summary) }}
-
-        <a href="{{ .Permalink }}" class="post-read-more">continuar lendo...</a>
+        {{ partial "main.html" (dict "c" . "content" .Summary "isList" true) }}
 
     {{ end }}
 
     <nav class="pagination">
         {{ if .Paginator.HasPrev }}
-            <a href="{{ .Paginator.Prev.URL }}">&larr; anterior</a>
+            <a href="{{ .Paginator.Prev.URL }}">&larr; {{ T "previous" }}</a>
         {{ end }}
 
         <a href="#">top</a>
 
         {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}">próximo &rarr;</a>
+            <a href="{{ .Paginator.Next.URL }}">{{T "next"}} &rarr;</a>
         {{ end }}
     </nav>
 

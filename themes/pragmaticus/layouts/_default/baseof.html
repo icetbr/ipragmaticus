@@ -5,6 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,minimum-scale=1">
 
+        {{ template "_internal/schema.html" . }}
+        {{ template "_internal/opengraph.html" . }}
+        {{ template "_internal/twitter_cards.html" . }}
+
         <!-- <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" media="all" /> -->
 
         <!-- Favicons -->
@@ -26,20 +30,15 @@
     </head>
 
     <body>
-        <!-- <div class="c-site-container"> -->
         <header>
-            <!-- <a href="{{ "" | relURL }}">{{ .Site.Title }}</a> -->
-            <!-- <a href="{{ "" | relURL }}"><img src="/favicons/favicon-32x32.png" alt="logo" class='logo'></a> -->
-            <a href="{{ "" | relURL }}" class='logo'></a>
-            <!-- <img src="/favicons/favicon-32x32.png" alt="logo" class='logo'> -->
-            <a href="{{ "" | relURL }}">Home</a>
-            <a href="{{ .Site.BaseURL }}archives" >Archives</a>
+            <nav class="primary-nav">
+                <a href="{{ "" | relURL }}" class="logo"><img src="/favicons/favicon-32x32.png" alt="logo" class='logo'></a>
+                <a href="{{ "" | relURL }}" class="o-navlink">Home</a>
+                <a href="{{ .Site.BaseURL }}archives" class="o-navlink">Archives</a>
+            </nav>
         </header>
         <main>
-            <!-- <div class="l-wrap"> -->
             {{- block "main" . }}{{- end }}
-            <!-- </div> -->
         </main>
-        <!-- </div> -->
     </body>
 </html>

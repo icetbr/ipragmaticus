@@ -1,22 +1,29 @@
 // TODO: Figure out why loading is jerky
 
+.o-navlink+* {
+
+}
+
 header a {
     // @include o-link--primary;
-    color:color(mine2);
-    font-variant: all-small-caps;
-    letter-spacing: 0.1em;
+  @include tp-nav;
     // & + * { margin-left: vr(0.35); }
-    padding: vr(0.35);
+    // padding: vr(0.35) 0 0 vr(0.35);
     // text-decoration: underline;
 }
 
-header .logo {
-  background-image: url('/favicons/favicon-32x32.png');
-  width: 32px;
-  height: 32px;
-  padding: 5px;
+header a .logo {
+  width: 28px;
+  height: 28px;
+  top: -1px;
+  padding: 4px;
   border: 1px solid #ccc;
-  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-right: 2px;
+  @include bp(large) {
+    top: 3px;
+  }
 }
 
 @mixin active-link {
@@ -38,6 +45,10 @@ header .logo {
 }
 
 .o-navlink {
+   & + * { margin-left: vr(0.35); }
+}
+
+.o-navlink2 {
   display: inline-block;
   position: relative;
   @include tp-sans;
@@ -77,4 +88,34 @@ header .logo {
   color: rgba(color(w), 0.9);
   @include tp-sans;
   text-align: center;
+}
+
+.tag {
+  margin-bottom: 8px;
+  margin-right: 8px;
+  display: inline-block;
+  font-family: Arial;
+
+  a {
+    font-size: 15px;
+    line-height: 22px;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+    display: block;
+
+    &:hover {
+      background: rgba(0, 0, 0, .07);
+    }
+  }
+}
+
+hr {
+    border-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }

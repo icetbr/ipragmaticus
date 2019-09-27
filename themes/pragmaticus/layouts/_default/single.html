@@ -9,9 +9,9 @@
 
 {{ define "main" }}
 
-    {{ partial "main.html" (dict "c" . "content" .Content) }}
+    {{ partial "main.html" (dict "c" . "content" .Content "isList" false) }}
 
-    <nav class="pagination">
+    <!-- <nav class="pagination">
         {{ if .PrevInSection }}
             <a href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}">&larr; anterior</a>
         {{ end }}
@@ -21,6 +21,6 @@
         {{ if .NextInSection }}
             <a href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">próximo &rarr;</a>
         {{ end }}
-    </nav>
+    </nav> -->
 
 {{ end }}

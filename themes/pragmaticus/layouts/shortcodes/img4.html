@@ -1,0 +1,38 @@
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+{{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
+
+{{ $tinyw := default "400x" }}
+{{ $smallw := default "900x" }}
+{{ $mediumw := default "1300x" }}
+
+{{/* resize the src image to the given sizes */}}
+
+{{ $tiny := $src.Resize $tinyw }}
+{{ $small := $src.Resize $smallw }}
+{{ $medium := $src.Resize $mediumw }}
+
+{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
+{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+
+{{ $img := imageConfig ($src.RelPermalink | printf "content/%s" ) }}
+
+<img
+  {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 1300px, 100vw"{{ end }}
+  srcset='
+  {{ if ge $src.Width "400" }}
+    {{ with $tiny.RelPermalink }}{{.}} 400w{{ end }}
+  {{ end }}
+  {{ if ge $src.Width "900" }}
+    {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
+  {{ end }}
+  {{ if ge $src.Width "1300" }}
+    {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
+  {{ end }}'
+  {{ if .Get $medium }}
+    src="{{ $medium.RelPermalink }}"
+  {{ else }}
+    src="{{ $src.RelPermalink }}"
+  {{ end }}
+  {{ with .Get "alt" }}alt='{{.}}'{{ end }}>
