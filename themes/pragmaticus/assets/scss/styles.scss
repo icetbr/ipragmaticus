@@ -6,49 +6,26 @@
 
 // Helpers
 // @import "test/fonts";
+// @import 'test/overlay';
+
 @import 'helpers/functions';
 @import 'helpers/mixins';
 @import 'helpers/typography';
-@import 'helpers/links';
-@import 'overlay';
 
 @import "variables";
 @import "typography";
 
-// Reset and base files
 @import "base/reset";
 @import "base/base";
+
+// more modifiable files
 @import "base/typography";
-
-// Layouts
-// -------
-@import "layouts/layouts";
-@import "layouts/wrap";
-@import "layouts/article";
-
-// Objects
-// -------
-// Repeatable objects across the site
+@import "layouts";
 @import "objects/links";
 @import "objects/words";
 @import "objects/nav";
-
-// Components
-// ----------
-// For individual, isolated components
-// @import "components/form";
-@import "components/main-nav";
-@import "components/about";
-@import "components/post";
-@import "components/comments";
-@import "components/pagination";
-// @import "components/ck/index";
-@import "components/footer";
-@import "components/modal";
-@import "components/offsite";
-@import "components/prism";
-@import "components/home";
-
+@import "objects/post";
+// @import "objects/prism";
 // Utils
 // -----
 @import "utils";

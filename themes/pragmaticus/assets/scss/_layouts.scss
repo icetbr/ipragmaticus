@@ -1,0 +1,34 @@
+:root {
+  --theme-color: #{color(radred)};
+}
+
+header {
+  padding: vr(0.5) vr(0.9) 0;
+  max-width: vr(22.8);
+  margin: auto;
+  text-align: right;
+  position: relative;
+  padding-bottom: vr(0.5);
+}
+
+main {
+  padding: 0 vr(0.9);
+  max-width: vr(22.8);
+  margin: auto;
+}
+
+@mixin l-article__text {
+  > figure {
+    position: relative;
+
+    figcaption {
+      margin-top: vr(0.375);
+      padding-left: vr(0.25);
+      border-left: 3px solid #ccc;
+    }
+  }
+}
+
+.c-comments {
+  margin-top: vr(1.5);
+}

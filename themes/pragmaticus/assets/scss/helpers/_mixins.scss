@@ -168,3 +168,14 @@
     border-color: transparent $triangle-color transparent transparent;
   }
 }
+
+@mixin null-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-image: none;
+  }
+}

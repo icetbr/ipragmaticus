@@ -14,8 +14,12 @@ This theme is meant to be as clean from clutter as possible, zen-habits style. I
 
 Seo was inspired by yoast.com's tips, but basically using Hugo's internal defaults whenever possible.
 
+If you simpathyze with any of my motivations and want to discuss some ideas, I'd be glad to talk.
 
 ## Efficent Workflow: How to use this theme to create a blog
+
+## TODOS
+- cleanup the scss
 
 ## Deploying
 - enable postcss
