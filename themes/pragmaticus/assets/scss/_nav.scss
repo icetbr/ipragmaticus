@@ -16,19 +16,22 @@ header a {
   }
 }
 
+.o-navlink {
+   & + * { margin-left: vr(0.35); }
+}
+
 .tag {
+  @include tp-tag;
   margin-bottom: 8px;
   margin-right: 8px;
   display: inline-block;
-  @include ff('text');
 
   a {
-    @include typi('tss1');
     background: rgba(0, 0, 0, 0.05);
     padding: 5px 10px;
     border-radius: 3px;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.54);
+    color: color(lighter-black);
     display: block;
 
     &:hover {

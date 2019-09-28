@@ -4,82 +4,26 @@
 @import "../../node_modules/typi/scss/typi";
 @import "../../node_modules/modularscale-sass/stylesheets/modular-scale";
 
-// Helpers
 // @import "test/fonts";
 // @import 'test/overlay';
 
-@import 'helpers/functions';
-@import 'helpers/mixins';
-@import 'helpers/typography';
-
+@import 'helpers';
 @import "variables";
 @import "typography";
-
 @import "base/reset";
 @import "base/base";
 
 // more modifiable files
 @import "base/typography";
 @import "layouts";
-@import "objects/links";
-@import "objects/words";
-@import "objects/nav";
-@import "objects/post";
+@import "words";
+@import "nav";
 // @import "objects/prism";
-// Utils
-// -----
-@import "utils";
-
-// Shame
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-
-  figcaption {
-    margin-top: vr(0.25);
-  }
-}
 
 .youtube {
   width: 100%;
   border: 0;
   height: vr(17.5);
-}
-
-.home-page main {
-  margin-top: 0;
-}
-
-.home-page .c-footer {
-  margin-top: 0;
-}
-
-.c-footer__nav {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: vr(0.75);
-
-  // Nav headers
-  li > span {
-    @include tp-sans2;
-    font-weight: 600;
-    color: #333;
-  }
-
-  // Separator betwene header and content
-  span + ol {
-    margin-top: vr(0.25);
-  }
-
-  li li {
-    line-height: 1.2;
-  }
-
-  li li a {
-    @include tp-sans2;
-    font-weight: 400;
-  }
 }
 
 // Find a way to style tables properly...

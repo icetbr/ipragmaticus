@@ -1,0 +1,73 @@
+@function color($color, $map: $colors) {
+  @return map-get($map, $color);
+}
+
+@function map-fetch($map, $keys) {
+  $key: nth($keys, 1);
+  $length: length($keys);
+  $value: map-get($map, $key);
+  @if $length > 1 {
+    $rest: ();
+    @for $i from 2 through $length {
+      $rest: append($rest, nth($keys, $i));
+    }
+    @return map-fetch($value, $rest);
+  } @else {
+    @return $value;
+  }
+}
+
+@mixin bp($queries, $type: all, $query-fallback: null, $breakpoints: $breakpoints) {
+  @include mappy-bp($queries, $type, $query-fallback, $breakpoints) {
+    @content;
+  }
+}
+
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+@function contains($list, $var) {
+  @return index($list, $var);
+}
+
+@mixin fw($family, $weight, $map: $font-weights) {
+  $weights: map-fetch($map, $family);
+  $w: contains($weights, $weight);
+  @if ($w) {
+    font-weight: $weight;
+  } @else {
+    @error "$weight '#{$weight}' was not found in $font-weights: #{$family}.";
+  }
+}
+
+@mixin ff($family, $map: $font-families) {
+  font-family: map-get($map, $family);
+}
+
+@mixin wrap-words {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+@mixin null-link {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-image: none;
+  }
+}
+
+@mixin link-underline {
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.84) 100%,rgba(0, 0, 0, 0.84) 0);
+  background-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="0" x2="1" y2="1" stroke="rgba(0, 0, 0, 0.84)" /></svg>');
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position: 0 1.05em;
+  background-position: 0 calc(1em + 1px);
+}

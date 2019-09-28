@@ -3,8 +3,8 @@
 @include typi-init;
 
 html {
-  @include tp-sans;
-  color: color(mine);
+  @include tp-text;
+  color: color(black);
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga' 1;
   -webkit-font-smoothing: antialiased;
@@ -15,16 +15,16 @@ body {
 }
 
 h1 {
-  @include tp-display;
+  @include tp-h1;
   color: inherit;
 }
 
 h2 {
-  @include tp-text2;
+  @include tp-h2;
 }
 
 h3 {
-  @include tp-condensed1;
+  @include tp-h3;
 }
 
 a {
@@ -33,8 +33,7 @@ a {
 }
 
 strong {
-  @include fw('sans', 600);
-  @include typi('tsb1');
+  @include tp-strong;
 }
 
 em {
@@ -48,7 +47,7 @@ code {
 
 pre {
   @include wrap-words;
-  background-color: color(mine);
+  background-color: color(black);
   white-space: pre-wrap;
 
   code {
@@ -59,10 +58,10 @@ pre {
 blockquote {
   padding-left: vr(0.5);
   border-left: vr(0.175) solid var(--theme-color);
-  @include tp-text--italic;
+  @include tp-blockquote;
 
   > cite {
-    @include tp-condensed2;
+    @include tp-date;
     display: block;
     margin-top: vr(0.125);
     color: var(--theme-color);
@@ -72,5 +71,5 @@ blockquote {
 }
 
 figcaption {
-  @include tp-sans2;
+  @include tp-caption;
 }

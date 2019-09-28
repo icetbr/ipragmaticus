@@ -1,81 +1,64 @@
-// h1
-@mixin tp-display {
-  @include typi('tsl1');
-  @include ff('display');
-  @include fw(display, 400);
-  color: color('mine2');
-}
-
-// text
-@mixin tp-sans {
-  @include ff('sans');
-  @include fw('sans', 400);
+@mixin tp-text {
+  @include ff(text);
+  @include fw(text, 400);
   letter-spacing: -0.004em;
 }
 
-// h2
-@mixin tp-text2 {
-  @include typi('tsl2');
-  @include ff('text');
-  @include fw(text, 700);
-  color: color('mine2');
+@mixin tp-h1 {
+  @include typi(tsl1);
+  @include ff(text);
+  @include fw(text, 400);
+  color: color(black);
+}
+
+@mixin tp-h2 {
+  @include typi(tsl2);
+  @include ff(header);
+  @include fw(header, 700);
+  color: color(black);
   letter-spacing: -0.01em;
 }
 
-// h3
-@mixin tp-condensed1 {
-  @include typi('tsl3');
-  @include ff('text');
-  @include fw(text, 700);
-  color: color('mine2');
+@mixin tp-h3 {
+  @include typi(tsl3);
+  @include ff(header);
+  @include fw(header, 700);
+  color: color(black);
   letter-spacing: -0.01em;
-  // @include arial2();
-  // color: var(--theme-color);
-  // @include typi('tsl4');
-  // @include ff('condensed');
-  // @include fw('condensed', 600);
-  // letter-spacing: 0.005em;
-  // font-feature-settings: 'liga' 1, 'smcp' 1;
 }
 
-// menus
 @mixin tp-nav {
-  color:color(mine2);
+  color:color(black);
   font-variant: all-small-caps;
   letter-spacing: 0.1em;
 }
 
-@mixin arial {
-  font-size: 24.1px;//rem
-  line-height: 0;
-  font-family: Arial;
-  font-weight: 700;
-  letter-spacing: -0.004em;
-}
-@mixin arial2 {
-  @include arial();
-  font-size: 20px;//rem
+@mixin tp-tag {
+  @include ff(header);
+  @include typi(tss1);
 }
 
-// blockquote
-@mixin tp-text--italic {
-  @include ff('text');
-  @include fw('text', 400);
+@mixin tp-strong {
+  @include fw(text, 600);
+  @include typi(tsb);
+}
+
+@mixin tp-blockquote {
+  @include ff(header);
+  @include fw(header, 400);
   font-style: italic;
 }
 
-// figcaption
-@mixin tp-sans2 {
-  color: color(monsoon);
-  @include typi('tss2');
-  @include fw('sans', 400);
+@mixin tp-caption {
+  color: color(lighter-black);
+  @include typi(tss2);
+  @include fw(text, 400);
 }
 
-// date
-@mixin tp-condensed2 {
-  color: color(monsoon);
-  @include typi('tss1');
-  @include ff('condensed');
+@mixin tp-date {
+  color: color(lighter-black);
+  @include typi(tss1);
+  @include ff(header);
   letter-spacing: -0.01em;
   font-feature-settings: 'liga' 1, 'smcp' 1;
 }
@@ -86,10 +69,10 @@
   padding: 0 0.5em;
   border: 1px solid #ccc;
   background-color: color(alabaster);
-  color: color(mine);
-  @include typi('tss3');
-  @include ff('code');
-  @include fw('code', 400);
+  color: color(black);
+  @include typi(tss3);
+  @include ff(code);
+  @include fw(code, 400);
   font-feature-settings: 'liga' 0;
 
   &:first-child {
@@ -103,9 +86,9 @@
 
 @mixin tp-code--pre {
   display: block;
-  @include typi('tss4');
-  @include ff('code');
-  @include fw('code', 400);
+  @include typi(tss4);
+  @include ff(code);
+  @include fw(code, 400);
   margin: 0;
   padding: vr(0.5) vr(0.75);
   border: 0;

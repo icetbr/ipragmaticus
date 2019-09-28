@@ -1,65 +1,39 @@
 $colors: (
-  w: #fff,
-  alabaster: #fafafa,
   gallery: #eee,
-  aluminium: #999,
-  monsoon: rgba(0, 0, 0, 0.54),
-  // mine: #343434,
-  // mine: rgba(0, 0, 0, 0.84),
-  // mine: rgba(0, 0, 0, 0.7), //GEORGIA
-  mine: rgba(0, 0, 0, 0.75), //GEORGIA
-  mine2: rgba(0, 0, 0, 0.84), //GEORGIA
+  alabaster: #fafafa,
   radred: #fd256e,
-  neonblue: #428bca,
-  // neonblue: #4453f1,
-  picton: #39B1FF,
-  malachite: #12c766,
-  geebung: #d28c14,
+
   link: #326891,
+  black: rgba(0, 0, 0, 0.84),
+  light-black: rgba(0, 0, 0, 0.75),
+  lighter-black: rgba(0, 0, 0, 0.54),
 );
 
 $breakpoints: (
-  // 'medium': 728px,
-  'small': 400px,
-  'med': 640px,
   'large': 700px,
-  'wide': 1100px,
-  'mega': 1800px,
-  'ultra': 2800px,
 );
 
-//-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 $font-families: (
-  display: (Georgia, "Bitstream Charter", "URW Bookman L", serif), // h1
-  text: (Arial, sans-serif), // h2
-  condensed: (Arial, sans-serif), // date
-  sans: (Georgia, "Bitstream Charter", "URW Bookman L", serif), // text
+  text: (Georgia, "Bitstream Charter", "URW Bookman L", serif), // h1
+  header: (-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif),
   code: (Consolas, monaco, monospace)
 );
 
 $font-weights: (
-  display: 400,
-  text: (400, 700),
-  sans: (400, 600), // uses 700
-  condensed: (500, 600),
+  text: (400, 600), // uses 700
+  header: (400, 700),
   code: (400)
 );
 
 // $ms-ratio: 1.172;
 $ms-ratio: 1.2; // TODO typi-ms
 $typi: (
-  // medium: 660 => 18px
-  // base: (null: (20.5px, 1.58), small: 17.5px, large: 20.5px),  // null: (19px, 1.4), med: (20px, 1.4), large: 21px, wide: 22px, mega: 25px, ultra: 28px
-  base: (null: (17.5px, 1.58), large: 20.5px),  // null: (19px, 1.4), med: (20px, 1.4), large: 21px, wide: 22px, mega: 25px, ultra: 28px
-  tsb: (null: ms(1)),
-  tsb1: (null: 17px),
+  base: (null: (17.5px, 1.58), large: 20.5px),
+  tsb: (null: 17px),
 
   tsl1: (null: (38.5px, 1.23)), // h1
   tsl2: (null: (25.5px, 1.23), large: (24.5px, 1.23)), //h2
   tsl3: (null: (20.3px, 1.23), large: (18.9px, 1.23)), // h3
-  // tsl1: (null: (ms(4), 1.23)), // h1
-  // tsl2: (null: (ms(2), 1.23)), //h2
-  // tsl3: (null: (ms(1), 1.23)), // h3
 
   tss1: (null: (ms(-2), 1.58)), // date
   tss2: (null: (ms(-1), 1.3)),

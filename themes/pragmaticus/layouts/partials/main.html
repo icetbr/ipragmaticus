@@ -3,7 +3,7 @@
     <h1 class="l-article__header"><a href="{{ .c.Permalink }}">{{ .c.Title }}</a></h1>
     <p class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}</p>
 
-    <div class="o-words c-post__content l-post__content jsPostContent">
+    <div class="o-words l-post__content jsPostContent">
         {{ .content }}
         {{ if .isList }}
             <p><a href="{{ .c.Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a></p>
