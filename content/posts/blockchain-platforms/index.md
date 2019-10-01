@@ -1,6 +1,7 @@
 ---
 title: "Blockchain Platforms: Should I Build on Bitcoin or Ethereum or Cardano or…"
 date: 2019-01-09T20:13:36-02:00
+updated: 2019-02-09T20:13:36-02:00
 draft: true
 tags: [ saúde, tecnologia, crypto, categoria1, categoria2 ]
 ---
