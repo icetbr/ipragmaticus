@@ -51,8 +51,9 @@
 
 @mixin tp-caption {
   color: color(lighter-black);
-  @include typi(tss2);
-  @include fw(text, 400);
+  @include typi(tss3);
+  @include ff(header);
+  @include fw(header, 400);
 }
 
 @mixin tp-date {

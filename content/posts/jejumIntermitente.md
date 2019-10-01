@@ -9,7 +9,7 @@ tags: [ saúde ]
 
 
 Segue um resumo de dezenas de artigos que li na internet. O assunto é extenso e eu não tenho nenhuma qualificação profissional na área, utilize este guia como referência para suas pesquisas.
-
+<!--more-->
 Jejum: não comer nada por um certo tempo
 - tipicamente associado com o período entre a janta e o café da manhã
 

@@ -1,16 +1,25 @@
 <article class="c-post l-post">
 
+    <div class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}</div>
     <h1 class="l-article__header"><a href="{{ .c.Permalink }}">{{ .c.Title }}</a></h1>
-    <p class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}</p>
+    <!-- <p class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}</p> -->
 
     <div class="o-words l-post__content jsPostContent">
         {{ .content }}
         {{ if .isList }}
-            <p><a href="{{ .c.Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a></p>
+        {{/*  <p><a href="{{ .c.Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a></p>*/}}
         {{ end }}
     </div>
 
-    {{ partial "tags.html" .c }}
+    <footer>
+        {{ partial "tags.html" .c }}
+
+        {{ if not .isList }}
+            {{ partial "share.html" .c }}
+        {{end}}
+
+        <hr />
+    </footer>
 
 </article>
 

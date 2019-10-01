@@ -17,18 +17,15 @@ main {
   margin: auto;
 }
 
-@mixin l-article__text {
-  > figure {
-    position: relative;
-
-    figcaption {
-      margin-top: vr(0.375);
-      padding-left: vr(0.25);
-      border-left: 3px solid #ccc;
-    }
-  }
-}
-
 .c-comments {
   margin-top: vr(1.5);
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }

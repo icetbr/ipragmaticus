@@ -1,3 +1,6 @@
+ssh -R pragmaticus:80:127.0.0.1:1313 serveo.net
+hugo server -D --liveReloadPort=443 --baseURL=https://pragmaticus.serveo.net --appendPort=false
+
 A readability focused, fast and minimal medium inspired Hugo blog theme.
 
 I like Medium's focus on community and readability, but it's commenting system is atrocious, and the popups very annoying. Plus I want to keep my content as simple text (markdown) at my own computer, so I can do whatever I want with it with greater flexibility.
@@ -49,3 +52,5 @@ It is, in short, a resource cache. I put it in the project (by default, there is
   - the first one needs to be the larger
 - click on image opens empty html page with srcset
   - needs to hit back button
+- BOTH solutions need 2 images, that can be selective loaded
+- choosing simple approach for now, just load one image

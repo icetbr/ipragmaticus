@@ -1,0 +1,13 @@
+{{ $alt := .Get "caption" }}
+{{ with $.Page.Resources.GetMatch (.Get "src") }}
+  <figure>
+    <a href="{{ (.Resize "1300x q50").RelPermalink }}">
+      <img
+        width="{{ .Width }}"
+        srcset="{{ (.Resize "900x q50").RelPermalink }} 900w,
+                {{ (.Resize "1300x q50").RelPermalink }} 1300w"
+        src="{{ (.Resize "1300x q50").RelPermalink }}" alt="{{ $alt }}"/>
+    </a>
+    <figcaption><p>{{ $alt }}</p></figcaption>
+  </figure>
+{{ end }}

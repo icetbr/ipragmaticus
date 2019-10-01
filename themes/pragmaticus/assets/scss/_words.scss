@@ -28,7 +28,6 @@
   h2 + p { margin-top: vr(0.35); }
   h3 + p { margin-top: vr(0.4); }
 
-  // lists
   ul li { list-style-type: disc }
   ol li { list-style-type: decimal; }
   li + li { margin-top: vr(0.3) }
@@ -39,7 +38,6 @@
     font-feature-settings: 'liga' 1, 'lnum' 1;
   }
 
-  // image
   figure > img {
     border: 1px solid #ccc;
   }
@@ -49,22 +47,13 @@
     margin-bottom: vr(1);
   }
 
-  // links
   a {
     @include o-link--primary;
   }
 
-  // Customize link underline position since h2 has bigger text
-  // h2 > a {
-  //   background-position: 0 95%;
-  //   background-size: 1px 1px;
-
-  //   &:hover,
-  //   &:active,
-  //   &:focus {
-  //     background-size: 1px 1px;
-  //   }
-  // }
+  a.image-link {
+    background: none;
+  }
 }
 
 .o-words {
@@ -80,9 +69,9 @@
     position: relative;
 
     figcaption {
-      margin-top: vr(0.375);
-      padding-left: vr(0.25);
-      border-left: 3px solid #ccc;
+      // margin-top: vr(0.375);
+      margin-top: vr(-0.175);
+      text-align: center;
     }
   }
   margin-top: vr(1.25);
@@ -90,4 +79,5 @@
 
 .c-post__date {
   @include tp-date;
+  transform: translateY(16px);
 }
