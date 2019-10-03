@@ -28,13 +28,13 @@
 
     <nav class="pagination">
         {{ if .Paginator.HasPrev }}
-            <a href="{{ .Paginator.Prev.URL }}">&larr; {{ T "previous" }}</a>
+            <a href="{{ .Paginator.Prev.URL }}" class="previous">&larr; {{ T "previous" }}</a>
         {{ end }}
 
-        <a href="#">top</a>
+        <!-- <a href="#">top</a> -->
 
         {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}">{{T "next"}} &rarr;</a>
+            <a href="{{ .Paginator.Next.URL }}" class="next">{{T "next"}} &rarr;</a>
         {{ end }}
     </nav>
 

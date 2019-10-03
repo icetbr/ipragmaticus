@@ -9,7 +9,7 @@
   @include ff(text);
   @include fw(text, 400);
   color: color(black);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.0067em;
 }
 
 @mixin tp-h2 {
@@ -63,6 +63,7 @@
   @include ff(header);
   letter-spacing: -0.01em;
   font-feature-settings: 'liga' 1, 'smcp' 1;
+  text-transform: uppercase;
 }
 
 @mixin tp-code {

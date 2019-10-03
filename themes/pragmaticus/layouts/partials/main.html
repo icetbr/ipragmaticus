@@ -1,11 +1,9 @@
 <article class="c-post l-post">
 
-    <!-- <div class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}</div> -->
     <h1 class="l-article__header"><a href="{{ .c.Permalink }}">{{ .c.Title }}</a></h1>
-    <!-- <p class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }} updated {{ .c.Page.Lastmod.Format "Jan 2, 2006" }}</p> -->
-    <p class="c-post__date l-post__date"><strike>{{ .c.Date.Format "Jan 2, 2006" }}</strike> {{ .c.Page.Lastmod.Format "Jan 2, 2006" }}</p>
+    <p class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}{{ if ne .c.Page.Lastmod .c.Page.Date }} <span class="updated">{{ T "updated" }}</span> <span class="updatedDate">{{ .c.Page.Lastmod.Format "Jan 2, 2006" }}</span>{{end}}</p>
 
-    <div class="o-words l-post__content jsPostContent">
+    <div class="o-words l-post__content">
         {{ .content }}
         {{ if .isList }}
         {{/*  <p><a href="{{ .c.Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a></p>*/}}
@@ -16,7 +14,7 @@
         {{ partial "tags.html" .c }}
 
         {{ if not .isList }}
-            {{ partial "share.html" .c }}
+            {{ partial "share2.html" .c }}
         {{end}}
 
         <hr />

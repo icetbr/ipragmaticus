@@ -19,7 +19,7 @@ html {
 // It's quite hard to control
 * + * {
   margin-top: vr(0.75);
-  @include bp(large) { margin-top: vr(1); }
+  @include bp(large) { margin-top: vr(0.95); }
 }
 
 div,

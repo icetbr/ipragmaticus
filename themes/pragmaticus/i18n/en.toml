@@ -4,3 +4,5 @@ other = "read more"
 other = "next"
 [previous]
 other = "previous"
+[updated]
+other = "updated"

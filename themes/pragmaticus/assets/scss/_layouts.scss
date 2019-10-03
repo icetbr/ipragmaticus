@@ -3,8 +3,9 @@
 }
 
 header {
-  padding: vr(0.5) vr(0.9) 0;
-  max-width: vr(22.8);
+  padding: vr(0.5) vr(0.847) 0;
+  @include bp(large) { padding: vr(0.5) vr(0.9) 0 }
+  max-width: vr(22.274);
   margin: auto;
   text-align: right;
   position: relative;
@@ -12,9 +13,11 @@ header {
 }
 
 main {
-  padding: 0 vr(0.9);
-  max-width: vr(22.8);
+  padding: 0 vr(0.847);
+  @include bp(large) { padding: 0 vr(0.9); }
+  max-width: vr(22.274);
   margin: auto;
+  margin-top: vr(1.5);
 }
 
 .c-comments {
