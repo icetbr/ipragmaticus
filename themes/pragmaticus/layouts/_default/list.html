@@ -1,7 +1,5 @@
 {{ define "head" -}}
 
-    <meta name="description" content="{{ .Site.Params.Description }}" />
-
     {{/* https://yoast.com/pagination-seo-best-practices/ */}}
     {{- if .Paginator.HasPrev }}
         <title>{{ $.Site.Title }} - Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</title>
@@ -19,7 +17,9 @@
 {{ end }}
 
 {{ define "main" }}
-
+    <!-- {{ if ne .Page.Title $.Site.Title}}
+        <h2 class="pageTitle">{{.Page.Title}}</h2>
+    {{ end}} -->
     {{ range .Paginator.Pages }}
 
         {{ partial "main.html" (dict "c" . "content" .Summary "isList" true) }}

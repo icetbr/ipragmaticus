@@ -4,6 +4,7 @@ date: 2019-01-09T20:13:36-02:00
 lastmod: 2019-02-09T20:13:36-02:00
 draft: true
 tags: [ saúde, tecnologia, crypto, categoria1, categoria2 ]
+images: [dech.jpg]
 ---
 
 In the beginning of the personal computing revolution, there were dozens of different brands of computers, each with their own competing architecture or OS. Your Apple //e apps did not run on your IBM XT or Commodore Amiga or ColecoVision or TI-99/4A. (Computers had such catchy names, didn’t they?)

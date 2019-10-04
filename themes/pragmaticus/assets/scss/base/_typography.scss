@@ -28,8 +28,8 @@ h3 {
 }
 
 a {
-  @include null-link;
-  // text-decoration: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 strong {
@@ -57,7 +57,7 @@ pre {
 
 blockquote {
   padding-left: vr(0.5);
-  border-left: vr(0.175) solid var(--theme-color);
+  // border-left: vr(0.175) solid var(--theme-color);
   @include tp-blockquote;
 
   > cite {

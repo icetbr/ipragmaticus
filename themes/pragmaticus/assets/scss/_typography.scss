@@ -44,9 +44,16 @@
   @include typi(tsb);
 }
 
+// @mixin tp-blockquote {
+//   @include ff(header);
+//   @include fw(header, 400);
+//   font-style: italic;
+// }
+
 @mixin tp-blockquote {
-  @include ff(header);
-  @include fw(header, 400);
+  // @include ff(header);
+  // @include fw(header, 400);
+  color: color(lighter-black);
   font-style: italic;
 }
 

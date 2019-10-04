@@ -1,3 +1,8 @@
-title = "iPragmaticus"
 theme = "pragmaticus"
+googleAnalytics = "UA-44411050-1"
 
+[params]
+# TODO add subtitle
+title = "iPragmaticus"
+description = "Text about my cool site"
+images = ["site-feature-image.jpg"]

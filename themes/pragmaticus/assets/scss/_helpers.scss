@@ -71,3 +71,9 @@
   background-position: 0 1.05em;
   background-position: 0 calc(1em + 1px);
 }
+
+@mixin o-link--primary {
+  @include null-link;
+  @include link-underline;
+  color: color(link);
+}

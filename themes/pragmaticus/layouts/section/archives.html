@@ -7,42 +7,36 @@
 
 {{ define "main" }}
 
-    {{ range .Site.Taxonomies.tags }}
-    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
-    {{ end }}
+    <div class="o-archives l-post__content">
 
+        <h3>Tags</h3>
+        <ul class="tags">
+            {{ range .Site.Taxonomies.tags.ByCount }}
+               <li class="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+            {{- end -}}
+        </ul>
 
-                    <span class="tags">
-                        {{- range $index, $key:= .Site.Taxonomies.tags -}}
-                        {{- if $index -}}, {{ end }}
-                        <a href="/tags/{{$key | urlize }}/">{{ $key }}</a>
-                        {{- end -}}
-                    </span>
+        <ul>
+            {{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
 
-                            <article class="c-post l-post">
-<div class="o-archives l-post__content">
-    <p>&nbsp;</p>
-    <ul>
-        {{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+                <li><h3>{{ .Key }}</h3>
+                    <ul>
+                        {{- range .Pages }}
 
-            <li><h3>{{ .Key }}</h3>
-                <ul>
-                    {{- range .Pages }}
+                            <li>
+                                <span class="c-post__date">{{ .Date.Format "Jan 02" }}</span>
 
-                        <li>
-                            <span class="c-post__date">{{ .Date.Format "Jan 02" }}</span>
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
 
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            </li>
 
-                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
 
-                    {{ end }}
-                </ul>
-            </li>
+            {{ end }}
+        </ul>
+    </div>
 
-        {{ end }}
-    </ul>
-</div>
-
-</article>
+    <hr />
 {{ end }}
