@@ -1,22 +1,52 @@
 ---
-title: "Jejum Intermitente"
-date: 2019-01-09T20:13:36-02:00
-draft: true
+title: Jejum Intermitente
 tags: [ saúde ]
 ---
 
-<!-- - nao tente exagerar, muito tempo muit orapido! -->
+**Jejum**: não comer nada por um certo tempo
+  - tipicamente associado com o período entre a janta e o café da manhã
 
+**Jejum intermitente**: pular certas refeições
+  - basicamente restringir o período de alimentação a pequeno espaço de horas no dia
+  - não é uma dieta, é um padrão de alimentação
+  - se você não diminuir as calorias consumidas, não vai perder peso
+
+
+
+<!--more-->
+
+Restrição calórica:
+
+- em 10mil palavras ou menos
+- distilando o essencial
+- simplifique sua vida e perca peso
+- um resumo e minha experiencia
+- só o essencial
+- guia basico
+- minhas anotações
+- alguns fatos
+- variações populares
+- benefícios
+- dificuldades
+- como começar
+- dicas
+- sugestões de leitura
+- minha experiência
+
+
+- **Jejum**: não comer nada por um certo tempo
+  - tipicamente associado com o período entre a janta e o café da manhã
+- **Jejum intermitente**: pular certas refeições
+  - basicamente restringir o período de alimentação a pequeno espaço de horas no dia
+  - não é uma dieta, é um padrão de alimentação
+  - se você não diminuir as calorias consumidas, não vai perder peso
+
+********
+Cobras! Não acaricie elas!
+
+- onde eu tento desmistificar o modismo, forneço uma base essencial e resumida para o entendimento do assunto e forneço referências para se aprofundar
 
 Segue um resumo de dezenas de artigos que li na internet. O assunto é extenso e eu não tenho nenhuma qualificação profissional na área, utilize este guia como referência para suas pesquisas.
-<!--more-->
-Jejum: não comer nada por um certo tempo
-- tipicamente associado com o período entre a janta e o café da manhã
-
-Jejum intermitente: pular certas refeições
-- basicamente restringir o período de alimentação a pequeno espaço de horas no dia
-- não é uma dieta, é um padrão de alimentação
-  - se você não diminuir as calorias consumidas, não vai perder peso
 
 ## Alguns fatos
 - praticado desde o início da história da humanidade, quando os nossos antepassados caçadores chegavam a ficar dias comer caçando por comida
@@ -94,7 +124,7 @@ Jejum intermitente: pular certas refeições
 - alterne entre variações de acordo com seu objetivo. Tem gordura sobrando e quer fazer desaparecer? Use temporariamente uma variação mais avançada
 - crie um calendário alimentar. Nem que seja por curiosidade, p/ saber quantas horas de jejum você fez ao longos dos dias
 - famosos que seguem o protocolo[1]: Juliana Paes, Deborah Secco
-
+<!-- - nao tente exagerar, muito tempo muit orapido! -->
 
 ## Sugestão de leitura
 - apenas vi por cima sites brasileiros, seguem uns que parecem mais completos

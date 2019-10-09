@@ -17,7 +17,8 @@ header a {
 }
 
 .o-navlink {
-   & + * { margin-left: vr(0.35); }
+   & + * { margin-left: vr(0.15); }
+  //  & + * { margin-left: vr(0.35); }
 }
 
 .tag {

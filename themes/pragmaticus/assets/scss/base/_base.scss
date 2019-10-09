@@ -22,6 +22,10 @@ html {
   @include bp(large) { margin-top: vr(0.95); }
 }
 
+strong + * {
+  margin-top: 0;
+}
+
 div,
 section,
 span,

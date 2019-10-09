@@ -1,7 +1,6 @@
 $colors: (
   gallery: #eee,
   alabaster: #fafafa,
-  radred: #fd256e,
 
   red: #c52b03,
   link: #326891,
@@ -17,6 +16,7 @@ $breakpoints: (
 
 $font-families: (
   text: (Georgia, "Bitstream Charter", "URW Bookman L", serif), // h1
+  // text: ("Source Sans Pro", sans-serif), // h1
   header: (-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif),
   code: (Consolas, monaco, monospace)
 );

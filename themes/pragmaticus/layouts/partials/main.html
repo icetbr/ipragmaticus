@@ -1,24 +1,30 @@
 <article class="c-post l-post">
 
     <h1 class="l-article__header"><a href="{{ .c.Permalink }}">{{ .c.Title }}</a></h1>
-    <p class="c-post__date l-post__date">{{ .c.Date.Format "Jan 2, 2006" }}{{ if ne .c.Page.Lastmod .c.Page.Date }} <span class="updated">{{ T "updated" }}</span> <span class="updatedDate">{{ .c.Page.Lastmod.Format "Jan 2, 2006" }}</span>{{end}}</p>
+    <p class="c-post__date l-post__date">
+        {{ .c.Date.Format "Jan 2, 2006" }}
+        {{ if ne .c.Page.Lastmod .c.Page.Date }}
+            <span class="updated">{{ T "updated" }}</span> <span class="updatedDate">{{ .c.Page.Lastmod.Format "Jan 2, 2006" }}</span>
+        {{end}}
+    </p>
 
     <div class="o-words l-post__content">
         {{ .content }}
-        {{ if .isList }}
-        {{/*  <p><a href="{{ .c.Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a></p>*/}}
-        {{ end }}
     </div>
 
-    <footer>
-        {{ partial "tags.html" .c }}
+    {{ if ne .c.Title "About" }}
+        <footer>
+            {{ partial "tags.html" .c }}
 
-        {{ if not .isList }}
-            {{ partial "share2.html" .c }}
-        {{end}}
+            {{ if not .isList }}
+                {{ partial "share2.html" .c }}
+            {{end}}
 
-        <hr />
-    </footer>
+            <hr />
+        </footer>
+    {{else}}
+        <p></p>
+    {{end}}
 
 </article>
 

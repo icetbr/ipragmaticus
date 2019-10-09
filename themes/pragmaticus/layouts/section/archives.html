@@ -16,27 +16,22 @@
             {{- end -}}
         </ul>
 
-        <ul>
-            {{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+        {{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
 
-                <li><h3>{{ .Key }}</h3>
-                    <ul>
-                        {{- range .Pages }}
+            <h3>{{ .Key }}</h3>
+            <ul>
+                {{- range .Pages }}
 
-                            <li>
-                                <span class="c-post__date">{{ .Date.Format "Jan 02" }}</span>
+                    <li>
+                        <span class="c-post__date">{{ .Date.Format "Jan 02" }}</span>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
 
-                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ end }}
+            </ul>
 
-                            </li>
-
-                        {{ end }}
-                    </ul>
-                </li>
-
-            {{ end }}
-        </ul>
+        {{ end }}
     </div>
 
-    <hr />
+    <p></p>
 {{ end }}
