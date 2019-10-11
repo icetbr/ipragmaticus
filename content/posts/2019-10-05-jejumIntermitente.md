@@ -4,6 +4,48 @@ tags: [ saúde ]
 ---
 
 **Jejum**: não comer nada por um certo tempo
+  - Exemplo: janta, jejum, café da manhã, jejum, almoço
+
+**Jejum intermitente (JI)**: alternar entre jejum e comer
+  - Exemplo: janta, jejum, jejum, jejum, almoço
+  - **foco** na freqüência de consumo das calorias
+
+**Dieta normal**: consumir menos calorias ao longo do dia
+  - Exemplo: janta - 10%, jejum, café da manhã - 10%, jejum, almoço -10%
+  - **foco** na quantidade de calorias
+  - por normal entende-se restrição calórica
+
+Pular o café da manhã.
+
+Acho que essa é a definição mais simples de jejum intermitente. Mais especificamente, restringir o período de alimentação à um pequeno espaço de horas no dia. Por exemplo, coma o que quiser entre 12hs e 20hs e nada no resto do dia. Tomar água, chá ou café no período de jejum ajuda a curvar a fome.
+
+Jejum intermitente não é uma dieta, é um padrão de alimentação. Ele não sugere o que comer, mas quando comer. Ele facilita o consumo de menos calorias, mas se não dd..
+
+- seguir JI facilita comer menos, mas tende  comer menos, mas
+
+**Jejum**: não comer nada por um certo tempo
+  - Exemplo: o período entre a janta e o café da manhã
+
+**Jejum intermitente**: alternar entre jejum e comer
+  - Exemplo: comer quantas vezes quiser, mas apenas entre 12hs e 20hs
+
+
+
+ pular certas refeições
+  - basicamente restringir o período de alimentação à um pequeno espaço de horas no dia
+  - não é uma dieta, é um padrão de alimentação
+  - se você não diminuir as calorias consumidas, não vai perder peso
+  - **foco** na freqüência de consumo das calorias
+
+**Restrição calórica**: comer normalmente, mas em menores quantidades
+  - forma mais comum de dieta
+  - **foco** na quantidade de calorias
+
+pular certas refeições
+comer apenas numa pequena janela de tempo
+
+
+**Jejum**: não comer nada por um certo tempo
   - tipicamente associado com o período entre a janta e o café da manhã
 
 **Jejum intermitente**: pular certas refeições
@@ -37,6 +79,7 @@ tags: [ saúde ]
 - sugestões de leitura
 - minha experiência
 
+DISCLAIMER: por vavor, corrija este artigo! Eu não sou uma autoridade no assunto, correções são bvem vindas
 
 **Jejum**: não comer nada por um certo tempo. Tipicamente associado com o período entre a janta e o café da manhã.
 
