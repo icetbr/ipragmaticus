@@ -1,5 +1,5 @@
 ---
-title: Jejum Intermitente
+title: "Jejum Intermitente, um Guia Básico"
 tags: [ saúde ]
 ---
 
@@ -7,15 +7,17 @@ tags: [ saúde ]
   - tipicamente associado com o período entre a janta e o café da manhã
 
 **Jejum intermitente**: pular certas refeições
-  - basicamente restringir o período de alimentação a pequeno espaço de horas no dia
+  - basicamente restringir o período de alimentação à um pequeno espaço de horas no dia
   - não é uma dieta, é um padrão de alimentação
   - se você não diminuir as calorias consumidas, não vai perder peso
+  - **foco** na freqüência de consumo das calorias
 
-
+**Restrição calórica**: comer normalmente, mas em menores quantidades
+  - forma mais comum de dieta
+  - **foco** na quantidade de calorias
 
 <!--more-->
 
-Restrição calórica:
 
 - em 10mil palavras ou menos
 - distilando o essencial
@@ -23,7 +25,9 @@ Restrição calórica:
 - um resumo e minha experiencia
 - só o essencial
 - guia basico
+- referência rapida
 - minhas anotações
+
 - alguns fatos
 - variações populares
 - benefícios
@@ -34,12 +38,9 @@ Restrição calórica:
 - minha experiência
 
 
-- **Jejum**: não comer nada por um certo tempo
-  - tipicamente associado com o período entre a janta e o café da manhã
-- **Jejum intermitente**: pular certas refeições
-  - basicamente restringir o período de alimentação a pequeno espaço de horas no dia
-  - não é uma dieta, é um padrão de alimentação
-  - se você não diminuir as calorias consumidas, não vai perder peso
+**Jejum**: não comer nada por um certo tempo. Tipicamente associado com o período entre a janta e o café da manhã.
+
+**Jejum intermitente**: pular certas refeições. Basicamente restringir o período de alimentação a pequeno espaço de horas no dia. Não é uma dieta, é um padrão de alimentação. Se você não diminuir as calorias consumidas, não vai perder peso
 
 ********
 Cobras! Não acaricie elas!

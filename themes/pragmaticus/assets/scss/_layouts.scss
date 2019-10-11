@@ -37,8 +37,11 @@ header {
 
 h2 + p, h2 + ul { margin-top: vr(0.35); }
 h3 + p, h3 + ul { margin-top: vr(0.4); }
-li + li { margin-top: vr(0.3) }
+p + ul { margin-top: vr(0.3) }
+ul li { margin-top: vr(0.3) }
 // p + ul { margin-top: 0 }
+// ul li { margin-top: 0 }
+li + li { margin-top: vr(0.3) }
 
 hr {
   margin-top: vr(1);

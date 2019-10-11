@@ -9,13 +9,27 @@
     position: absolute;
     margin-left: -1rem;
   }
+}
+
+@mixin lists1 {
+
+  ul li ul li, p + ul li {
+    list-style-type: none;
+  }
+
+  ul li ul li:before, p + ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -1rem;
+  }
 
 }
 
 @mixin o-words {
   li {
+    // margin-left: 1.4rem;
+    // margin-left: 1.2rem;
     margin-left: 1.4rem;
-    margin-left: 1.2rem;
     list-style-position: outside;
     font-feature-settings: 'liga' 1, 'lnum' 1;
   }
