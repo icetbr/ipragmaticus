@@ -3,6 +3,20 @@ title: "Jejum Intermitente, um Guia Básico"
 tags: [ saúde ]
 ---
 
+Pular o café da manhã.
+
+Acho que essa é a definição mais simples de jejum intermitente. Mais especificamente, restringir o período de alimentação à um pequeno espaço de horas no dia. Por exemplo, coma o que quiser entre 12hs e 20hs e nada no resto do dia. Quando menor esse intervalo melhor. Tomar água, chá ou café no período de jejum ajuda a combater a fome.
+
+<!--more-->
+
+Jejum intermitente não é uma dieta, é um padrão de alimentação. Ele não sugere o que comer, mas quando comer. Ele facilita o consumo de menos calorias, mas se você comer mais calorias do que precisa, irá ganha peso mesmo assim.
+
+
+Este artigo contém apenas informações básicas sobre o assunto, com a intenção atiçar a curiosidade do leitor.
+
+
+## Definições
+
 **Jejum**: não comer nada por um certo tempo
   - Exemplo: janta, jejum, café da manhã, jejum, almoço
 
@@ -10,66 +24,12 @@ tags: [ saúde ]
   - Exemplo: janta, jejum, jejum, jejum, almoço
   - **foco** na freqüência de consumo das calorias
 
-**Dieta normal**: consumir menos calorias ao longo do dia
+**Dieta comum**: consumir menos calorias ao longo do dia
   - Exemplo: janta - 10%, jejum, café da manhã - 10%, jejum, almoço -10%
   - **foco** na quantidade de calorias
-  - por normal entende-se restrição calórica
 
-Pular o café da manhã.
-
-Acho que essa é a definição mais simples de jejum intermitente. Mais especificamente, restringir o período de alimentação à um pequeno espaço de horas no dia. Por exemplo, coma o que quiser entre 12hs e 20hs e nada no resto do dia. Tomar água, chá ou café no período de jejum ajuda a curvar a fome.
-
-Jejum intermitente não é uma dieta, é um padrão de alimentação. Ele não sugere o que comer, mas quando comer. Ele facilita o consumo de menos calorias, mas se não dd..
-
-- seguir JI facilita comer menos, mas tende  comer menos, mas
-
-**Jejum**: não comer nada por um certo tempo
-  - Exemplo: o período entre a janta e o café da manhã
-
-**Jejum intermitente**: alternar entre jejum e comer
-  - Exemplo: comer quantas vezes quiser, mas apenas entre 12hs e 20hs
-
-
-
- pular certas refeições
-  - basicamente restringir o período de alimentação à um pequeno espaço de horas no dia
-  - não é uma dieta, é um padrão de alimentação
-  - se você não diminuir as calorias consumidas, não vai perder peso
-  - **foco** na freqüência de consumo das calorias
-
-**Restrição calórica**: comer normalmente, mas em menores quantidades
-  - forma mais comum de dieta
-  - **foco** na quantidade de calorias
-
-pular certas refeições
-comer apenas numa pequena janela de tempo
-
-
-**Jejum**: não comer nada por um certo tempo
-  - tipicamente associado com o período entre a janta e o café da manhã
-
-**Jejum intermitente**: pular certas refeições
-  - basicamente restringir o período de alimentação à um pequeno espaço de horas no dia
-  - não é uma dieta, é um padrão de alimentação
-  - se você não diminuir as calorias consumidas, não vai perder peso
-  - **foco** na freqüência de consumo das calorias
-
-**Restrição calórica**: comer normalmente, mas em menores quantidades
-  - forma mais comum de dieta
-  - **foco** na quantidade de calorias
-
-<!--more-->
-
-
-- em 10mil palavras ou menos
-- distilando o essencial
-- simplifique sua vida e perca peso
-- um resumo e minha experiencia
-- só o essencial
-- guia basico
-- referência rapida
-- minhas anotações
-
+<!--
+IMAGE
 - alguns fatos
 - variações populares
 - benefícios
@@ -79,61 +39,72 @@ comer apenas numa pequena janela de tempo
 - sugestões de leitura
 - minha experiência
 
-DISCLAIMER: por vavor, corrija este artigo! Eu não sou uma autoridade no assunto, correções são bvem vindas
+ALT 1
 
+**Jejum intermitente**: pular certas refeições
+  - basicamente restringir o período de alimentação à um pequeno espaço de horas no dia
+  - não é uma dieta, é um padrão de alimentação
+  - se você não diminuir as calorias consumidas, não vai perder peso
+  - **foco** na freqüência de consumo das calorias
+
+ALT 2
 **Jejum**: não comer nada por um certo tempo. Tipicamente associado com o período entre a janta e o café da manhã.
 
 **Jejum intermitente**: pular certas refeições. Basicamente restringir o período de alimentação a pequeno espaço de horas no dia. Não é uma dieta, é um padrão de alimentação. Se você não diminuir as calorias consumidas, não vai perder peso
 
-********
-Cobras! Não acaricie elas!
-
 - onde eu tento desmistificar o modismo, forneço uma base essencial e resumida para o entendimento do assunto e forneço referências para se aprofundar
 
-Segue um resumo de dezenas de artigos que li na internet. O assunto é extenso e eu não tenho nenhuma qualificação profissional na área, utilize este guia como referência para suas pesquisas.
+- Segue um resumo de dezenas de artigos que li na internet. O assunto é extenso e eu não tenho nenhuma qualificação profissional na área, utilize este guia como referência para suas pesquisas.
 
-## Alguns fatos
-- praticado desde o início da história da humanidade, quando os nossos antepassados caçadores chegavam a ficar dias comer caçando por comida
-  - nós evoluimos para ser capazes de ficar sem comida por extensos períodos de tempo
-- diferente de passar fome em um aspecto crucial: você escolhe não comer, enquanto passar fome é involuntário
-   - você pode começar e parar o seu jejum quando quiser
-   - pode durar horas, como entre a janta e o café da manhã (algo como 12 horas), mas também pode durar dias ou até mesmo semanas
-   - tem pessoas malucas no youtube. Um ex ranger americando tentou perder 10mil calorias de estomago vazio. Alcançou 5mil. Mas o que isso mostra é que não se perde músculo por não comer, e dependendo da intensidade, atividade fisica nao é afetada.
-- usado regularmente por certas religiões
-- ajuda a comer menos calorias e a queimar mais rapido. Estudos mostram que há menos perda muscular do que restrição calorica
+  - por normal entende-se restrição calórica
+
+Titulos
+- em 10mil palavras ou menos
+- distilando o essencial
+- simplifique sua vida e perca peso
+- um resumo e minha experiencia
+- só o essencial
+- guia basico
+- referência rapida
+- minhas anotações
+-->
 
 ## Variações populares
 - protocolo 16/8: comer quantas vezes quiser durante 8 horas no dia
   - basicamente, pular o café da manhã. Mas pode ser qualquer horário
-  - variação mais popular
   - alguns seguem 16/6 ou 16/4
 - protocolo 24 (5:2): uma ou duas vezes por semana (não consecutivos), ficar 24 horas sem comer
   - terminou a janta as 20hs, só janta novamente as 20hs do dia seguinte
   - variação: comer apenas 500/600 calorias nesses dias
 
 ## Benefícios
-- facilita a restrição calórica se o objetivo for emagrecer
+- ajuda a comer menos calorias
   - tendência a comer menos quando se faz menos refeições ao dia, ainda que um pouco a mais por refeição
-- é fácil de seguir e manter
+- queima gordura mais rápido
+  - o corpo fica mais adaptável a consumir gordura como energia
+- aumenta a sensitividade a insulina
+  - previne diabetes e ajuda na perda de peso
+- há menos perda muscular do que uma dieta comum
+  - é difícil perder peso sem perder nada de músculo, mas jejum intermitente ajuda a conservar mais massa muscular
+- aumenta a secreção do hormônio de crescimento (HGH)
+  - ajuda a ganhar músculos
+- é mais fácil de seguir e manter
   - menos preocupação com o que você come ou contagem de calorias, você simplesmente estará comendo menos
+- autofagia: durante o jejum, as células entram em processo de reparo celular
+  - é necessário períodos longos para entrar em ação, alguns dizem que 12 horas é o bastante, outros 3-4 dias
 - simplifica seu dia
-  - uma decisão a menos do que comer (por que você não é do tipo que como o que quer que esteja a alcance do seu braço)
+  - uma decisão a menos do que comer (por que você não é do tipo que come o que quer que esteja a alcance do seu braço)
   - menos louça para lavar (que você certamente não ia deixar para sua mãe ou esposa)
   - menos tempo comprando e preparando comida (sem dúvida você compra e prepara sua comida)
   - menos dinheiro gasto num restaurante (naquelas raras ocasiões que você deixa de preparar sua refeição)
-  - menos preocupação em comer saudável a cada refeição (difícil fazer uma refeição descente no meio do trabalho)
+  - menos preocupação em comer saudável a cada refeição (pois é difícil fazer uma refeição descente no meio do trabalho)
   - menos tempo comendo (que você obviamente irá usar para ler livros ou aprender uma nova habilidade)
   - menos escovação de dentes (você escova os dente após as refeições, não?)
-- aumenta a sensitividade a insulina
-  - ajuda na perda de peso
-- aumenta a secreção do hormônio de crescimento (HGH)
-  - ajuda a ganhar músculos
-- autofagia: durante o jejum, as células entram em processo de reparo celular
 - PODE ajudar seu cérebro, combatendo condições como Parkinson, Alzheimer e demência
 - PODE aumentar seu tempo de vida
 - PODE melhorar seu coração
-- pior cenário: nada de especial vai acontecer (se vocês seguir o protocolo adequadamente)
-  - a maioria dos estudos negativos tem achado que essa "dieta" não apresenta nenhuma vantagem sobre simples restrição calórica
+- **pior cenário**: nada de especial vai acontecer (se você seguir o protocolo adequadamente)
+  - a maioria dos estudos negativos tem achado que essa "dieta" não apresenta nenhuma vantagem sobre dietas comuns
 
 ## Dificuldades
 - leva tempo para se acostumar
@@ -144,41 +115,58 @@ Segue um resumo de dezenas de artigos que li na internet. O assunto é extenso e
   - não exagere nas outras refeições só por que você pulou uma
 - achar que tudo está liberado
   - se você comer só chocolate durante suas 8 horas, mas as calorias forem controladas, você não ganhará peso
-  - mas sua saúde será afetada. Comer saudável continua a ser importante.
+  - mas sua saúde será afetada. Comer saudável continua a ser importante
 - NÃO É PARA QUALQUER UM
-  - pessoas com problemas com açúcar, hipoglicemia, diabetes, etc., devem tomar precauções especiais.
-  - mulheres também. A perda de peso pode afetar a menstrução, não é bom para grávidas, dentre outras preocupações.
-- nota: eu já li um bocado sobre os possíveis problemas da dieta, tanto que geraria um outro artigo. Em resumo, quanto menos radical o protocolo seguido, mais seguro. E usar de vez em quando é seguro também. Tem pessoas que seguem protocolos extremanente rídidos a décadas e nunca tiveram problemas
-- você vai experenciarfome. Se você gosta de comer e não ve beneficios em se privar disso, pdoe não ser p/ vc
+  - pessoas com problemas com açúcar, hipoglicemia, diabetes, etc., devem tomar precauções especiais
+  - mulheres também. A perda de peso pode afetar a menstrução, não é bom para grávidas, dentre outras preocupações
+- quanto menos radical o protocolo seguido, mais seguro
+  - usar de vez em quando é seguro também
+  - tem pessoas que seguem protocolos extremanente rídidos a décadas e nunca tiveram problemas
+- você vai experenciar fome
+  - se você gosta de comer e não ve beneficios em se privar disso, pdoe não ser para você
 
 ## Como começar
-- Leia mais sobre o assunto
-- Consulte um médico especialista no assunto, apesar de poder ser difícil encontrar um no Brasil.
-- Comece pequeno. Pule o café da manhã por alguns dias, coma um pouco a mais nas outras refeições. Veja como se sente.
-- Tome bastante água! Se sentir fome, tome água, ou então café (sem açúcar) ou chá.
-  - precisa ter gordura!
+- leia mais sobre o assunto
+- consulte um médico especialista no assunto
+   - difícil encontrar um no Brasil
+- comece aos poucos
+  - pule o café da manhã por alguns dias, coma um pouco a mais nas outras refeições e veja como se sente
+- se sentir fome tome bastante água, café (sem açúcar) ou chá
 
 ## Dicas
-- fazer exercícios em jejum acelera ainda mais a queima de caloria e não interfere com ganho de músculos
-- não se apegue muito as regras. Coma café da manhã uma vez ou outra se quiser. Você pode não obter 100% dos benefícios, 80% é melhor que nada.
+- fazer exercícios em jejum acelera ainda mais a queima de gordura
+  - não interfere com ganho de músculos
+  - não afeta desempenho
+- não se apegue muito as regras
+  - coma café da manhã uma vez ou outra se quiser
+  - você pode não obter 100% dos benefícios, 80% é melhor que nada
 - escute seu corpo
   - se você se sentir muito mal, coma
   - se fazendo exercício e sentir mal, pare
   - é normal passar por um LEVE desconforto enquanto o corpo se acostuma
-- alterne entre variações de acordo com seu objetivo. Tem gordura sobrando e quer fazer desaparecer? Use temporariamente uma variação mais avançada
-- crie um calendário alimentar. Nem que seja por curiosidade, p/ saber quantas horas de jejum você fez ao longos dos dias
-- famosos que seguem o protocolo[1]: Juliana Paes, Deborah Secco
-<!-- - nao tente exagerar, muito tempo muit orapido! -->
+- alterne entre variações de acordo com seu objetivo
+  - tem gordura sobrando e quer fazer desaparecer? Use temporariamente uma variação mais avançada
+- crie um calendário alimentar
+  - nem que seja por curiosidade, p/ saber quantas horas de jejum você fez ao longos dos dias
+- famosos que seguem o protocolo: [Juliana Paes, Deborah Secco][1]
+
+## Curiosidades
+- praticado desde o início da história da humanidade, quando os nossos antepassados caçadores chegavam a ficar dias sem comer, caçando por comida
+  - nós evoluimos para ser capazes de ficar sem comida por extensos períodos de tempo
+- diferente de passar fome em um aspecto crucial: você escolhe não comer, enquanto passar fome é involuntário
+   - você pode começar e parar o seu jejum quando quiser
+   - pode durar horas, como entre a janta e o café da manhã (algo como 12 horas), mas também pode durar dias ou até mesmo semanas
+- usado regularmente por certas religiões
+- um ex ranger americando tentou perder [10 mil calorias de estomago vazio][2]. Alcançou 5 mil.
 
 ## Sugestão de leitura
 - apenas vi por cima sites brasileiros, seguem uns que parecem mais completos
   - https://emagrecendo.info/emagrecer-de-vez/jejum-intermitente/
   - http://jejumintermitente.net.br/
-- este explica da forma mais clara possível que só existe uma, e apenas uma, maneira de se perder peso: déficit calórico.
+- este explica da forma mais clara possível que só existe uma maneira de se perder peso: déficit calórico
   - What I mean is, any diet that actually causes you to lose fat did so because it caused you to create a caloric deficit. That’s a fact. There is literally NOTHING else that could possibly make it happen. This is the most basic proven science of the human body. Calories in vs calories out (aka the law of thermodynamics) is ALWAYS the basis for fat loss (or gain).
   - https://www.aworkoutroutine.com/how-to-lose-fat/
 
-[1][https://www.terra.com.br/diversao/gente/purepeople/nutricionista-de-juliana-paes-explica-jejum-intermitente-nao-e-uma-dieta,6f108ff16154c93b44f8fdb1272c36fe97u2576q.html]
 
 ### Referências
 - https://www.nerdfitness.com/blog/a-beginners-guide-to-intermittent-fasting/
@@ -188,6 +176,8 @@ Segue um resumo de dezenas de artigos que li na internet. O assunto é extenso e
 - https://www.healthline.com/nutrition/alternate-day-fasting-guide
 - https://www.dietdoctor.com/intermittent-fasting
 
+[1]: https://www.terra.com.br/diversao/gente/purepeople/nutricionista-de-juliana-paes-explica-jejum-intermitente-nao-e-uma-dieta,6f108ff16154c93b44f8fdb1272c36fe97u2576q.html
+[2]: https://www.youtube.com/watch?v=jaH5FJnKYqY
 
 ### Minha experiência
 - 01/01: 16hs parei de comer
