@@ -1,45 +1,33 @@
 //@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora:400,500,600|Playfair+Display:400,500,600,700i,900|Montserrat:400,500,600,700,800,900');
-//@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=block');
+// @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap&subset=latin-ext');
+// @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700&display=swap&subset=latin-ext');
+// @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap&subset=latin-ext');
+// @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap&subset=latin-ext');
 
-/* latin-ext */
+// $fontFamily: local('Georgia'), local('Bitstream Charter'), local('PT Serif'), local('PTSerif-Regular');
+
 @font-face {
-  font-family: 'Lora';
-  font-style: italic;
+  font-family: CharterBT;
   font-weight: 400;
-  font-display: block;
-  src: local('Georgia'), local('Bitstream Charter'), local('URW Bookman L'), local('Lora Italic'), local('Lora-Italic'), url(https://fonts.gstatic.com/s/lora/v14/0QIhMX1D_JOuMw_LL_tLp_A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lora';
-  font-style: italic;
-  font-weight: 700;
-  font-display: block;
-  src: local('Georgia'), local('Bitstream Charter'), local('URW Bookman L'), local('Lora Bold Italic'), local('Lora-BoldItalic'), url(https://fonts.gstatic.com/s/lora/v14/0QIiMX1D_JOuMw_Dmt5eltGry70.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: local('Georgia'), local('Bitstream Charter'), local('URW Bookman L'), local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v14/0QIvMX1D_JOuMwT7I-NP.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 700;
-  font-display: block;
-  src: local('Georgia'), local('Bitstream Charter'), local('URW Bookman L'), local('Lora Bold'), local('Lora-Bold'), url(https://fonts.gstatic.com/s/lora/v14/0QIgMX1D_JOuO7HeNtJumsmv.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap;
+  src: url('/fonts/subset-CharterBT-Roman.woff2') format('woff2'),
+       url('/fonts/subset-CharterBT-Roman.woff') format('woff');
 }
 
 @font-face {
-  font-family: 'Lora';
-  src: url(https://fonts.gstatic.com/s/lora/v14/0QIvMX1D_JOuMwT7I-NP.woff2) format('woff2');
+  font-family: CharterBT;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/subset-CharterBT-Bold.woff2') format('woff2'),
+       url('/fonts/subset-CharterBT-Bold.woff') format('woff');
 }
+
+// @font-face {
+//   font-family: 'Lora2';
+//   src: url(https://fonts.gstatic.com/s/lora/v14/0QIvMX1D_JOuMwT7I-NP.woff2) format('woff2');
+// }
+
+// @font-face {
+//   font-family: Georgia;
+//   src: local('Georgia'), url(../fonts/CharterBT-Roman.otf) format('opentype');
+// }
