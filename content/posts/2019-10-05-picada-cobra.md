@@ -1,9 +1,7 @@
 ---
-title: "Três Passos em Caso de Picada de Cobra Venenosa"
+title: "3 Passos em Caso de Picada de Cobra Venenosa"
 tags: [ saúde ]
 ---
-
-> Em caso de dúvida, trate toda picada como sendo venenosa
 
   1. procure o serviço de emergência
   2. desacelere a propagação do veneno
@@ -11,8 +9,10 @@ tags: [ saúde ]
 
 <!--more-->
 
+> Em caso de dúvida, trate toda picada como sendo venenosa
+
 ## 1. Procure o serviço de emergência
-- **o mais importante é chegar no hospital o mais rápido possível**
+- o mais importante é **chegar no hospital o mais rápido possível**
 - **ligue para o serviço** e peça se você deve esperar uma ambulância no local ou pode encontrá-los no caminho
   - ligar é importante também para deixar a equipe de médicos preparados com antiveneno quando você chegar
 - **evite dirigir** se você estiver sozinho. Você pode se sentir bem agora, mas isso pode mudar rapidamente
@@ -22,8 +22,8 @@ tags: [ saúde ]
   - não apoie seu peso sobre a perna
   - não segure nada com o braço, nem o force em uma posição não natural, deixe-o solto
 - **não entre em pânico**, não corra nem acelere seu passo
-   - a maioria das picadas de cobra bão injetam veneno o suficiente para ser perigoso [9]
-   - os efeitos da picada podem levam horas e as vezes dias para aparecer [9]
+   - a maioria das picadas de cobra bão injetam veneno o suficiente para ser perigoso [^9]
+   - os efeitos da picada podem levam horas e as vezes dias para aparecer [^9]
 - **deite no chão** ou sente com as costas apoiadas e evite movimento, em especial do membro picado
   - idealmente a vítima deve ser carregada/dirigida até o hospital
 - mantenha o membro em **posição neutra**, na altura ou abaixo do coração
@@ -140,10 +140,12 @@ A principal recomendação que varia de acordo com a região diz respeito a apli
 [6] http://onpeopleandsnakes.blogspot.com/2017/06/i-snake-bite-first-aid-who-guidelines.html
 [7] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5066967/
 [8] https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/coral-snake
-[9] https://www.iamat.org/blog/prevention-of-snake-bite-in-travellers/
+[^9]:https://www.iamat.org/blog/prevention-of-snake-bite-in-travellers/
 
 
-<!-- - Eu não tenho nenhuma qualificação profissional na área
+[//]: # "a"
+<!--
+- Eu não tenho nenhuma qualificação profissional na área
 - Este é meu resumo de várias fontes que li na internet
 - Utilize este guia como referência para suas pesquisas
 - Leia os comentários para ver se alguém fez alguma objeção a algo que escrevi
@@ -158,8 +160,6 @@ nao cobrir o local
 - carry victim?
 - lay down and wait vs drive?
 - run to car? Walk to car?
-
-
 
 
 

@@ -96,7 +96,7 @@ Titulos
   - uma decisão a menos do que comer (por que você não é do tipo que come o que quer que esteja a alcance do seu braço)
   - menos louça para lavar (que você certamente não ia deixar para sua mãe ou esposa)
   - menos tempo comprando e preparando comida (sem dúvida você compra e prepara sua comida)
-  - menos dinheiro gasto num restaurante (naquelas raras ocasiões que você deixa de preparar sua refeição)
+  - menos dinheiro gasto em restaurantes (naquelas raras ocasiões que você deixa de preparar sua refeição)
   - menos preocupação em comer saudável a cada refeição (pois é difícil fazer uma refeição descente no meio do trabalho)
   - menos tempo comendo (que você obviamente irá usar para ler livros ou aprender uma nova habilidade)
   - menos escovação de dentes (você escova os dente após as refeições, não?)
@@ -115,20 +115,19 @@ Titulos
   - não exagere nas outras refeições só por que você pulou uma
 - achar que tudo está liberado
   - se você comer só chocolate durante suas 8 horas, mas as calorias forem controladas, você não ganhará peso
-  - mas sua saúde será afetada. Comer saudável continua a ser importante
+  - mas sua saúde será afetada. Comer saudável continua sendo importante
 - NÃO É PARA QUALQUER UM
   - pessoas com problemas com açúcar, hipoglicemia, diabetes, etc., devem tomar precauções especiais
   - mulheres também. A perda de peso pode afetar a menstrução, não é bom para grávidas, dentre outras preocupações
 - quanto menos radical o protocolo seguido, mais seguro
   - usar de vez em quando é seguro também
-  - tem pessoas que seguem protocolos extremanente rídidos a décadas e nunca tiveram problemas
+  - tem pessoas que seguem protocolos extremanente rígidos a décadas e nunca tiveram problemas
 - você vai experenciar fome
-  - se você gosta de comer e não ve beneficios em se privar disso, pdoe não ser para você
+  - se você gosta de comer e não ve beneficios em se privar disso, pode não ser para você
 
 ## Como começar
 - leia mais sobre o assunto
-- consulte um médico especialista no assunto
-   - difícil encontrar um no Brasil
+- consulte um médico especialista
 - comece aos poucos
   - pule o café da manhã por alguns dias, coma um pouco a mais nas outras refeições e veja como se sente
 - se sentir fome tome bastante água, café (sem açúcar) ou chá
@@ -139,16 +138,15 @@ Titulos
   - não afeta desempenho
 - não se apegue muito as regras
   - coma café da manhã uma vez ou outra se quiser
-  - você pode não obter 100% dos benefícios, 80% é melhor que nada
+  - você pode não obter 100% dos benefícios, mas 80% é melhor que nada
 - escute seu corpo
   - se você se sentir muito mal, coma
-  - se fazendo exercício e sentir mal, pare
+  - se fazendo exercício e se sentir mal, pare
   - é normal passar por um LEVE desconforto enquanto o corpo se acostuma
 - alterne entre variações de acordo com seu objetivo
   - tem gordura sobrando e quer fazer desaparecer? Use temporariamente uma variação mais avançada
 - crie um calendário alimentar
-  - nem que seja por curiosidade, p/ saber quantas horas de jejum você fez ao longos dos dias
-- famosos que seguem o protocolo: [Juliana Paes, Deborah Secco][1]
+  - nem que seja por curiosidade, para saber quantas horas de jejum você fez ao longos dos dias
 
 ## Curiosidades
 - praticado desde o início da história da humanidade, quando os nossos antepassados caçadores chegavam a ficar dias sem comer, caçando por comida
@@ -157,18 +155,23 @@ Titulos
    - você pode começar e parar o seu jejum quando quiser
    - pode durar horas, como entre a janta e o café da manhã (algo como 12 horas), mas também pode durar dias ou até mesmo semanas
 - usado regularmente por certas religiões
-- um ex ranger americando tentou perder [10 mil calorias de estomago vazio][2]. Alcançou 5 mil.
+- famosos que seguem o protocolo: [Juliana Paes, Deborah Secco][1]
+- um ex ranger americando tentou perder [10 mil calorias de estômago vazio][2]. Alcançou 5 mil.
 
 ## Sugestão de leitura
 - apenas vi por cima sites brasileiros, seguem uns que parecem mais completos
   - https://emagrecendo.info/emagrecer-de-vez/jejum-intermitente/
   - http://jejumintermitente.net.br/
-- este explica da forma mais clara possível que só existe uma maneira de se perder peso: déficit calórico
-  - What I mean is, any diet that actually causes you to lose fat did so because it caused you to create a caloric deficit. That’s a fact. There is literally NOTHING else that could possibly make it happen. This is the most basic proven science of the human body. Calories in vs calories out (aka the law of thermodynamics) is ALWAYS the basis for fat loss (or gain).
-  - https://www.aworkoutroutine.com/how-to-lose-fat/
+- alguns detalhes interessantes sobre calorias
+  - https://super.abril.com.br/saude/a-verdade-sobre-as-calorias/
+<!--
+ este explica da forma mais clara possível que só existe uma maneira de se perder peso: déficit calórico
+   "What I mean is, any diet that actually causes you to lose fat did so because it caused you to create a caloric deficit. That’s a fact. There is literally NOTHING else that could possibly make it happen. This is the most basic proven science of the human body. Calories in vs calories out (aka the law of thermodynamics) is ALWAYS the basis for fat loss (or gain)".
+  https://www.aworkoutroutine.com/how-to-lose-fat/
+-->
 
 
-### Referências
+## Referências
 - https://www.nerdfitness.com/blog/a-beginners-guide-to-intermittent-fasting/
 - https://www.healthline.com/nutrition/intermittent-fasting-guide
 - https://www.healthline.com/nutrition/fasting-benefits
@@ -179,32 +182,48 @@ Titulos
 [1]: https://www.terra.com.br/diversao/gente/purepeople/nutricionista-de-juliana-paes-explica-jejum-intermitente-nao-e-uma-dieta,6f108ff16154c93b44f8fdb1272c36fe97u2576q.html
 [2]: https://www.youtube.com/watch?v=jaH5FJnKYqY
 
-### Minha experiência
-- 01/01: 16hs parei de comer
-- 02/01: trabalhei e treinei normal, após 25hs+- sem comer nada
-  - tomei cha após 29hs, resetou fome
-- 03/01: 11hs almocei. Foram 43hs de jejum
-  - 12hs parei de comer
-- 04/01: 11hs comi um punhado de nozes e castanhas. Mantive estado de ketose. Ficou abaixo de 250 calorias, logo ainda dentro do protocolo de jejum intermitente
-  - 17hs quebrei o jejum com uma super refeição. Foram 23/29 horas de jejum
+## Minha experiência
+- 01/01 16:00 ( **0hs**): parei de comer
+- 02/01 18:00 (**25hs**): trabalhei e treinei normalmente
+- 02/01 21:00 (**29hs**): primeira chícara de chá, resetou minha fome
+- 03/01 11:00 (**43hs**): quebrei o jejum com meu almoço
+- 03/01 12:00 ( **0hs**): início de novo jejum
+- 04/01 11:00 (**23hs**): comi um punhado de nozes e castanhas. Sinto que mantive estado de ketose. Ficou abaixo de 250 calorias, logo ainda dentro do protocolo de jejum intermitente
+- 04/01 17:00 (**29hs**): quebrei o jejum com uma super refeição
 
-### Minha experiência
+<!--
+  01/01: 16hs parei de comer
+ 02/01: trabalhei e treinei normal, após 25hs+- sem comer nada
+   tomei cha após 29hs, resetou fome
+ 03/01: 11hs almocei. Foram 43hs de jejum
+   12hs parei de comer
+ 04/01: 11hs comi um punhado de nozes e castanhas. Mantive estado de ketose. Ficou abaixo de 250 calorias, logo ainda dentro do protocolo de jejum intermitente
+   17hs quebrei o jejum com uma super refeição. Foram 23/29 horas de jejum
+  -->
+
+
+### Resultados
 - sigo uma dieta vegana, pratico yoga, musculação e cardio, totalizando umas 2 horas de exercício por semana
 - venho praticado 16/8 desde 12/09/2018 (4 meses). Não senti nenhuma mudança.
+- efeitos desses 2 jejuns prolongados
+  - há muitos anos que não estive tão concentrado e energético quanto estive durante o período de jejum. Teve altos e baixos, mas no geral, mais altos
+  - mantive minha modesta atividade física em dia, sem perder performance
+  - trabalhei normalmente
+  - acredito que minha gordura corporal passou de 13.5% (medido em endócrino em 04/12) para 11% (inspeção visual), pois fiquei com bem menos barriga
+  - não dormi quase nada, mas meu sono já estava bem ruim. Mas não me senti mais cansado por isso, nem mental ou fisicamente, ao contrário de um dia normal mal dormido
+  - diminuiu a vontade de comer e aumentou a saciedade
+  - não foi "de graça", envolveu bastante controle e a fome incomodou um bocado. Praticantes de longa data dizem que acostuma com o tempo.
 
-Efeitos desses 2 jejuns prolongados
-- nunca (ou faz muitos anos) estive tão concentrado e energético quanto estive durante o período de jejum. Teve altos e baixos, mas no geral, mais altos
-- mantive minha modesta atividade física em dia, sem perder performance
-- trabalhei normalmente
-- acredito que minha gordura corporal passou de 13.5% (medido em endócrino em 04/12) para 11% (inspeção visual), pois estou com bem menos barriga
-- não dormi quase nada, mas meu sono já estava bem ruim. Mas não me senti mais cansado por isso, nem mental ou fisicamente, ao contrário de um dia normal mal dormido
-- diminuiu a vontade de comer e aumentou a saciedade
-- não foi "de graça", envolve bastante controle e a fome incomoda um bocado. Praticantes de longa data dizem que acostuma com o tempo.
+### Por que eu faço
+Eu faço vários experimentos na minha vida, muitos deles relacionados a alimentação. Jejum intermitente é só mais um na minha longa lista. Todo experimento começa com uma hipótese, segue uma das que quero testar. Ela é meio complicada e pode ter pouca chance de ser verdade, mas acho que vale a pena:
+- tenho hipotireoidismo
+- é possível que eu sofra muito dos sintomas dele mesmo com meu TSH controlado
+  - problemas cognitivos (leitura, aprendizado e memória), fatiga e insônica crônica
+- um dos sintomas do hipotireoidismo é a dificuldade de perder peso
+- se eu conseguir seguir um estilo de vida que me faça perder peso, quem sabe os outros sintomas se auto regulem também
 
-Por que eu faço (neurodegeneration)
-1) Evitar neurodegeneração. Tenho problemas cognitivos (aprendizado, memória) de fatiga e insônica crônica há muitos anos, algo que tem acelerado o declínio da minha acuidade mental que começou com deficiências de memória e aprendizado aos 15 anos
-2) Simplificar minha vida. Tenho muitos problemas com meus dentes. Cada escovação de dentes eu levo uns 10 minutos e ainda assim estou cheio de tártaro.
-3) Tenho hipotireoidismo. Suspeito que sofro muito dos sintomas dele, mesmo com meu TSH controlado (insônia, fatiga e outros). Um dos sintomas é incapacidade de perder peso, basicamente. Se eu conseguir seguir um estilo de vida que me faça perder peso, quem sabe os outros sintomas se auto regulem também.
-4) Não gosto de contar caloria nem controlar (muito) o que eu como. Eu sou 8 ou 80, prefiro ficar no 8. Se jejum intermitente funcionar, me parece melhor que dietas típicas
-5) No exercício de auto-controle, a recompensa é a auta-superação. Quantas horas consigo ficar sem comer, sem que isso afete negativamente minhas capacidades fisicas e mentais?
+1. Evitar neurodegeneração. Minha principal preocupação conforme explicado acima
+2. Simplificar minha vida. Tenho muitos problemas com meus dentes. Cada escovação levo uns 10 minutos e ainda assim não é o suficiente.
+3. Não gosto de contar caloria nem controlar (muito) o que eu como. Eu como o que eu quero, o quanto eu quero. Jejum intermitente me ajuda a querer comer menos. Veganismo e outros aspectos de saúde ajudam com a escolha do o que eu quero.
+4. No exercício de auto-controle, a recompensa é a auta-superação. Quantas horas consigo ficar sem comer, sem que isso afete negativamente minhas capacidades fisicas e mentais?
 
