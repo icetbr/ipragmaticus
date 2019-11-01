@@ -2,9 +2,12 @@
 
     <h1 class="l-article__header"><a href="{{ .c.Permalink }}">{{ .c.Title }}</a></h1>
     <p class="c-post__date l-post__date">
-        {{ .c.Date.Format "Jan 2, 2006" }}
+        {{ $d := .c.Date }}
+        {{ T $d.Month }} {{ $d.Day }}, {{ $d.Year }}
+
         {{ if ne .c.Page.Lastmod .c.Page.Date }}
-            <span class="updated">{{ T "updated" }}</span> <span class="updatedDate">{{ .c.Page.Lastmod.Format "Jan 2, 2006" }}</span>
+            {{ $d := .c.Page.Lastmod }}
+            <span class="updated">{{ T "updated" }}</span> <span class="updatedDate">{{ T $d.Month }} {{ $d.Day }}, {{ $d.Year }}</span>
         {{end}}
     </p>
 

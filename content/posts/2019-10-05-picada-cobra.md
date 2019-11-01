@@ -70,7 +70,7 @@ Seguem as recomendações dadas pela **Organização Mundial de Saúde 2016** pa
 
 A principal recomendação que varia de acordo com a região diz respeito a aplicação da **compressão** na picada. A **imobilização** pode ser aplicada em qualquer caso, com cuidado p/ não colocar a tala ou bandagem em contato com a ferida (se possível) nos casos de picada não neurotóxica.
 
-#### Quando usar compressão
+### Quando usar compressão
 - em picadas de cobra com **veneno de efeito neurotóxico**
 - sugestões de **identificação**
   - presas pequenas (3mm)
@@ -78,7 +78,7 @@ A principal recomendação que varia de acordo com a região diz respeito a apli
   - pode inclusive nem apresentar sinal da picada!
 - exemplos: **coral**
 
-#### Quando NÃO usar compressão
+### Quando NÃO usar compressão
 - mordidas de **aranha** ou outros animais peçonhentos
 - demais cobras
 - sugestões de **identificação**
@@ -91,7 +91,7 @@ A principal recomendação que varia de acordo com a região diz respeito a apli
 - não é preciso retirar a roupa, a não ser que ela seja muito apertadas conforme mencionado acima, pois o mebro pode inchar bastante
 - tentarei descrever os passos abaixo, mas as **imagens e vídeos** devem deixar muito mais claro o que fazer
 
-#### Imobilização
+### Imobilização
 - fazer uma **tala** usando um pedaço de madeira grande que alcance todas as articulações do membro ou então pedaços pequenos de madeira em cada articulação
 - idealmente, colocar um pedaço em cada lado
 - prenda o membro ao corpo
@@ -99,7 +99,7 @@ A principal recomendação que varia de acordo com a região diz respeito a apli
   - se for o braço, prenda-o ao dorso com uma tipóia
 <!-- TODO imagens -->
 
-#### Compressão: técnica 1 (menos eficaz [6])
+### Compressão: técnica 1 (menos eficaz [6])
 - cobrir com **bandagem elástica** o máximo de área possível, no mínimo 15cm, se possível todo o membro
 - comece na área de picada e suba para cima
 - mais difícil de aplicar, pois a bandagem precisa ter uma pressão adequada
@@ -111,7 +111,7 @@ A principal recomendação que varia de acordo com a região diz respeito a apli
   - https://images.emedicinehealth.com/images/4453/4453-26291-27291-27549.jpg
   - https://player.slideplayer.com/23/6874080/data/images/img39.jpg
 
-#### Compressão: técnica 2
+### Compressão: técnica 2
 - aplicar um **pedaço de pano** dobrado ou material emborrachado em cima da mordida, em seguida colocar a **bandagem não elástica** (crepom)
 - use uma camisa ou qualquer pano se bandagem não estiver disponível
 - em seguida, fazer a tala
@@ -143,7 +143,7 @@ A principal recomendação que varia de acordo com a região diz respeito a apli
 [^9]:https://www.iamat.org/blog/prevention-of-snake-bite-in-travellers/
 
 
-[//]: # "a"
+[//]: # " "
 <!--
 - Eu não tenho nenhuma qualificação profissional na área
 - Este é meu resumo de várias fontes que li na internet
@@ -160,9 +160,6 @@ nao cobrir o local
 - carry victim?
 - lay down and wait vs drive?
 - run to car? Walk to car?
-
-
-
 
 
 Antivenom is the definitive treatment for venomous snakebites and should be administered

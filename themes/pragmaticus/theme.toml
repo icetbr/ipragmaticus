@@ -13,10 +13,3 @@ min_version = "0.41"
   name = "iPragmaticus"
   homepage = "http://ipragmaticus.com"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-  [languages.br]
-    languageName = "Português"
-    weight = 2

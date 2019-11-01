@@ -1,18 +1,34 @@
 theme = "pragmaticus"
 googleAnalytics = "UA-44411050-1"
+title = "iPragmaticus"
 
 [params]
 # TODO add subtitle
-title = "iPragmaticus"
 description = "Text about my cool site"
 images = ["site-feature-image.jpg"]
 
+# TODO i18n twitter
+#[social]
+#twitter = "GoHugoIO"
+
+# remove /posts from URL
 [permalinks]
 posts = "/:slug/"
 
 [frontmatter]
-publishDate = [":filename", ":default"]
+date = [":filename", ":default"]
+lastmod = [":git", "lastmod", ":filename"]
 
 [blackfriday]
 fractions = false
 extensions = ["noEmptyLineBeforeBlock", "joinLines"]
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.br]
+    languageName = "Português"
+    weight = 2
+    [languages.br.params]
+      description = "Descrição do site"

@@ -1,7 +1,7 @@
 ---
 title: "About"
-date: 2019-04-09T20:13:36-02:00
-lastmod: 2019-05-09T20:13:36-02:00
+date: 2019-04-09
+lastmod: 2019-05-09
 ---
 
 this notes i write for me. i make them public for all the benefits tha come with that

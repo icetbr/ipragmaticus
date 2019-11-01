@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.LanguageCode | default "en" }}">
+<html lang="{{ .Lang | default "en" }}">
 
     <head>
         <meta charset="utf-8">
@@ -20,6 +20,12 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
         <link rel="manifest" href="/favicons/site.webmanifest">
 
+        {{ if .IsTranslated }}
+            {{ range .Translations }}
+                <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+            {{ end }}
+        {{ end }}
+
         {{ hugo.Generator }}
 
         {{ block "head" . }}{{ end }}
@@ -36,9 +42,9 @@
         <header>
             <nav class="primary-nav">
                 <a href="{{ "" | relURL }}" class="logo"><img src="/favicons/favicon-32x32.png" alt="logo" class='logo'></a>
-                <a href="{{ "" | relURL }}" class="o-navlink">Home</a>
-                <a href="{{ .Site.BaseURL }}archives" class="o-navlink">Archives</a>
-                <a href="{{ .Site.BaseURL }}about" class="about">About</a>
+                <a href="{{ "" | relLangURL }}" class="o-navlink">{{ T "home" }}</a>
+                <a href="{{ T "archives" | relLangURL }}" class="o-navlink">{{ T "archives" }}</a>
+                <a href="{{ T "about" | relLangURL }}" class="about">{{ T "about" }}</a>
             </nav>
         </header>
         <main>

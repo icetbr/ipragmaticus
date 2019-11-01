@@ -6,3 +6,35 @@ other = "next"
 other = "previous"
 [updated]
 other = "updated"
+
+[home]
+other = "home"
+[archives]
+other = "archives"
+[about]
+other = "about"
+
+[January]
+other = "Jan"
+[February]
+other = "Feb"
+[March]
+other = "Mar"
+[April]
+other = "Apr"
+[May]
+other = "May"
+[June]
+other = "Jun"
+[July]
+other = "Jul"
+[August]
+other = "Aug"
+[September]
+other = "Sep"
+[October]
+other = "Oct"
+[November]
+other = "Nov"
+[December]
+other = "Dec"

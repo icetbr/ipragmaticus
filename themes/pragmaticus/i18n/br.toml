@@ -1,2 +1,34 @@
 [readMore]
 other = "read more"
+
+[home]
+other = "início"
+[archives]
+other = "arquivo"
+[about]
+other = "sobre"
+
+[January]
+other = "Jan"
+[February]
+other = "Fev"
+[March]
+other = "Mar"
+[April]
+other = "Abr"
+[May]
+other = "Mai"
+[June]
+other = "Jun"
+[July]
+other = "Jul"
+[August]
+other = "Ago"
+[September]
+other = "Set"
+[October]
+other = "Out"
+[November]
+other = "Nov"
+[December]
+other = "Dez"

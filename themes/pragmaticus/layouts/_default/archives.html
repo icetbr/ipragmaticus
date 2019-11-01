@@ -1,0 +1,37 @@
+{{ define "head" -}}
+
+    <title>Archives - {{ .Site.Title }}</title>
+    <meta name="robots" content="noindex">
+
+{{ end }}
+
+{{ define "main" }}
+
+    <div class="o-archives l-post__content">
+
+        <h3>Tags</h3>
+        <ul class="tags">
+            {{ range .Site.Taxonomies.tags.ByCount }}
+               <li class="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+            {{- end -}}
+        </ul>
+
+        {{ range (where .Site.RegularPages "Section" "posts").GroupByDate "2006" }}
+
+            <h3>{{ .Key }}</h3>
+            <ul>
+                {{- range .Pages }}
+
+                    <li>
+                        <span class="c-post__date">{{ .Date.Format "Jan 02" }}</span>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+
+                {{ end }}
+            </ul>
+
+        {{ end }}
+    </div>
+
+    <p></p>
+{{ end }}
