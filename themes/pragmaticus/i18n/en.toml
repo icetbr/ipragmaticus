@@ -6,6 +6,8 @@ other = "next"
 other = "previous"
 [updated]
 other = "updated"
+[discussOn]
+other = "Discuss on"
 
 [home]
 other = "home"

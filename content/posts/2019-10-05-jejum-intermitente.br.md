@@ -12,7 +12,7 @@ Acho que essa é a definição mais simples de jejum intermitente. Mais especifi
 Jejum intermitente não é uma dieta, é um padrão de alimentação. Ele não sugere o que comer, mas quando comer. Ele facilita o consumo de menos calorias, mas se você comer mais calorias do que precisa, irá ganha peso mesmo assim.
 
 
-Este artigo contém apenas informações básicas sobre o assunto, com a intenção atiçar a curiosidade do leitor.
+Este artigo contém apenas informações básicas sobre o assunto, com a intenção atiçar a curiosidade do leitor. each claim is supposed to be further searched
 
 
 ## Definições
@@ -215,7 +215,8 @@ Titulos
   - não foi "de graça", envolveu bastante controle e a fome incomodou um bocado. Praticantes de longa data dizem que acostuma com o tempo.
 
 ### Por que eu faço
-Eu faço vários experimentos na minha vida, muitos deles relacionados a alimentação. Jejum intermitente é só mais um na minha longa lista. Todo experimento começa com uma hipótese, segue uma das que quero testar. Ela é meio complicada e pode ter pouca chance de ser verdade, mas acho que vale a pena:
+Jejum intermitente é só mais um item na minha longa lista de experimentos. Todo experimento começa com uma hipótese, segue uma das que quero testar. Ela é meio complicada e pode ter pouca chance de ser verdade, mas acho que vale a pena:
+
 - tenho hipotireoidismo
 - é possível que eu sofra muito dos sintomas dele mesmo com meu TSH controlado
   - problemas cognitivos (leitura, aprendizado e memória), fatiga e insônica crônica

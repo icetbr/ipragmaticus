@@ -1,9 +1,7 @@
 <ul class="tags">
   {{- range $index, $key:= .Params.tags -}}
   <li class="tag">
-    <a href="/tags/{{$key | urlize }}/">{{ $key }}</a>
+    <a href="tags/{{$key | urlize }}/">{{ $key }}</a>
     {{- end -}}
   </li>
 </ul>
-<!-- border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-padding-bottom: 25px; -->

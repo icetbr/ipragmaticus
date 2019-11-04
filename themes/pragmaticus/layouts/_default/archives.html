@@ -23,7 +23,8 @@
                 {{- range .Pages }}
 
                     <li>
-                        <span class="c-post__date">{{ .Date.Format "Jan 02" }}</span>
+                        {{ $d := .Date }}
+                        <span class="c-post__date">{{ T $d.Month }} {{ $d.Day }}, {{ $d.Year }}</span>
                         <a href="{{ .Permalink }}">{{ .Title }}</a>
                     </li>
 

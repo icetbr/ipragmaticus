@@ -2,7 +2,7 @@
 title: "Blockchain Platforms: Should I Build on Bitcoin or Ethereum or Cardano or…"
 lastmod: 2019-02-09T20:13:36-02:00
 draft: true
-tags: [ saúde, tecnologia, crypto, categoria1, categoria2 ]
+tags: [ technology, crypto, categoria1, categoria2 ]
 images: [dech.jpg]
 ---
 

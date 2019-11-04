@@ -1,5 +1,13 @@
 [readMore]
-other = "read more"
+other = "leia mais"
+[next]
+other = "próximo"
+[previous]
+other = "anterior"
+[updated]
+other = "atualizado"
+[discussOn]
+other = "Discutir no"
 
 [home]
 other = "início"
