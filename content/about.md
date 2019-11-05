@@ -3,6 +3,14 @@ title: "About"
 date: 2019-04-09
 lastmod: 2019-05-09
 ---
+<form name="contact" method="POST" data-netlify="true">
+  <input class="form-name" type="text" placeholder="Name" name="name" />
+  <input class="form-email" type="text" placeholder="Email" name="email" />
+  <textarea class="form-message" name="message" placeholder="Message"></textarea>
+  <button class="o-btn" type="submit">Send</button>
+</form>
+
+<a href="/index.xml" title="RSS">RSS</a>
 
 this notes i write for me. i make them public for all the benefits tha come with that
   forces me to write better
@@ -43,3 +51,6 @@ Some fun facts about [Hugo](http://gohugo.io/):
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
 
 Thanks for reading!
+
+
+

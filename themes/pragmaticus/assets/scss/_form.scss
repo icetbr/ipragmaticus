@@ -1,0 +1,68 @@
+@mixin input {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+
+  @include ff(header);
+  @include typi(tss4);
+  color: color(black);
+
+  &::placholder { color: color(gallery); }
+  &:focus { border-color: color(gallery); }
+}
+
+// Text input
+[type='text'],
+[type='email'] {
+  @include input;
+}
+
+// Capitalize all input with the a name of 'name'
+input[name*='name'] { text-transform: capitalize; }
+
+textarea {
+  @include input;
+  min-height: vr(4);
+}
+
+.form-message {
+  margin-top: vr(0.5);
+  width: 100%;
+}
+
+.form-email, .form-name {
+  display: inline-block;
+  min-width: 48.6%;
+}
+
+.form-name {
+  margin-right: 1.4%;
+}
+
+@mixin o-btn {
+  display: inline-block;
+  position: relative;
+  border-radius: 4px;
+  // Text in button feels slightly low. Bumping padding bottom to centralize them
+  padding: 0.15em 1em 0.15em;
+  transition: background-color 0.15s ease-in-out;
+  border: 1px solid transparent; // to balance with input
+  font-size: inherit;
+  // Safari inline block has a whitespace bug that causes. nowrap fixes it
+  // white-space: nowrap;
+  @include ff(header);
+  @include typi(tss4);
+  // @include remove-link-underline;
+  cursor: pointer;
+
+  &:active,
+  &:focus {
+    // @include remove-link-underline;
+    background-color: color(red);
+    color: white;
+  }
+}
+
+.o-btn,
+a.o-btn {
+  @include o-btn;
+}
