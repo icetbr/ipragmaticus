@@ -1,43 +1,28 @@
-<h3>Comments</h3>
-<div class = 'comments'>
-  {{- $entryId := .File.BaseFileName -}}
-  {{ if not .Site.Data.comments}}
-  {{ return }}
-    {{- $comments := index $.Site.Data.comments $entryId -}}
-    {{ if not $comments }}
-      <p>{{ i18n "noComment" }}</p>
-    {{ else }}
-      {{ range $comments }}
-        {{ if not .replyThread }}
-          {{ $.Scratch.Set "threadID" ._id }}
-          <div id = '{{ ._id }}' class = 'comment'>
-            <img src = 'https://www.gravatar.com/avatar/{{ .email }}?s=100' alt = 'user icon' class = 'comment_pic'>
-            <div class = 'comment_meta'>
-              <a href='#{{ ._id }}'><div class = 'comment_heading pale' data-time = '{{ .date }}'></div></a>
-              <div class = 'comment_author comment_name'><span class="comment_name_span">{{ .name }}</span></div>
-            </div>
-            <p class = 'solo comment_bio pale'>{{ .comment | markdownify }}</p>
-            <div class = 'comment_thread hidden'>{{ ._id }}</div>
-            <div class = 'reply_btn icon'></div>
-          </div>
+<div class='comments'>
+  {{ $entryId := .File.BaseFileName }}
+  {{ with .Site.Data.comments }}
+    {{ $comments := index . $entryId }}
+    {{ $commentsCount := len $comments }}
 
-          {{ range $comments }}
-            {{ if eq .replyThread ($.Scratch.Get "threadID") }}
-              <div id = '{{ ._id }}' class = 'comment comment_reply'>
-                <img src = 'https://www.gravatar.com/avatar/{{ .email }}?s=100' alt = 'user icon' class = 'comment_pic'>
-                  <div class = 'comment_meta'>
-                  <a href='#{{ ._id }}'><div class = 'comment_heading pale' data-time = '{{ .date }}'></div></a>
-                  <div class = 'comment_author comment_name'><span class = 'comment_name_span'>{{ .name }}</span><span> ↷ </span><a href='#{{ .replyID }}' class='reply_target'>{{ .replyName }}</a></div>
-                </div>
-                <p class = 'solo comment_bio pale'>{{ .comment | markdownify }}</p>
-                <div class = 'comment_thread hidden'>{{ .replyThread }}</div>
-                <div class = 'reply_btn icon'></div>
-              </div>
-            {{- end }}
-          {{- end }}
-        {{- end }}
-      {{- end }}
-    {{- end }}
-  {{- end }}
-  {{- partial "comments-form.html" . }}
+    <h3>{{ $commentsCount }} comments</h3>
+
+    {{ range $comments }}
+      {{ $currentYear := now.Format "2006" }}
+      {{ $fullDate := dateFormat "September 12, 2019 14:31" .date }}
+      {{ $date := time .date }}
+      {{ $formattedDate := split (dateFormat "02 Jan 06" .date) " " }}
+      {{ $shortDate := cond (lt $date.Year $currentYear) (printf "%s '%s" (index $formattedDate 1) (index $formattedDate 2)) (printf "%s %s" (index $formattedDate 0) (index $formattedDate 1)) }}
+
+      <article id='comment-{{ ._id }}' class='comment'>
+        <a class='comment-reply-button'>Reply</a>
+        <a title="{{ $fullDate }}" class="comment-date" href="#comment-{{._id }}"> {{ $shortDate }}</a>
+        <h3 class="comment-author">{{ .name }}</h3>
+        <div class='comment-content'>{{ .content | markdownify }}</p>
+      </article>
+
+    {{ end }}
+  {{end }}
+
+  {{ partial "comments-form.html" . }}
 </div>
+
