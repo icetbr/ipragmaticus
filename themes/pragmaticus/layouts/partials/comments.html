@@ -8,15 +8,14 @@
 
     {{ range $comments }}
       {{ $currentYear := now.Format "2006" }}
-      {{ $fullDate := dateFormat "September 12, 2019 14:31" .date }}
       {{ $date := time .date }}
-      {{ $formattedDate := split (dateFormat "02 Jan 06" .date) " " }}
-      {{ $shortDate := cond (lt $date.Year $currentYear) (printf "%s '%s" (index $formattedDate 1) (index $formattedDate 2)) (printf "%s %s" (index $formattedDate 0) (index $formattedDate 1)) }}
+      {{ $fullDate := dateFormat "January 2, 2006 15:04" $date }}
+      {{ $shortDate := cond (lt $date.Year $currentYear) (dateFormat "Jan '06" $date) (dateFormat "06 Jan" $date) }}
 
       <article id='comment-{{ ._id }}' class='comment'>
         <a class='comment-reply-button'>Reply</a>
         <a title="{{ $fullDate }}" class="comment-date" href="#comment-{{._id }}"> {{ $shortDate }}</a>
-        <h3 class="comment-author">{{ .name }}</h3>
+        <p class="comment-author">{{ .name }}</p>
         <div class='comment-content'>{{ .content | markdownify }}</p>
       </article>
 

@@ -20,7 +20,6 @@
 
 {{ define "main" }}
 
-
     {{ range .Paginator.Pages }}
 
         {{ partial "main.html" (dict "c" . "content" .Summary "isList" true) }}
