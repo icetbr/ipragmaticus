@@ -45,11 +45,10 @@
 
     <body>
         <header>
-            <nav class="primary-nav">
-                <a href="{{ "" | relLangURL }}" class="logo"><img src="/favicons/favicon-32x32.png" alt="logo" class='logo'></a>
-                <a href="{{ "" | relLangURL }}" class="o-navlink">{{ T "home" }}</a>
-                <a href="{{ T "archives" | relLangURL }}" class="o-navlink">{{ T "archives" }}</a>
-                <a href="{{ T "about" | relLangURL }}" class="about">{{ T "about" }}</a>
+            <nav>
+                <a class="o-navlink" href="{{ "" | relLangURL }}"><img src="/favicons/favicon-32x32.png" alt="logo" class='logo'> {{ T "home" }}</a>
+                <a class="o-navlink" href="{{ T "archives" | relLangURL }}">{{ T "archives" }}</a>
+                <a class="o-navlink" href="{{ T "about" | relLangURL }}">{{ T "about" }}</a>
             </nav>
         </header>
         <main>

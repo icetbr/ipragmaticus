@@ -1,0 +1,13 @@
+.comments {
+
+  a {
+
+  }
+
+  .share-links {
+    @include tp-nav;
+    @include o-link--primary;
+  }
+
+
+}

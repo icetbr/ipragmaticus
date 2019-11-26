@@ -1,22 +1,19 @@
-header a {
-  @include tp-nav;
-
-  .logo {
-    width: 28px;
-    height: 28px;
-    top: 0px;
-    padding: 4px;
-    border: 1px solid #ccc;
-    vertical-align: top;
-    position: relative;
-    margin-right: 2px;
-    @include bp(large) {
-      top: 4px;
-    }
+.logo {
+  width: 28px;
+  height: 28px;
+  top: 0px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  vertical-align: top;
+  position: relative;
+  margin-right: 2px;
+  @include bp(large) {
+    top: 4px;
   }
 }
 
 .o-navlink {
+   @include tp-nav;
    & + * { margin-left: vr(0.15); }
   //  & + * { margin-left: vr(0.35); }
 }
@@ -26,27 +23,27 @@ header a {
   margin-bottom: 8px;
   margin-right: 8px;
   display: inline-block;
+}
 
-  a {
-    background: rgba(0, 0, 0, 0.05);
-    padding: 5px 10px;
-    border-radius: 3px;
-    text-decoration: none;
-    color: color(lighter-black);
-    display: block;
+.taglink {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: color(lighter-black);
+  display: block;
 
-    &:hover {
-      background: rgba(0, 0, 0, .07);
-    }
+  &:hover {
+    background: rgba(0, 0, 0, .07);
   }
 }
 
 hr {
-    border-color: rgba(0, 0, 0, 0.1);
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .share-link {

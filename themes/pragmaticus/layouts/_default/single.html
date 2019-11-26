@@ -9,6 +9,13 @@
 
     {{ partial "main.html" (dict "c" . "content" .Content "isList" false) }}
 
+    {{ if ne .Title "About" }}
+        <footer>
+            <hr />
+            {{ partial "comments.html" . }}
+        </footer>
+    {{ end }}
+
     <!-- <nav class="pagination">
         {{ if .PrevInSection }}
             <a href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}">&larr; anterior</a>
@@ -20,5 +27,5 @@
             <a href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">próximo &rarr;</a>
         {{ end }}
     </nav> -->
-    {{- partial "comments.html" . }}
+
 {{ end }}

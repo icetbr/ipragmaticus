@@ -1,0 +1,27 @@
+<div class='comments'>
+  {{ $entryId := .File.BaseFileName }}
+  {{ with .Site.Data.comments }}
+    {{ $comments := index . $entryId }}
+    {{ $commentsCount := len $comments }}
+
+    <h3>{{ $commentsCount }} comments</h3>
+
+    {{ range $comments }}
+      {{ $currentYear := now.Format "2006" }}
+      {{ $date := time .date }}
+      {{ $fullDate := dateFormat "January 2, 2006 15:04" $date }}
+      {{ $shortDate := cond (lt $date.Year $currentYear) (dateFormat "Jan '06" $date) (dateFormat "06 Jan" $date) }}
+
+      <article id='comment-{{ ._id }}' class='comment'>
+        <a class='comment-reply-button'>Reply</a>
+        <a title="{{ $fullDate }}" class="comment-date" href="#comment-{{._id }}"> {{ $shortDate }}</a>
+        <p class="comment-author">{{ .name }}</p>
+        <div class='comment-content'>{{ .content | markdownify }}</p>
+      </article>
+
+    {{ end }}
+  {{end }}
+
+  {{ partial "comments-form.html" . }}
+</div>
+

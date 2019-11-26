@@ -15,19 +15,6 @@
         {{ .content }}
     </div>
 
-    {{ if ne .c.Title "About" }}
-        <footer>
-            {{ partial "tags.html" .c }}
-
-            {{ if not .isList }}
-                {{ partial "share2.html" .c }}
-            {{end}}
-
-            <hr />
-        </footer>
-    {{else}}
-        <p></p>
-    {{end}}
+    {{ partial "tags.html" .c }}
 
 </article>
-
