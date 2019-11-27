@@ -64,7 +64,8 @@ blockquote {
     @include tp-date;
     display: block;
     margin-top: vr(0.125);
-    color: var(--theme-color);
+    // color: var(--theme-color);
+    color: var(color(red));
     font-style: normal;
     text-transform: none;
   }

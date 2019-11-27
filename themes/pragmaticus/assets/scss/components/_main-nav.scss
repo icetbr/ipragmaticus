@@ -1,0 +1,20 @@
+#main-nav {
+  a {
+    @include tp-nav;
+    & + * { margin-left: vr(0.15); }
+  }
+
+  .logo {
+    width: 28px;
+    height: 28px;
+    top: 0px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    position: relative;
+    margin-right: 2px;
+    @include bp(large) {
+      top: 4px;
+    }
+  }
+}

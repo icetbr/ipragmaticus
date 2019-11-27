@@ -44,14 +44,12 @@
     </head>
 
     <body>
-        <header>
-            <nav>
-                <a class="o-navlink" href="{{ "" | relLangURL }}"><img src="/favicons/favicon-32x32.png" alt="logo" class='logo'> {{ T "home" }}</a>
-                <a class="o-navlink" href="{{ T "archives" | relLangURL }}">{{ T "archives" }}</a>
-                <a class="o-navlink" href="{{ T "about" | relLangURL }}">{{ T "about" }}</a>
-            </nav>
-        </header>
-        <main>
+        <nav id='main-nav'>
+            <a href="{{ "" | relLangURL }}"><img src="/favicons/favicon-32x32.png" alt="logo" class='logo'> {{ T "home" }}</a>
+            <a href="{{ T "archives" | relLangURL }}">{{ T "archives" }}</a>
+            <a href="{{ T "about" | relLangURL }}">{{ T "about" }}</a>
+        </nav>
+        <main id="main">
             {{- block "main" . }}{{- end }}
         </main>
     </body>

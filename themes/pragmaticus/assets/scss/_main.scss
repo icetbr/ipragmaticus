@@ -1,34 +1,8 @@
-@mixin lists {
+.words {
 
-  ul li ul li {
-    list-style-type: none;
-  }
+  margin-top: vr(0.95);
 
-  ul li ul li:before {
-    content: '-';
-    position: absolute;
-    margin-left: -1rem;
-  }
-}
-
-@mixin lists1 {
-
-  ul li ul li, p + ul li {
-    list-style-type: none;
-  }
-
-  ul li ul li:before, p + ul li:before {
-    content: '-';
-    position: absolute;
-    margin-left: -1rem;
-  }
-
-}
-
-@mixin o-words {
   li {
-    // margin-left: 1.4rem;
-    // margin-left: 1.2rem;
     margin-left: 1.4rem;
     list-style-position: outside;
     font-feature-settings: 'liga' 1, 'lnum' 1;
@@ -41,8 +15,27 @@
   ul li { list-style-type: disc }
   ol li { list-style-type: decimal; }
 
+  ul li ul li {
+    list-style-type: none;
+  }
+
+  ul li ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -1rem;
+  }
+
   figure > img {
     border: 1px solid #ccc;
+  }
+
+  > figure {
+    position: relative;
+
+    figcaption {
+      margin-top: vr(-0.175);
+      text-align: center;
+    }
   }
 
   a {
@@ -52,12 +45,6 @@
   a.image-link {
     background: none;
   }
-
-  @include lists;
-}
-
-.o-words {
-  @include o-words;
 }
 
 .o-archives {
@@ -66,18 +53,6 @@
     position: relative;
     margin-right: 6px;
   }
-}
-
-.l-post__content {
-  > figure {
-    position: relative;
-
-    figcaption {
-      margin-top: vr(-0.175);
-      text-align: center;
-    }
-  }
-  margin-top: vr(0.95);
 }
 
 .c-post__date {

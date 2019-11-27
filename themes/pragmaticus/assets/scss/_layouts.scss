@@ -1,16 +1,12 @@
-:root {
-  --theme-color: #{color(red)};
-}
-
-main, header {
+#main, #main-nav {
   padding: 0 vr(0.847);
-  @include bp(large) { padding: 0 vr(0.9); }
   max-width: vr(22.274);
   margin: auto;
   margin-top: vr(1.5);
+  @include bp(large) { padding: 0 vr(0.9); }
 }
 
-header {
+#main-nav {
   margin-top: vr(0.5);
   text-align: right;
 }
@@ -39,24 +35,9 @@ h2 + p, h2 + ul { margin-top: vr(0.35); }
 h3 + p, h3 + ul { margin-top: vr(0.4); }
 p + ul { margin-top: vr(0.3) }
 ul li { margin-top: vr(0.3) }
-// p + ul { margin-top: 0 }
-// ul li { margin-top: 0 }
 li + li { margin-top: vr(0.3) }
 
 hr {
   margin-top: vr(1);
   margin-bottom: vr(1);
-}
-
-.c-comments {
-  margin-top: vr(1.5);
-}
-
-.full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }

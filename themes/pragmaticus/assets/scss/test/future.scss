@@ -1,0 +1,26 @@
+.c-comments {
+  margin-top: vr(1.5);
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+@mixin lists1 {
+
+  ul li ul li, p + ul li {
+    list-style-type: none;
+  }
+
+  ul li ul li:before, p + ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -1rem;
+  }
+
+}
