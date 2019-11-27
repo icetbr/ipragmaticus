@@ -13,7 +13,7 @@
     {{ $shortDate := cond (lt $date.Year $currentYear) (dateFormat "Jan '06" $date) (dateFormat "06 Jan" $date) }}
 
     <article id='comment-{{ ._id }}' class='comment'>
-      <a class='comment-reply-button'>Reply</a>
+      <a class='comment-reply-button' href='#comment-form'>Reply</a>
       <a title="{{ $fullDate }}" class="comment-date" href="#comment-{{._id }}"> {{ $shortDate }}</a>
       <p class="comment-author">{{ .name }}</p>
       <div class='comment-content'>{{ .content | markdownify }}</p>
@@ -21,5 +21,4 @@
   {{end }}
 
   {{ partial "comments-form.html" . }}
-
 </div>

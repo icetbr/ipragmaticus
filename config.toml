@@ -23,6 +23,9 @@ lastmod = [":git", "lastmod", ":filename"]
 fractions = false
 extensions = ["noEmptyLineBeforeBlock", "joinLines"]
 
+[staticman]
+url = "http://infallible-feynman-b5637b.netlify.com/.netlify/functions/staticman/icetbr/serverlessman/master/comments"
+
 [languages]
   [languages.en]
     languageName = "English"
