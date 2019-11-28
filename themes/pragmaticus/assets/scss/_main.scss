@@ -47,20 +47,10 @@
   }
 }
 
-.o-archives {
-  .c-post__date {
-    top: -2px;
-    position: relative;
-    margin-right: 6px;
-  }
-}
-
-.c-post__date {
+.date {
   @include tp-date;
 
-  // transform: translateY(16px);
-
-  .updated {
+  .updatedText {
       text-transform: lowercase;
       padding-left: 5px;
       padding-right: 2px;
@@ -71,6 +61,27 @@
       color:color(red);
   }
 }
+
+.tag {
+  @include tp-tag;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.taglink {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: color(lighter-black);
+  display: block;
+
+  &:hover {
+    background: rgba(0, 0, 0, .07);
+  }
+}
+
 
 .share2 {
   a {

@@ -7,12 +7,12 @@
 
 {{ define "main" }}
 
-    <div class="o-archives l-post__content">
+    <article id="archives">
 
         <h3>Tags</h3>
         <ul class="tags">
             {{ range .Site.Taxonomies.tags.ByCount }}
-               <li class="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+               <li class="tag"><a class="taglink" href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
             {{- end -}}
         </ul>
 
@@ -24,7 +24,7 @@
 
                     <li>
                         {{ $d := .Date }}
-                        <span class="c-post__date">{{ T $d.Month }} {{ $d.Day }}, {{ $d.Year }}</span>
+                        <span class="date">{{ T $d.Month }} {{ $d.Day }}, {{ $d.Year }}</span>
                         <a href="{{ .Permalink }}">{{ .Title }}</a>
                     </li>
 
@@ -32,7 +32,7 @@
             </ul>
 
         {{ end }}
-    </div>
+        </article>
 
     <p></p>
 {{ end }}
