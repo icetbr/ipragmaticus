@@ -1,13 +1,58 @@
-.comments {
+#comments {
+
+  .repliesCount {
+    float: right;
+    @include tp-nav;
+  }
+
+  .share {
+    a {
+      @include tp-nav;
+      @include o-link--primary;
+    }
+  }
+
+  .comment {
+    //TODO colocar todos overrides de fonte aqui!! Teria sido mais facil com rootVars! :-(
+    // @include tp-text-small2;
+    // negrito
+
+    header {
+      float:right;
+      @include tp-date;
+
+
+      a {
+        padding: 8px 0px 8px 6px;
+      }
+
+      // maybe on the bottom
+      .reply-button {
+        // margin-right: 3px;
+      }
+
+      // .reply-button {
+      //   @include o-link--primary;
+      //   background: rgba(0, 0, 0, 0.05);
+      //   padding: 2px 2px;
+      //   border-radius: 3px;
+      //   text-decoration: none;
+      //   color: color(lighter-black);
+      //   display: inline-block;
+
+      //   &:hover {
+      //     background: rgba(0, 0, 0, .07);
+      //   }
+      // }
+    }
+
+    .author {
+      color: color(lighter-black);
+      // @include ff(header);
+    }
+  }
 
   a {
 
   }
-
-  .share-links {
-    @include tp-nav;
-    @include o-link--primary;
-  }
-
-
 }

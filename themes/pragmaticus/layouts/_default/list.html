@@ -28,7 +28,7 @@
 
     {{ end }}
 
-    <nav class="pagination">
+    <nav id="pagination">
         {{ if .Paginator.HasPrev }}
             <a href="{{ .Paginator.Prev.URL }}" class="previous">&larr; {{ T "previous" }}</a>
         {{ end }}

@@ -15,7 +15,9 @@ CODE NOT USED
 
         {{ range where .Data.Pages.ByDate.Reverse "Type" "posts" }}
     */}}
-
+.pageTitle {
+  color:color(red);
+}
 
 
 {{ if .isList }}

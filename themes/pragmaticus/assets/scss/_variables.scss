@@ -32,9 +32,13 @@ $font-weights: (
 );
 
 // $ms-ratio: 1.172;
+// a bug makes it difficult to calculate px based non-null values
+// https://github.com/zellwk/typi/issues/39
 $ms-ratio: 1.2; // TODO typi-ms
 $typi: (
   base: (null: (17.5px, 1.62), large: 20.5px),
+  base-small: (null: (15px, 1.4)),
+  base-small2: (null: (17.5px, 1.62)),
   tsb: (null: 17px),
 
   tsl1: (null: (33.5px, 1.23)), // h1

@@ -19,6 +19,24 @@
   }
 }
 
+#pagination {
+  margin-bottom: vr(2.5);
+
+  a {
+    @include o-link--primary;
+  }
+
+  .next {
+    float: right;
+    background-position: 0 calc(1em + 8px);
+  }
+
+  .previous {
+    float: left;
+    background-position: 0 calc(1em + 8px);
+  }
+}
+
 #archives {
   .date {
     top: -2px;

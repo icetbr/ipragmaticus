@@ -4,6 +4,17 @@
   letter-spacing: -0.004em;
 }
 
+@mixin tp-text-small {
+  @include tp-text;
+  @include typi(base-small);
+  @include ff(header);
+}
+
+@mixin tp-text-small2 {
+  @include tp-text;
+  @include typi(base-small2);
+}
+
 @mixin tp-h1 {
   @include typi(tsl1);
   @include ff(text);

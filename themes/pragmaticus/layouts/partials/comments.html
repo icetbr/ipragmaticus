@@ -1,8 +1,8 @@
-<div class='comments'>
+<div id='comments'>
   {{ $entryId := .File.BaseFileName }}
   {{ $comments := index .Site.Data.comments $entryId | default slice }}
 
-  <header>{{ partial "share.html" }} <span>{{ len $comments }} replies</span></header>
+  <header>{{ partial "share.html" }} <strong class='repliesCount'>{{ len $comments }} replies</strong></header>
 
   <hr />
 
@@ -13,10 +13,13 @@
     {{ $shortDate := cond (lt $date.Year $currentYear) (dateFormat "Jan '06" $date) (dateFormat "06 Jan" $date) }}
 
     <article id='comment-{{ ._id }}' class='comment'>
-      <a class='comment-reply-button' href='#comment-form'>Reply</a>
-      <a title="{{ $fullDate }}" class="comment-date" href="#comment-{{._id }}"> {{ $shortDate }}</a>
-      <p class="comment-author">{{ .name }}</p>
-      <div class='comment-content'>{{ .content | markdownify }}</p>
+      <header>
+        <a class='reply-button' href='#comment-form'>Reply</a>
+        <a href="#comment-{{._id }}" title="{{ $fullDate }}">{{ $shortDate }}</a>
+      </header>
+
+      <h3 class="author">{{ .author }}</h3>
+      <div class='content'>{{ .content | markdownify }}</p>
     </article>
   {{end }}
 
