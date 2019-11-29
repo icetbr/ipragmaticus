@@ -8,3 +8,12 @@ content: |
   In other words, it doesn’t matter how pretty or bug-free your code is on the inside when nobody can figure out how to use the outside.
 
   I do have a few high level coding books in here, but I explicitly avoid recommending anything too specific or overly technical. Most developers are pretty good at the technical coding stuff anyway; what they need is to exercise some different muscles.
+
+  # Testing h1
+  In other words, it doesn’t matter how pretty or bug-free your code is on the inside when nobody can figure out how to use the outside.
+
+  ## Testing h2
+  In other words, it doesn’t matter how pretty or bug-free your code is on the inside when nobody can figure out how to use the outside.
+
+  ### Testing h3
+  In other words, it doesn’t matter how pretty or bug-free your code is on the inside when nobody can figure out how to use the outside.

@@ -17,6 +17,8 @@
     // @include tp-text-small2;
     // negrito
 
+margin-top: -12px;
+
     header {
       float:right;
       @include tp-date;
@@ -30,6 +32,8 @@
       .reply-button {
         // margin-right: 3px;
       }
+
+
 
       // .reply-button {
       //   @include o-link--primary;
@@ -48,11 +52,24 @@
 
     .author {
       color: color(lighter-black);
+      // @include tp-nav;
+       @include tp-text-small;
+      //  margin-top: 0;
+
       // @include ff(header);
+    }
+
+    .content {
+       margin-top: 0;
+      // @include tp-text-small;
     }
   }
 
   a {
 
   }
+
+        hr {
+        margin-bottom: 0;
+      }
 }

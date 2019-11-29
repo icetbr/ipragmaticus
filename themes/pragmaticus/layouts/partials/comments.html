@@ -18,9 +18,12 @@
         <a href="#comment-{{._id }}" title="{{ $fullDate }}">{{ $shortDate }}</a>
       </header>
 
-      <h3 class="author">{{ .author }}</h3>
-      <div class='content'>{{ .content | markdownify }}</p>
+      <div class='content'>
+        <h3 class="author">{{ .author }}</h3>
+        <p>{{ .content | markdownify }}</p>
+      </div>
     </article>
+    <hr />
   {{end }}
 
   {{ partial "comments-form.html" . }}

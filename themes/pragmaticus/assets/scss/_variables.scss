@@ -37,8 +37,6 @@ $font-weights: (
 $ms-ratio: 1.2; // TODO typi-ms
 $typi: (
   base: (null: (17.5px, 1.62), large: 20.5px),
-  base-small: (null: (15px, 1.4)),
-  base-small2: (null: (17.5px, 1.62)),
   tsb: (null: 17px),
 
   tsl1: (null: (33.5px, 1.23)), // h1
@@ -49,6 +47,8 @@ $typi: (
   tss2: (null: (8.5px)), // updateDate
   tss3: (null: (ms(-2), 1.4)), //code
   tss4: (null: (ms(-2), 1.58)), //code
+
+  // SMALL
+  // base-comments: (null: (15px, 1.4)),
+  base-small: (null: (17.5px, 1.62), large: 14.939px),
 );
-
-
