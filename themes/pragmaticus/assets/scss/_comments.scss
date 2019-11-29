@@ -1,23 +1,32 @@
 #comments {
 
-  .repliesCount {
-    float: right;
+  header {
     @include tp-nav;
+    text-align: center;
+    * {
+      // display: inline-block;
+    }
+    .repliesCount {
+
+    }
+
+    .share {
+      letter-spacing: 0.07em;
+      a {
+        @include o-link--primary;
+      }
+    }
+
   }
 
-  .share {
-    a {
-      @include tp-nav;
-      @include o-link--primary;
-    }
-  }
+
 
   .comment {
     //TODO colocar todos overrides de fonte aqui!! Teria sido mais facil com rootVars! :-(
     // @include tp-text-small2;
     // negrito
 
-margin-top: -12px;
+    margin-top: -12px;
 
     header {
       float:right;

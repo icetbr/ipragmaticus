@@ -2,7 +2,11 @@
   {{ $entryId := .File.BaseFileName }}
   {{ $comments := index .Site.Data.comments $entryId | default slice }}
 
-  <header>{{ partial "share.html" }} <strong class='repliesCount'>{{ len $comments }} replies</strong></header>
+  <header>
+    <div class='one'>{{ T "discussOn" }}</div>
+    {{ partial "share.html" }}
+    <div class='repliesCount'>{{ len $comments }} replies</div>
+  </header>
 
   <hr />
 
