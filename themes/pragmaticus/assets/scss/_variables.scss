@@ -43,12 +43,13 @@ $typi: (
   tsl2: (null: (25.5px, 1.23), large: (24.5px, 1.23)), //h2
   tsl3: (null: (20.3px, 1.23), large: (18.9px, 1.23)), // h3
 
-  tss1: (null: (9.5px)), // date
+  //tss1: (null: (9.5px)), // date, tags
+  tss1: (null: (11.5px), large: 9.5px), // date, tags
   tss2: (null: (8.5px)), // updateDate
   tss3: (null: (ms(-2), 1.4)), //code
   tss4: (null: (ms(-2), 1.58)), //code
 
   // SMALL
   // base-comments: (null: (15px, 1.4)),
-  base-small: (null: (17.5px, 1.62), large: 14.939px),
+  base-small: (null: (17.5px, 1.62), large: 14.939px), // esse valor em large é p/ impedir que mude o tamanho em diferentes breakpoints
 );

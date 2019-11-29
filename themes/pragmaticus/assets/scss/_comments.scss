@@ -1,6 +1,6 @@
 #comments {
 
-  header {
+  > header {
     @include tp-nav;
     text-align: center;
     * {
@@ -11,11 +11,21 @@
     }
 
     .share {
-      letter-spacing: 0.07em;
+      // letter-spacing: 0.07em; // No linux não precisou!
       a {
         @include o-link--primary;
       }
     }
+
+      .replies-count {
+    // position: relative;
+    // left: 118px;
+    // top: 28px;
+    // font-size: 15px;
+    // font-weight: 700;
+    /* font-family: arial; */
+    color: rgba(0, 0, 0, 0.54);
+      }
 
   }
 
@@ -30,6 +40,7 @@
 
     header {
       float:right;
+      margin-top: 8px;
       @include tp-date;
 
 
@@ -41,7 +52,6 @@
       .reply-button {
         // margin-right: 3px;
       }
-
 
 
       // .reply-button {
@@ -62,7 +72,8 @@
     .author {
       color: color(lighter-black);
       // @include tp-nav;
-       @include tp-text-small;
+      @include tp-text-small;
+      font-weight: 400;
       //  margin-top: 0;
 
       // @include ff(header);
@@ -82,3 +93,28 @@
         margin-bottom: 0;
       }
 }
+
+// #reply-control {
+
+//     position: fixed;
+//     display: flex;
+//     flex-direction: column;
+//     bottom: 0;
+//     height: 0;
+//     right: 0;
+//     left: 0;
+//     margin-left: auto;
+//     margin-right: auto;
+//     max-width: 1475px;
+//     width: 100%;
+//     z-index: 400;
+//     transition: height 250ms ease, background 250ms ease, transform 250ms ease, max-width 250ms ease;
+//     background-color:
+
+// #fff;
+
+// box-shadow: 0 -1px 40px
+
+//     rgba(0,0,0,0.12);
+
+// }

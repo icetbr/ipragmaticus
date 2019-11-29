@@ -6,7 +6,7 @@
   @include typi(tss4);
   color: color(black);
 
-  &::placholder { color: color(gallery); }
+  &::placeholder { color: color(lighter-black); }
   &:focus { border-color: color(gallery); }
 }
 

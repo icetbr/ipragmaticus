@@ -2,8 +2,8 @@
     <input type="hidden" name="options[slug]" value="{{ .File.BaseFileName }}">
     <input type="hidden" name="options[parent]" value="">
 
-    <input name="fields[name]" type="text" placeholder="Name (optional)">
-    <input name="fields[email]" type="email" placeholder="Email (optional)">
-    <textarea name="fields[content]" placeholder='Use markdown, @mentions and "quotes" to improve the discussion' rows="5"></textarea>
-    <input class='form-reply-button' type="submit" value="Reply">
+    <textarea class="form-message" name="fields[content]" placeholder='Use markdown, @mentions and "quotes" to improve the discussion. Ex: ...' rows="5"></textarea>
+    <input class="form-name" name="fields[name]" type="text" placeholder="Name (optional)">
+    <input class="form-email" name="fields[email]" type="email" placeholder="Email (optional)">
+    <button class="o-btn" type="submit">Reply</button>
   </form>
