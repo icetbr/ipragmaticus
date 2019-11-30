@@ -3,7 +3,7 @@ title: "About"
 date: 2019-04-09
 lastmod: 2019-05-09
 ---
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" class="form" method="POST" data-netlify="true">
   <input class="form-name" type="text" placeholder="Name" name="name" />
   <input class="form-email" type="text" placeholder="Email" name="email" />
   <textarea class="form-message" name="message" placeholder="Message"></textarea>

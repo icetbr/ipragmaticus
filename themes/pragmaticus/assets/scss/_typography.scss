@@ -114,6 +114,11 @@
 //   @include ff(header);
 // }
 
+@mixin tp-comments {
+  @include ff(header);
+  @include typi(tss4);
+}
+
 @mixin tp-text-small {
   @include typi(base-small);
 }
