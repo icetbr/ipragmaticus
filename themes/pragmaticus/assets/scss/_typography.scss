@@ -106,7 +106,7 @@
   color: color(gallery);
 }
 
-// SMALL VERSION
+//SPECIALS
 
 // @mixin tp-comments {
 //   @include tp-text;
@@ -114,11 +114,21 @@
 //   @include ff(header);
 // }
 
+@mixin tp-comment-author {
+  @include tp-h3;
+  @include typi(base-small);
+  color: color(lighter-black);
+  font-weight: 400;
+}
+
+@mixin tp-comment-email {
+  @include tp-comment-author;
+  @include typi(tsl4);
+}
+
 @mixin tp-comments {
   @include ff(header);
   @include typi(tss4);
 }
 
-@mixin tp-text-small {
-  @include typi(base-small);
-}
+

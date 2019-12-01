@@ -1,60 +1,69 @@
 .form {
 
-  // TODO test if removed duplicate include
-  @mixin input {
-    @include tp-comments;
-
-    padding: 0.75em;
-
-    // border: 1px solid #ccc;
-
-    &::placeholder { color: color(lighter-black); }
-    // &:focus { border-color: color(gallery); }
-
-  }
-
   .input-wrap {
-    border: 1px solid #ccc;
-    border-radius: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
     overflow: hidden;
   }
 
-  [type='text'],
-  [type='email'],
-  textarea {
-    @include input;
-    padding-bottom: 0 !important;
-    background-color: white;
-    box-shadow: 0 0 0px 1000px #fff inset; // para contornar webkit-autofill
+  [type='text'], [type='email'], textarea {
+    @include tp-comments;
+    padding: 0.75em;
     color: color(light-black);
+    &::placeholder { color: color(lighter-black); }
+    background-color: transparent;
+  //  box-shadow: 0 0 0px 1000px #fff inset; // para contornar webkit-autofill
+
+
+    //padding-bottom: 0 !important;
+    //background-color: white;
+    //color: color(light-black) !important;
   }
 
   [type='email'], [type='text'] {
-    padding-bottom: 0;
-  }
-
-  [type='text'] {
-    padding-bottom: 0;
-  }
-
-  // input[name*='name'] { text-transform: capitalize; }
-
-  textarea {
-    @include input;
-    border-top: 0;
-    padding-top: 6px;
-    // min-height: vr(1);
-    resize: vertical;
-  }
-
-  .form-message {
-    // margin-top: vr(0.5);
-    width: 100%;
-  }
-
-  .form-email, .form-name {
+    @include tp-comment-author;
     display: inline-block;
     min-width: 48.6%;
+  }
+  [type='email'] {
+    @include tp-comment-email;
+    text-align: right;
+  }
+
+//  input:-webkit-autofill {
+//    -webkit-text-fill-color: color(lighter-black);
+//    -webkit-box-shadow: 0 0 0 30px white inset;
+//   }
+
+
+// https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete
+@-webkit-keyframes autofill {
+  to {
+      color: color(lighter-black);
+      background: transparent;
+  }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active {
+//     -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+//     -webkit-transition-delay: 9999s;
+// }
+
+
+
+  textarea {
+    padding-top: 0px;
+    min-height: vr(2);
+    resize: vertical;
+    width: 100%;
   }
 
   .form-name {
