@@ -3,11 +3,11 @@
     <h1><a href="{{ .c.Permalink }}">{{ .c.Title }}</a></h1>
     <p class="date">
         {{ $d := .c.Date }}
-        {{ T $d.Month }} {{ $d.Day }}, {{ $d.Year }}
+        {{ substr (T $d.Month) 0 3 }} {{ $d.Day }}, {{ $d.Year }}
 
         {{ if ne .c.Page.Lastmod .c.Page.Date }}
             {{ $d := .c.Page.Lastmod }}
-            <span class="updatedText">{{ T "updated" }}</span> <span class="updatedDate">{{ T $d.Month }} {{ $d.Day }}, {{ $d.Year }}</span>
+            <span class="updatedText">{{ T "updated" }}</span> <span class="updatedDate">{{ substr (T $d.Month) 0 3 }} {{ $d.Day }}, {{ $d.Year }}</span>
         {{end}}
     </p>
 

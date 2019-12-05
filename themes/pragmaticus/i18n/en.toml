@@ -17,26 +17,26 @@ other = "archives"
 other = "about"
 
 [January]
-other = "Jan"
+other = "January"
 [February]
-other = "Feb"
+other = "February"
 [March]
-other = "Mar"
+other = "March"
 [April]
-other = "Apr"
+other = "April"
 [May]
 other = "May"
 [June]
-other = "Jun"
+other = "June"
 [July]
-other = "Jul"
+other = "July"
 [August]
-other = "Aug"
+other = "August"
 [September]
-other = "Sep"
+other = "September"
 [October]
-other = "Oct"
+other = "October"
 [November]
-other = "Nov"
+other = "November"
 [December]
-other = "Dec"
+other = "December"

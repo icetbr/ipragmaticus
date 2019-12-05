@@ -6,6 +6,8 @@ title = "iPragmaticus"
 # TODO add subtitle
 description = "Text about my cool site"
 images = ["site-feature-image.jpg"]
+staticman_url = "http://localhost:8888/.netlify/functions/staticman/v3/entry/github/icetbr/serverlessman/master/comments"
+#staticman_url = "http://infallible-feynman-b5637b.netlify.com/.netlify/functions/staticman/icetbr/serverlessman/master/comments"
 
 # TODO i18n twitter
 #[social]
@@ -22,9 +24,6 @@ lastmod = [":git", "lastmod", ":filename"]
 [blackfriday]
 fractions = false
 extensions = ["noEmptyLineBeforeBlock", "joinLines"]
-
-[staticman]
-url = "http://infallible-feynman-b5637b.netlify.com/.netlify/functions/staticman/icetbr/serverlessman/master/comments"
 
 [languages]
   [languages.en]

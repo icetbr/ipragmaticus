@@ -17,26 +17,26 @@ other = "arquivo"
 other = "sobre"
 
 [January]
-other = "Jan"
+other = "Janeiro"
 [February]
-other = "Fev"
+other = "Fevereiro"
 [March]
-other = "Mar"
+other = "Março"
 [April]
-other = "Abr"
+other = "Abril"
 [May]
-other = "Mai"
+other = "Maio"
 [June]
-other = "Jun"
+other = "Junho"
 [July]
-other = "Jul"
+other = "Julho"
 [August]
-other = "Ago"
+other = "Agosto"
 [September]
-other = "Set"
+other = "Setembro"
 [October]
-other = "Out"
+other = "Outubro"
 [November]
-other = "Nov"
+other = "Novembro"
 [December]
-other = "Dez"
+other = "Dezembro"

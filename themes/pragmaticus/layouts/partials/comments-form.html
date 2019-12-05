@@ -1,11 +1,13 @@
-  <form id="comment-form" class="form" method="POST" action="{{.Site.Params.staticman.url}}">
+  <form id="comment-form" class="form" method="POST" action="{{.Site.Params.staticman_url}}">
+    <textarea class="form-message" name="fields[content]" placeholder='Use markdown, @mentions and "quotes" to improve the discussion. Avoid quoting the whole answer. Ex: ...'></textarea>
+
     <input type="hidden" name="options[slug]" value="{{ .File.BaseFileName }}">
     <input type="hidden" name="options[parent]" value="">
 
-    <div class="input-wrap">
-    <input class="form-name" name="fields[name]" type="text" placeholder="Name (optional)">
-    <input id="teste" class="form-email" name="fields[email]" type="email" placeholder="Email (optional)" >
-    <textarea class="form-message" name="fields[content]" placeholder='Use markdown, @mentions and "quotes" to improve the discussion. Ex: ...'></textarea>
+    <div class='input-fields'>
+      <input id="form-name" name="fields[name]" type="text" placeholder="Name">
+      <input id="teste" class="form-email" name="fields[email]" type="email" placeholder="Email or anything unique" >
+      <button class="o-btn" type="submit">Reply</button>
     </div>
-    <button class="o-btn" type="submit">Reply</button>
+
   </form>

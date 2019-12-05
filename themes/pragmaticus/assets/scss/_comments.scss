@@ -80,6 +80,10 @@
       // @include ff(header);
     }
 
+    .owner {
+      color: color(red);
+    }
+
     .content {
        margin-top: 0;
       // @include tp-text-small;

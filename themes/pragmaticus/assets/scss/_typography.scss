@@ -128,7 +128,8 @@
 
 @mixin tp-comments {
   @include ff(header);
-  @include typi(tss4);
+  @include typi(tsl4);
+  color: color(light-black);
 }
 
 

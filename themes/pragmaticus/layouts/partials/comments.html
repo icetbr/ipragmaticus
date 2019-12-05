@@ -8,13 +8,16 @@
     <div class='replies-count'>{{ len $comments }} replies</div>
   </header>
 
-  <hr />
+<hr />
 
   {{ range $comments }}
     {{ $currentYear := now.Format "2006" }}
     {{ $date := time .date }}
     {{ $fullDate := dateFormat "January 2, 2006 15:04" $date }}
     {{ $shortDate := cond (lt $date.Year $currentYear) (dateFormat "Jan '06" $date) (dateFormat "06 Jan" $date) }}
+
+    {{ $fullDate := replace $fullDate $date.Month (T $date.Month) }}
+    {{ $shortDate := replace $shortDate (substr $date.Month 0 3 ) (substr (T $date.Month) 0 3 ) }}
 
     <article id='comment-{{ ._id }}' class='comment'>
       <header>
@@ -23,7 +26,7 @@
       </header>
 
       <div class='content'>
-        <h3 class="author">{{ .author }}</h3>
+        <h3 class="{{ cond (eq .author $.Site.Title) "author owner" "author"}}">{{ .author }}</h3>
         <p>{{ .content | markdownify }}</p>
       </div>
     </article>
@@ -31,4 +34,5 @@
   {{end }}
 
   {{ partial "comments-form.html" . }}
+
 </div>

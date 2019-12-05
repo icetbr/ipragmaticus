@@ -1,73 +1,38 @@
 .form {
 
-  .input-wrap {
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    overflow: hidden;
+  .input-fields {
+      display: flex;
   }
 
   [type='text'], [type='email'], textarea {
     @include tp-comments;
-    padding: 0.75em;
-    color: color(light-black);
+    padding: vr(0.2);
+
     &::placeholder { color: color(lighter-black); }
-    background-color: transparent;
-  //  box-shadow: 0 0 0px 1000px #fff inset; // para contornar webkit-autofill
-
-
-    //padding-bottom: 0 !important;
-    //background-color: white;
-    //color: color(light-black) !important;
   }
 
   [type='email'], [type='text'] {
-    @include tp-comment-author;
-    display: inline-block;
-    min-width: 48.6%;
+    padding-left: 0px;
+    flex: 1;
+    min-width: 50px;
+    //@include tp-comment-author;
+    // width: 45%;
+    // display: inline-block;
+    // min-width: 48.6%;
   }
-  [type='email'] {
-    @include tp-comment-email;
-    text-align: right;
-  }
-
-//  input:-webkit-autofill {
-//    -webkit-text-fill-color: color(lighter-black);
-//    -webkit-box-shadow: 0 0 0 30px white inset;
-//   }
-
-
-// https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete
-@-webkit-keyframes autofill {
-  to {
-      color: color(lighter-black);
-      background: transparent;
-  }
-}
-
-input:-webkit-autofill {
-    -webkit-animation-name: autofill;
-    -webkit-animation-fill-mode: both;
-}
-
-// input:-webkit-autofill,
-// input:-webkit-autofill:hover,
-// input:-webkit-autofill:focus,
-// input:-webkit-autofill:active {
-//     -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
-//     -webkit-transition-delay: 9999s;
-// }
-
-
 
   textarea {
-    padding-top: 0px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
     min-height: vr(2);
     resize: vertical;
     width: 100%;
   }
 
-  .form-name {
-    margin-right: 1.4%;
+   // https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete
+ input:-webkit-autofill {
+   -webkit-text-fill-color: color(light-black);
+   -webkit-box-shadow: 0 0 0 30px white inset;
   }
 
   @mixin o-btn {
@@ -75,7 +40,7 @@ input:-webkit-autofill {
     position: relative;
     border-radius: 4px;
     // Text in button feels slightly low. Bumping padding bottom to centralize them
-    padding: 0.15em 1em 0.15em;
+    padding: 0.15em 0.5em 0.15em;
     transition: background-color 0.15s ease-in-out;
     border: 1px solid transparent; // to balance with input
     font-size: inherit;
@@ -97,6 +62,9 @@ input:-webkit-autofill {
   .o-btn,
   a.o-btn {
     @include o-btn;
+    flex: 1;
+    max-width: 58px;
+    min-width: 20px;
   }
 
 }
